@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702F26A52876C2AB003BC8AD /* APMToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702F26A42876C2AB003BC8AD /* APMToolsApp.swift */; };
+		702F26A72876C2AB003BC8AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702F26A62876C2AB003BC8AD /* ContentView.swift */; };
+		702F26A92876C2AD003BC8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702F26A82876C2AD003BC8AD /* Assets.xcassets */; };
+		702F26AC2876C2AD003BC8AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702F26AB2876C2AD003BC8AD /* Preview Assets.xcassets */; };
+		702F26B42876C2DE003BC8AD /* LinkMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702F26B32876C2DE003BC8AD /* LinkMap.swift */; };
+		704C6B3A28B3D0900073E657 /* LinkMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C6B3928B3D0900073E657 /* LinkMapViewModel.swift */; };
+		70BCA304288108D700EC9709 /* LinkMapViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCA303288108D700EC9709 /* LinkMapViews.swift */; };
+		70BCEDAE288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */; };
+		70D64CE2287BFA630057398C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D64CE1287BFA630057398C /* Property List.plist */; };
+		70D65920287C0F1B0057398C /* OTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D6591F287C0F1B0057398C /* OTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		702F26A12876C2AB003BC8AD /* APMTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		702F26A42876C2AB003BC8AD /* APMToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMToolsApp.swift; sourceTree = "<group>"; };
+		702F26A62876C2AB003BC8AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		702F26A82876C2AD003BC8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702F26AB2876C2AD003BC8AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		702F26AD2876C2AD003BC8AD /* APMTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APMTools.entitlements; sourceTree = "<group>"; };
+		702F26B32876C2DE003BC8AD /* LinkMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMap.swift; sourceTree = "<group>"; };
+		704C6B3928B3D0900073E657 /* LinkMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMapViewModel.swift; sourceTree = "<group>"; };
+		70BCA303288108D700EC9709 /* LinkMapViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMapViews.swift; sourceTree = "<group>"; };
+		70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "APMTools-LinkMap-normal-x86_64.txt"; sourceTree = "<group>"; };
+		70D64CE1287BFA630057398C /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		70D6591F287C0F1B0057398C /* OTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702F269E2876C2AB003BC8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702F26982876C2AA003BC8AD = {
+			isa = PBXGroup;
+			children = (
+				702F26A32876C2AB003BC8AD /* APMTools */,
+				702F26A22876C2AB003BC8AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		702F26A22876C2AB003BC8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702F26A12876C2AB003BC8AD /* APMTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702F26A32876C2AB003BC8AD /* APMTools */ = {
+			isa = PBXGroup;
+			children = (
+				70BCA3002881089900EC9709 /* Module */,
+				702F26A42876C2AB003BC8AD /* APMToolsApp.swift */,
+				702F26A62876C2AB003BC8AD /* ContentView.swift */,
+				70D6591F287C0F1B0057398C /* OTool.swift */,
+				702F26A82876C2AD003BC8AD /* Assets.xcassets */,
+				702F26AD2876C2AD003BC8AD /* APMTools.entitlements */,
+				70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */,
+				702F26AA2876C2AD003BC8AD /* Preview Content */,
+				70D64CE1287BFA630057398C /* Property List.plist */,
+			);
+			path = APMTools;
+			sourceTree = "<group>";
+		};
+		702F26AA2876C2AD003BC8AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				702F26AB2876C2AD003BC8AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70BCA3002881089900EC9709 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				70BCA301288108A600EC9709 /* LinkMap */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		70BCA301288108A600EC9709 /* LinkMap */ = {
+			isa = PBXGroup;
+			children = (
+				70BCA302288108B900EC9709 /* Views */,
+				702F26B32876C2DE003BC8AD /* LinkMap.swift */,
+				704C6B3928B3D0900073E657 /* LinkMapViewModel.swift */,
+			);
+			path = LinkMap;
+			sourceTree = "<group>";
+		};
+		70BCA302288108B900EC9709 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70BCA303288108D700EC9709 /* LinkMapViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702F26A02876C2AB003BC8AD /* APMTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702F26B02876C2AD003BC8AD /* Build configuration list for PBXNativeTarget "APMTools" */;
+			buildPhases = (
+				702F269D2876C2AB003BC8AD /* Sources */,
+				702F269E2876C2AB003BC8AD /* Frameworks */,
+				702F269F2876C2AB003BC8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APMTools;
+			productName = APMTools;
+			productReference = 702F26A12876C2AB003BC8AD /* APMTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702F26992876C2AA003BC8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					702F26A02876C2AB003BC8AD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 702F269C2876C2AA003BC8AD /* Build configuration list for PBXProject "APMTools" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702F26982876C2AA003BC8AD;
+			productRefGroup = 702F26A22876C2AB003BC8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702F26A02876C2AB003BC8AD /* APMTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702F269F2876C2AB003BC8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702F26AC2876C2AD003BC8AD /* Preview Assets.xcassets in Resources */,
+				70D64CE2287BFA630057398C /* Property List.plist in Resources */,
+				70BCEDAE288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt in Resources */,
+				702F26A92876C2AD003BC8AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702F269D2876C2AB003BC8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702F26B42876C2DE003BC8AD /* LinkMap.swift in Sources */,
+				702F26A72876C2AB003BC8AD /* ContentView.swift in Sources */,
+				70BCA304288108D700EC9709 /* LinkMapViews.swift in Sources */,
+				704C6B3A28B3D0900073E657 /* LinkMapViewModel.swift in Sources */,
+				702F26A52876C2AB003BC8AD /* APMToolsApp.swift in Sources */,
+				70D65920287C0F1B0057398C /* OTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		702F26AE2876C2AD003BC8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		702F26AF2876C2AD003BC8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		702F26B12876C2AD003BC8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = APMTools/APMTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"APMTools/Preview Content\"";
+				DEVELOPMENT_TEAM = 3AL6EM4TNJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Drayl. All rights reserved.";
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qd.one.xx.APMTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		702F26B22876C2AD003BC8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = APMTools/APMTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"APMTools/Preview Content\"";
+				DEVELOPMENT_TEAM = 3AL6EM4TNJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Drayl. All rights reserved.";
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qd.one.xx.APMTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702F269C2876C2AA003BC8AD /* Build configuration list for PBXProject "APMTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702F26AE2876C2AD003BC8AD /* Debug */,
+				702F26AF2876C2AD003BC8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702F26B02876C2AD003BC8AD /* Build configuration list for PBXNativeTarget "APMTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702F26B12876C2AD003BC8AD /* Debug */,
+				702F26B22876C2AD003BC8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702F26992876C2AA003BC8AD /* Project object */;
+}

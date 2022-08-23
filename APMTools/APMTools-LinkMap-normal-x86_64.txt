@@ -1,0 +1,1939 @@
+# Path: /Users/qd/Library/Developer/Xcode/DerivedData/APMTools-hkeafuqpmzunzbfopgciwnbwpffd/Build/Products/Debug/APMTools.app/Contents/MacOS/APMTools
+# Arch: x86_64
+# Object files:
+[  0] linker synthesized
+[  1] /Users/qd/Library/Developer/Xcode/DerivedData/APMTools-hkeafuqpmzunzbfopgciwnbwpffd/Build/Intermediates.noindex/APMTools.build/Debug/APMTools.build/Objects-normal/x86_64/LinkMap.o
+[  2] /Users/qd/Library/Developer/Xcode/DerivedData/APMTools-hkeafuqpmzunzbfopgciwnbwpffd/Build/Intermediates.noindex/APMTools.build/Debug/APMTools.build/Objects-normal/x86_64/ContentView.o
+[  3] /Users/qd/Library/Developer/Xcode/DerivedData/APMTools-hkeafuqpmzunzbfopgciwnbwpffd/Build/Intermediates.noindex/APMTools.build/Debug/APMTools.build/Objects-normal/x86_64/LinkMapViews.o
+[  4] /Users/qd/Library/Developer/Xcode/DerivedData/APMTools-hkeafuqpmzunzbfopgciwnbwpffd/Build/Intermediates.noindex/APMTools.build/Debug/APMTools.build/Objects-normal/x86_64/APMToolsApp.o
+[  5] /Users/qd/Library/Developer/Xcode/DerivedData/APMTools-hkeafuqpmzunzbfopgciwnbwpffd/Build/Intermediates.noindex/APMTools.build/Debug/APMTools.build/Objects-normal/x86_64/OTool.o
+[  6] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libobjc.tbd
+[  7] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libSystem.tbd
+[  8] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks//SwiftUI.framework/SwiftUI.tbd
+[  9] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/swift/libswiftUniformTypeIdentifiers.tbd
+[ 10] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/swift/libswift_Concurrency.tbd
+[ 11] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/swift/libswiftCore.tbd
+[ 12] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/swift/libswiftFoundation.tbd
+# Sections:
+# Address	Size    	Segment	Section
+0x100003530	0x0001D900	__TEXT	__text
+0x100020E30	0x00000384	__TEXT	__stubs
+0x1000211B4	0x000005EC	__TEXT	__stub_helper
+0x1000217A0	0x00000445	__TEXT	__cstring
+0x100021BE5	0x0000004C	__TEXT	__objc_methname
+0x100021C32	0x00000C2E	__TEXT	__swift5_typeref
+0x100022860	0x00000964	__TEXT	__const
+0x1000231D0	0x000000DD	__TEXT	__swift5_reflstr
+0x1000232B0	0x00000224	__TEXT	__swift5_fieldmd
+0x1000234D4	0x00000030	__TEXT	__swift5_proto
+0x100023504	0x00000054	__TEXT	__swift5_types
+0x100023558	0x000000A8	__TEXT	__swift5_assocty
+0x100023600	0x000000A4	__TEXT	__swift5_capture
+0x1000236A4	0x00000004	__TEXT	__swift5_entry
+0x1000236A8	0x00000508	__TEXT	__unwind_info
+0x100023BB0	0x00000448	__TEXT	__eh_frame
+0x100024000	0x00000460	__DATA_CONST	__got
+0x100024460	0x00000738	__DATA_CONST	__const
+0x100024B98	0x00000008	__DATA_CONST	__objc_classlist
+0x100024BA0	0x00000008	__DATA_CONST	__objc_imageinfo
+0x100028000	0x000004B0	__DATA	__la_symbol_ptr
+0x1000284B0	0x000000B0	__DATA	__objc_const
+0x100028560	0x00000028	__DATA	__objc_selrefs
+0x100028588	0x00000010	__DATA	__objc_classrefs
+0x100028598	0x00000148	__DATA	__objc_data
+0x1000286E0	0x000004A0	__DATA	__data
+0x100028B80	0x00000640	__DATA	__bss
+0x1000291C0	0x00000040	__DATA	__common
+# Symbols:
+# Address	Size    	File  Name
+0x100003530	0x00000020	[  1] _$s8APMTools10ObjectFileC4fileSSvpfi
+0x100003550	0x00000070	[  1] _$s8APMTools10ObjectFileC4fileSSvpACTK
+0x1000035C0	0x00000080	[  1] _$s8APMTools10ObjectFileC4fileSSvpACTk
+0x100003640	0x00000070	[  1] _$s8APMTools10ObjectFileC4fileSSvg
+0x1000036B0	0x000000A0	[  1] _$s8APMTools10ObjectFileC4fileSSvs
+0x100003750	0x00000050	[  1] _$s8APMTools10ObjectFileC4fileSSvM
+0x1000037A0	0x00000030	[  1] _$s8APMTools10ObjectFileC4fileSSvM.resume.0
+0x1000037D0	0x00000020	[  1] _$s8APMTools10ObjectFileC4pathSSvpfi
+0x1000037F0	0x00000070	[  1] _$s8APMTools10ObjectFileC4pathSSvpACTK
+0x100003860	0x00000090	[  1] _$s8APMTools10ObjectFileC4pathSSvpACTk
+0x1000038F0	0x00000070	[  1] _$s8APMTools10ObjectFileC4pathSSvg
+0x100003960	0x000000A0	[  1] _$s8APMTools10ObjectFileC4pathSSvs
+0x100003A00	0x00000050	[  1] _$s8APMTools10ObjectFileC4pathSSvM
+0x100003A50	0x00000030	[  1] _$s8APMTools10ObjectFileC4pathSSvM.resume.0
+0x100003A80	0x00000010	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64Vvpfi
+0x100003A90	0x00000070	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvpACTK
+0x100003B00	0x00000070	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvpACTk
+0x100003B70	0x00000060	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64Vvg
+0x100003BD0	0x00000070	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64Vvs
+0x100003C40	0x00000050	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvM
+0x100003C90	0x00000030	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvM.resume.0
+0x100003CC0	0x00000020	[  1] _$s8APMTools10ObjectFileC4file4path4sizeACSS_SSs6UInt64VtcfcfA_
+0x100003CE0	0x00000020	[  1] _$s8APMTools10ObjectFileC4file4path4sizeACSS_SSs6UInt64VtcfcfA0_
+0x100003D00	0x00000010	[  1] _$s8APMTools10ObjectFileC4file4path4sizeACSS_SSs6UInt64VtcfcfA1_
+0x100003D10	0x00000060	[  1] _$s8APMTools10ObjectFileC4file4path4sizeACSS_SSs6UInt64VtcfC
+0x100003D70	0x00000370	[  1] _$s8APMTools10ObjectFileC4file4path4sizeACSS_SSs6UInt64Vtcfc
+0x1000040E0	0x00000020	[  1] _$s8APMTools10ObjectFileCMa
+0x100004100	0x00000020	[  1] _$s8APMTools10ObjectFileCACycfC
+0x100004120	0x000003E0	[  1] _$s8APMTools10ObjectFileCACycfc
+0x100004500	0x00000020	[  1] _$s8APMTools10ObjectFileCACycfcTo
+0x100004520	0x00000040	[  1] _$s8APMTools10ObjectFileCfD
+0x100004560	0x00000050	[  1] _$s8APMTools10ObjectFileCfETo
+0x1000045B0	0x00000020	[  1] _$s8APMTools7SectionV7addressSSvpfi
+0x1000045D0	0x00000030	[  1] _$s8APMTools7SectionV7addressSSvg
+0x100004600	0x00000050	[  1] _$s8APMTools7SectionV7addressSSvs
+0x100004650	0x00000010	[  1] _$s8APMTools7SectionV7addressSSvM
+0x100004660	0x00000010	[  1] _$s8APMTools7SectionV7addressSSvM.resume.0
+0x100004670	0x00000010	[  1] _$s8APMTools7SectionV4sizes6UInt64Vvpfi
+0x100004680	0x00000010	[  1] _$s8APMTools7SectionV4sizes6UInt64Vvg
+0x100004690	0x00000010	[  1] _$s8APMTools7SectionV4sizes6UInt64Vvs
+0x1000046A0	0x00000020	[  1] _$s8APMTools7SectionV4sizes6UInt64VvM
+0x1000046C0	0x00000010	[  1] _$s8APMTools7SectionV4sizes6UInt64VvM.resume.0
+0x1000046D0	0x00000020	[  1] _$s8APMTools7SectionV7segmentSSvpfi
+0x1000046F0	0x00000030	[  1] _$s8APMTools7SectionV7segmentSSvg
+0x100004720	0x00000050	[  1] _$s8APMTools7SectionV7segmentSSvs
+0x100004770	0x00000020	[  1] _$s8APMTools7SectionV7segmentSSvM
+0x100004790	0x00000010	[  1] _$s8APMTools7SectionV7segmentSSvM.resume.0
+0x1000047A0	0x00000020	[  1] _$s8APMTools7SectionV7sectionSSvpfi
+0x1000047C0	0x00000030	[  1] _$s8APMTools7SectionV7sectionSSvg
+0x1000047F0	0x00000050	[  1] _$s8APMTools7SectionV7sectionSSvs
+0x100004840	0x00000020	[  1] _$s8APMTools7SectionV7sectionSSvM
+0x100004860	0x00000010	[  1] _$s8APMTools7SectionV7sectionSSvM.resume.0
+0x100004870	0x00000170	[  1] _$s8APMTools7SectionVACycfC
+0x1000049E0	0x00000020	[  1] _$s8APMTools7SectionV7address4size7segment7sectionACSS_s6UInt64VS2StcfcfA_
+0x100004A00	0x00000010	[  1] _$s8APMTools7SectionV7address4size7segment7sectionACSS_s6UInt64VS2StcfcfA0_
+0x100004A10	0x00000020	[  1] _$s8APMTools7SectionV7address4size7segment7sectionACSS_s6UInt64VS2StcfcfA1_
+0x100004A30	0x00000020	[  1] _$s8APMTools7SectionV7address4size7segment7sectionACSS_s6UInt64VS2StcfcfA2_
+0x100004A50	0x00000050	[  1] _$s8APMTools7SectionV7address4size7segment7sectionACSS_s6UInt64VS2StcfC
+0x100004AA0	0x00000020	[  1] _$s8APMTools6SymbolV7addressSSvpfi
+0x100004AC0	0x00000030	[  1] _$s8APMTools6SymbolV7addressSSvg
+0x100004AF0	0x00000050	[  1] _$s8APMTools6SymbolV7addressSSvs
+0x100004B40	0x00000010	[  1] _$s8APMTools6SymbolV7addressSSvM
+0x100004B50	0x00000010	[  1] _$s8APMTools6SymbolV7addressSSvM.resume.0
+0x100004B60	0x00000010	[  1] _$s8APMTools6SymbolV4sizes6UInt64Vvpfi
+0x100004B70	0x00000010	[  1] _$s8APMTools6SymbolV4sizes6UInt64Vvg
+0x100004B80	0x00000010	[  1] _$s8APMTools6SymbolV4sizes6UInt64Vvs
+0x100004B90	0x00000020	[  1] _$s8APMTools6SymbolV4sizes6UInt64VvM
+0x100004BB0	0x00000010	[  1] _$s8APMTools6SymbolV4sizes6UInt64VvM.resume.0
+0x100004BC0	0x00000020	[  1] _$s8APMTools6SymbolV4fileSSvpfi
+0x100004BE0	0x00000030	[  1] _$s8APMTools6SymbolV4fileSSvg
+0x100004C10	0x00000050	[  1] _$s8APMTools6SymbolV4fileSSvs
+0x100004C60	0x00000020	[  1] _$s8APMTools6SymbolV4fileSSvM
+0x100004C80	0x00000010	[  1] _$s8APMTools6SymbolV4fileSSvM.resume.0
+0x100004C90	0x00000020	[  1] _$s8APMTools6SymbolV4nameSSvpfi
+0x100004CB0	0x00000030	[  1] _$s8APMTools6SymbolV4nameSSvg
+0x100004CE0	0x00000050	[  1] _$s8APMTools6SymbolV4nameSSvs
+0x100004D30	0x00000020	[  1] _$s8APMTools6SymbolV4nameSSvM
+0x100004D50	0x00000010	[  1] _$s8APMTools6SymbolV4nameSSvM.resume.0
+0x100004D60	0x00000180	[  1] _$s8APMTools6SymbolV4hash4intoys6HasherVz_tF
+0x100004EE0	0x00000200	[  1] _$s8APMTools6SymbolV23__derived_struct_equalsySbAC_ACtFZ
+0x1000050E0	0x00000060	[  1] _$s8APMTools6SymbolV9hashValueSivg
+0x100005140	0x00000170	[  1] _$s8APMTools6SymbolVACycfC
+0x1000052B0	0x00000020	[  1] _$s8APMTools6SymbolV7address4size4file4nameACSS_s6UInt64VS2StcfcfA_
+0x1000052D0	0x00000010	[  1] _$s8APMTools6SymbolV7address4size4file4nameACSS_s6UInt64VS2StcfcfA0_
+0x1000052E0	0x00000020	[  1] _$s8APMTools6SymbolV7address4size4file4nameACSS_s6UInt64VS2StcfcfA1_
+0x100005300	0x00000020	[  1] _$s8APMTools6SymbolV7address4size4file4nameACSS_s6UInt64VS2StcfcfA2_
+0x100005320	0x00000050	[  1] _$s8APMTools6SymbolV7address4size4file4nameACSS_s6UInt64VS2StcfC
+0x100005370	0x00000040	[  1] _$s8APMTools6SymbolVSHAASH9hashValueSivgTW
+0x1000053B0	0x00000040	[  1] _$s8APMTools6SymbolVSHAASH4hash4intoys6HasherVz_tFTW
+0x1000053F0	0x00000010	[  1] _$s8APMTools6SymbolVSHAASH13_rawHashValue4seedS2i_tFTW
+0x100005400	0x00000060	[  1] _$s8APMTools6SymbolVSQAASQ2eeoiySbx_xtFZTW
+0x100005460	0x00000030	[  1] _$s8APMTools7LinkMapV010objectFileC0SDySSAA06ObjectE0CGvpfi
+0x100005490	0x00000020	[  1] _$s8APMTools7LinkMapV010objectFileC0SDySSAA06ObjectE0CGvg
+0x1000054B0	0x00000040	[  1] _$s8APMTools7LinkMapV010objectFileC0SDySSAA06ObjectE0CGvs
+0x1000054F0	0x00000010	[  1] _$s8APMTools7LinkMapV010objectFileC0SDySSAA06ObjectE0CGvM
+0x100005500	0x00000010	[  1] _$s8APMTools7LinkMapV010objectFileC0SDySSAA06ObjectE0CGvM.resume.0
+0x100005510	0x00000020	[  1] _$s8APMTools7LinkMapV8sectionsSayAA7SectionVGvpfi
+0x100005530	0x00000020	[  1] _$s8APMTools7LinkMapV8sectionsSayAA7SectionVGvg
+0x100005550	0x00000040	[  1] _$s8APMTools7LinkMapV8sectionsSayAA7SectionVGvs
+0x100005590	0x00000020	[  1] _$s8APMTools7LinkMapV8sectionsSayAA7SectionVGvM
+0x1000055B0	0x00000010	[  1] _$s8APMTools7LinkMapV8sectionsSayAA7SectionVGvM.resume.0
+0x1000055C0	0x00000020	[  1] _$s8APMTools7LinkMapV7symbolsSayAA6SymbolVGvpfi
+0x1000055E0	0x00000020	[  1] _$s8APMTools7LinkMapV7symbolsSayAA6SymbolVGvg
+0x100005600	0x00000040	[  1] _$s8APMTools7LinkMapV7symbolsSayAA6SymbolVGvs
+0x100005640	0x00000020	[  1] _$s8APMTools7LinkMapV7symbolsSayAA6SymbolVGvM
+0x100005660	0x00000010	[  1] _$s8APMTools7LinkMapV7symbolsSayAA6SymbolVGvM.resume.0
+0x100005670	0x000000E0	[  1] _$s8APMTools7LinkMapVACycfC
+0x100005750	0x00000030	[  1] _$s8APMTools7LinkMapV010objectFileC08sections7symbolsACSDySSAA06ObjectE0CG_SayAA7SectionVGSayAA6SymbolVGtcfcfA_
+0x100005780	0x00000020	[  1] _$s8APMTools7LinkMapV010objectFileC08sections7symbolsACSDySSAA06ObjectE0CG_SayAA7SectionVGSayAA6SymbolVGtcfcfA0_
+0x1000057A0	0x00000020	[  1] _$s8APMTools7LinkMapV010objectFileC08sections7symbolsACSDySSAA06ObjectE0CG_SayAA7SectionVGSayAA6SymbolVGtcfcfA1_
+0x1000057C0	0x00000010	[  1] _$s8APMTools7LinkMapV010objectFileC08sections7symbolsACSDySSAA06ObjectE0CG_SayAA7SectionVGSayAA6SymbolVGtcfC
+0x1000057D0	0x00003E10	[  1] _$s8APMTools11LinkMapUtilV7analyze4withAA0bC0VSS_tYaKFZ
+0x1000095E0	0x00000050	[  1] _$ss27_finalizeUninitializedArrayySayxGABnlF
+0x100009630	0x00000020	[  1] _$ss5print_9separator10terminatoryypd_S2StFfA0_
+0x100009650	0x00000020	[  1] _$ss5print_9separator10terminatoryypd_S2StFfA1_
+0x100009670	0x00000010	[  1] _$s8APMTools11LinkMapUtilVACycfC
+0x100009680	0x00000090	[  1] _$sSUss17FixedWidthIntegerRzrlEyxqd__cSzRd__lufCs6UInt32V_SuTgq5
+0x100009710	0x00000020	[  1] _$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5
+0x100009730	0x00000270	[  1] _$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGKXEKlFyt_Tgq5
+0x1000099A0	0x000000F0	[  1] _$sSR5start5countSRyxGSPyxGSg_SitcfCs5UInt8V_Tgq5
+0x100009A90	0x000003A0	[  1] _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_
+0x100009E30	0x00000050	[  1] _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_TA
+0x100009E80	0x00000020	[  1] _$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5TA
+0x100009EA0	0x00000020	[  1] _$sSSWOh
+0x100009EC0	0x00000040	[  1] _$s8APMTools7SectionVWOh
+0x100009F00	0x00000020	[  1] _$sSSWOr
+0x100009F20	0x00000040	[  1] _$s8APMTools6SymbolVACSHAAWl
+0x100009F60	0x00000040	[  1] _$s8APMTools6SymbolVWOh
+0x100009FA0	0x00000040	[  1] _$s8APMTools7LinkMapVWOh
+0x100009FE0	0x00000050	[  1] _$sSo8NSThreadCMa
+0x10000A030	0x00000050	[  1] _$sSo8NSThreadCSo8NSObjectCs23CustomStringConvertible10FoundationWl
+0x10000A080	0x00000020	[  1] _$ss26DefaultStringInterpolationVWOh
+0x10000A0A0	0x00000020	[  1] _$sSay8APMTools6SymbolVGWOh
+0x10000A0C0	0x00000020	[  1] _$sSay8APMTools7SectionVGWOh
+0x10000A0E0	0x00000020	[  1] _$sSDySS8APMTools10ObjectFileCGWOh
+0x10000A100	0x00000030	[  1] ___swift_suspend_dispatch_5
+0x10000A130	0x00000040	[  1] _$sS2SSysWl
+0x10000A170	0x00000070	[  1] ___swift_instantiateConcreteTypeFromMangledName
+0x10000A1E0	0x00000050	[  1] _$sSaySSGSayxGSlsWl
+0x10000A230	0x00000080	[  1] ___swift_instantiateConcreteTypeFromMangledNameAbstract
+0x10000A2B0	0x00000020	[  1] _$ss16IndexingIteratorVySaySSGGWOh
+0x10000A2D0	0x00000030	[  1] ___swift_suspend_dispatch_5.1
+0x10000A300	0x00000050	[  1] _$sSaySSGSayxGSKsWl
+0x10000A350	0x00000040	[  1] _$sS2SSlsWl
+0x10000A390	0x00000020	[  1] _$sSJWOh
+0x10000A3B0	0x00000050	[  1] _$ss19PartialRangeThroughVySS5IndexVGAByxGSXsWl
+0x10000A400	0x00000050	[  1] _$ss16PartialRangeFromVySS5IndexVGAByxGSXsWl
+0x10000A450	0x00000040	[  1] _$ss6UInt64VABs17FixedWidthIntegersWl
+0x10000A490	0x00000040	[  1] _$sS2sSysWl
+0x10000A4D0	0x00000020	[  1] _$s8APMTools10ObjectFileCSgWOh
+0x10000A4F0	0x00000010	[  1] _$s8APMTools6SymbolVSHAASQWb
+0x10000A500	0x00000040	[  1] _$s8APMTools6SymbolVACSQAAWl
+0x10000A540	0x00000030	[  1] _$s8APMTools7SectionVwCP
+0x10000A570	0x00000040	[  1] _$s8APMTools7SectionVwxx
+0x10000A5B0	0x000000A0	[  1] _$s8APMTools7SectionVwcp
+0x10000A650	0x000000C0	[  1] _$s8APMTools7SectionVwca
+0x10000A710	0x00000020	[  1] ___swift_memcpy56_8
+0x10000A730	0x00000090	[  1] _$s8APMTools7SectionVwta
+0x10000A7C0	0x00000100	[  1] _$s8APMTools7SectionVwet
+0x10000A8C0	0x00000170	[  1] _$s8APMTools7SectionVwst
+0x10000AA30	0x00000010	[  1] _$s8APMTools7SectionVMa
+0x10000AA40	0x00000030	[  1] _$s8APMTools6SymbolVwCP
+0x10000AA70	0x00000040	[  1] _$s8APMTools6SymbolVwxx
+0x10000AAB0	0x000000A0	[  1] _$s8APMTools6SymbolVwcp
+0x10000AB50	0x000000C0	[  1] _$s8APMTools6SymbolVwca
+0x10000AC10	0x00000090	[  1] _$s8APMTools6SymbolVwta
+0x10000ACA0	0x00000100	[  1] _$s8APMTools6SymbolVwet
+0x10000ADA0	0x00000170	[  1] _$s8APMTools6SymbolVwst
+0x10000AF10	0x00000010	[  1] _$s8APMTools6SymbolVMa
+0x10000AF20	0x00000070	[  1] _$s8APMTools7LinkMapVwCP
+0x10000AF90	0x00000040	[  1] _$s8APMTools7LinkMapVwxx
+0x10000AFD0	0x00000070	[  1] _$s8APMTools7LinkMapVwcp
+0x10000B040	0x00000090	[  1] _$s8APMTools7LinkMapVwca
+0x10000B0D0	0x00000020	[  1] ___swift_memcpy24_8
+0x10000B0F0	0x00000070	[  1] _$s8APMTools7LinkMapVwta
+0x10000B160	0x00000100	[  1] _$s8APMTools7LinkMapVwet
+0x10000B260	0x00000150	[  1] _$s8APMTools7LinkMapVwst
+0x10000B3B0	0x00000010	[  1] _$s8APMTools7LinkMapVMa
+0x10000B3C0	0x00000010	[  1] _$s8APMTools11LinkMapUtilVMa
+0x10000B3D0	0x00000040	[  1] _$sSSWOc
+0x10000B410	0x00000360	[  1] _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_
+0x10000B770	0x000007A0	[  1] _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_
+0x10000BF10	0x00000010	[  1] _$sSa12_endMutationyyF
+0x10000BF20	0x00000050	[  1] _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_TA
+0x10000BF70	0x00000020	[  1] _$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5TA.2
+0x10000BF90	0x00000040	[  1] _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_TA
+0x10000BFD0	0x00000020	[  1] _$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5TA.3
+0x10000BFF0	0x00000010	[  1] l_coro.devirt.trigger
+0x10000C000	0x00000020	[  1] ___chkstk_darwin
+0x10000C020	0x0000002B	[  1] ___chkstk_darwin_llvm_probe
+0x10000C050	0x00000030	[  2] _$s8APMTools8SideItemV5titleSSvg
+0x10000C080	0x00000030	[  2] _$s8APMTools8SideItemV9imageNameSSvg
+0x10000C0B0	0x000000F0	[  2] _$s8APMTools8SideItemV4hash4intoys6HasherVz_tF
+0x10000C1A0	0x00000160	[  2] _$s8APMTools8SideItemV23__derived_struct_equalsySbAC_ACtFZ
+0x10000C300	0x00000060	[  2] _$s8APMTools8SideItemV9hashValueSivg
+0x10000C360	0x00000040	[  2] _$s8APMTools8SideItemVACSHAAWl
+0x10000C3A0	0x00000020	[  2] _$s8APMTools8SideItemV5title9imageNameACSS_SStcfC
+0x10000C3C0	0x00000020	[  2] _$s8APMTools8SideItemVSHAASH9hashValueSivgTW
+0x10000C3E0	0x00000020	[  2] _$s8APMTools8SideItemVSHAASH4hash4intoys6HasherVz_tFTW
+0x10000C400	0x00000010	[  2] _$s8APMTools8SideItemVSHAASH13_rawHashValue4seedS2i_tFTW
+0x10000C410	0x00000050	[  2] _$s8APMTools8SideItemVSQAASQ2eeoiySbx_xtFZTW
+0x10000C460	0x00000040	[  2] _$s8APMTools11ContentViewV19currentSelectedItemSivpfP
+0x10000C4A0	0x00000080	[  2] _$s8APMTools11ContentViewV19currentSelectedItemSivg
+0x10000C520	0x00000020	[  2] _$s7SwiftUI5StateVySiGWOr
+0x10000C540	0x00000020	[  2] _$s7SwiftUI5StateVySiGWOs
+0x10000C560	0x00000060	[  2] _$s8APMTools11ContentViewV19currentSelectedItemSivpACTK
+0x10000C5C0	0x00000060	[  2] _$s8APMTools11ContentViewV19currentSelectedItemSivpACTk
+0x10000C620	0x00000080	[  2] _$s8APMTools11ContentViewV19currentSelectedItemSivs
+0x10000C6A0	0x00000020	[  2] _$s7SwiftUI5StateVySiGWOh
+0x10000C6C0	0x000000A0	[  2] _$s8APMTools11ContentViewV19currentSelectedItemSivM
+0x10000C760	0x000000D0	[  2] _$s8APMTools11ContentViewV19currentSelectedItemSivM.resume.0
+0x10000C830	0x00000010	[  2] _$s8APMTools11ContentViewV20_currentSelectedItem33_AA0D6113E58E1EA0A060E4AC6CA32373LL7SwiftUI5StateVySiGvpfi
+0x10000C840	0x000000B0	[  2] _$s8APMTools11ContentViewV20$currentSelectedItem7SwiftUI7BindingVySiGvg
+0x10000C8F0	0x00000070	[  2] _$s8APMTools11ContentViewV11objectFilesSayAA10ObjectFileCGvpfP
+0x10000C960	0x00000080	[  2] _$s8APMTools11ContentViewV11objectFilesSayAA10ObjectFileCGvg
+0x10000C9E0	0x00000040	[  2] _$s7SwiftUI5StateVySay8APMTools10ObjectFileCGGWOr
+0x10000CA20	0x00000040	[  2] _$s7SwiftUI5StateVySay8APMTools10ObjectFileCGGWOs
+0x10000CA60	0x00000060	[  2] _$s8APMTools11ContentViewV11objectFilesSayAA10ObjectFileCGvpACTK
+0x10000CAC0	0x00000070	[  2] _$s8APMTools11ContentViewV11objectFilesSayAA10ObjectFileCGvpACTk
+0x10000CB30	0x00000090	[  2] _$s8APMTools11ContentViewV11objectFilesSayAA10ObjectFileCGvs
+0x10000CBC0	0x00000030	[  2] _$s7SwiftUI5StateVySay8APMTools10ObjectFileCGGWOh
+0x10000CBF0	0x000000A0	[  2] _$s8APMTools11ContentViewV11objectFilesSayAA10ObjectFileCGvM
+0x10000CC90	0x000000F0	[  2] _$s8APMTools11ContentViewV11objectFilesSayAA10ObjectFileCGvM.resume.0
+0x10000CD80	0x00000020	[  2] _$sSay8APMTools10ObjectFileCGWOh
+0x10000CDA0	0x00000020	[  2] _$s8APMTools11ContentViewV12_objectFiles33_AA0D6113E58E1EA0A060E4AC6CA32373LL7SwiftUI5StateVySayAA10ObjectFileCGGvpfi
+0x10000CDC0	0x000000B0	[  2] _$s8APMTools11ContentViewV12$objectFiles7SwiftUI7BindingVySayAA10ObjectFileCGGvg
+0x10000CE70	0x00000110	[  2] _$s8APMTools11ContentViewV9sideItemsSayAA8SideItemVGvpfi
+0x10000CF80	0x00000020	[  2] _$s8APMTools11ContentViewV9sideItemsSayAA8SideItemVGvg
+0x10000CFA0	0x000002B0	[  2] _$s8APMTools11ContentViewV4bodyQrvg
+0x10000D250	0x00000B80	[  2] _$s8APMTools11ContentViewV4bodyQrvg7SwiftUI05TupleC0VyAA08LeftListC0V_AE012_ConditionalB0VyAA07LinkMapC0VAE4TextVGtGyXEfU_
+0x10000DDD0	0x00000060	[  2] _$s8APMTools11ContentViewVWOr
+0x10000DE30	0x00000010	[  2] _$s8APMTools11ContentViewV4bodyQrvg7SwiftUI05TupleC0VyAA08LeftListC0V_AE012_ConditionalB0VyAA07LinkMapC0VAE4TextVGtGyXEfU_TA
+0x10000DE40	0x00000050	[  2] _$s7SwiftUI9TupleViewVy8APMTools08LeftListD0V_AA19_ConditionalContentVyAD07LinkMapD0VAA4TextVGtGACyxGAA0D0AAWl
+0x10000DE90	0x00000060	[  2] _$s8APMTools11ContentViewVWOs
+0x10000DEF0	0x00000020	[  2] _$s8APMTools12LeftListViewV19currentSelectedItem9sideItemsAC7SwiftUI7BindingVySiG_SayAA04SideG0VGtcfC
+0x10000DF10	0x00000030	[  2] _$s7SwiftUI11ViewBuilderV10buildBlockyxxAA0C0RzlFZ
+0x10000DF40	0x00000050	[  2] _$s7SwiftUI14NavigationViewVyAA05TupleD0Vy8APMTools08LeftListD0V_AA19_ConditionalContentVyAF07LinkMapD0VAA4TextVGtGGACyxGAA0D0AAWl
+0x10000DF90	0x000000A0	[  2] _$s7SwiftUI11ViewBuilderV11buildEither5firstAA19_ConditionalContentVyxq_Gx_tAA0C0RzAaIR_r0_lFZ
+0x10000E030	0x000000A0	[  2] _$s7SwiftUI11ViewBuilderV11buildEither6secondAA19_ConditionalContentVyxq_Gq__tAA0C0RzAaIR_r0_lFZ
+0x10000E0D0	0x000000C0	[  2] _$s7SwiftUI11ViewBuilderV10buildBlockyAA05TupleC0Vyx_q_tGx_q_tAA0C0RzAaHR_r0_lFZ
+0x10000E190	0x00000260	[  2] _$s8APMTools11ContentViewVACycfC
+0x10000E3F0	0x00000050	[  2] _$s8APMTools11ContentViewVWOh
+0x10000E440	0x00000010	[  2] _$s8APMTools11ContentViewV19currentSelectedItem11objectFilesACSi_SayAA10ObjectFileCGtcfcfA_
+0x10000E450	0x00000020	[  2] _$s8APMTools11ContentViewV19currentSelectedItem11objectFilesACSi_SayAA10ObjectFileCGtcfcfA0_
+0x10000E470	0x00000160	[  2] _$s8APMTools11ContentViewV19currentSelectedItem11objectFilesACSi_SayAA10ObjectFileCGtcfC
+0x10000E5D0	0x00000010	[  2] _$s8APMTools11ContentViewV7SwiftUI0C0AadEP05_makeC04view6inputsAD01_C7OutputsVAD11_GraphValueVyxG_AD01_C6InputsVtFZTW
+0x10000E5E0	0x00000010	[  2] _$s8APMTools11ContentViewV7SwiftUI0C0AadEP05_makeC4List4view6inputsAD01_cG7OutputsVAD11_GraphValueVyxG_AD01_cG6InputsVtFZTW
+0x10000E5F0	0x00000010	[  2] _$s8APMTools11ContentViewV7SwiftUI0C0AadEP14_viewListCount6inputsSiSgAD01_cgH6InputsV_tFZTW
+0x10000E600	0x00000040	[  2] _$s8APMTools11ContentViewV7SwiftUI0C0AadEP4body4BodyQzvgTW
+0x10000E640	0x000000C0	[  2] _$s8APMTools12LeftListViewV19currentSelectedItemSivg
+0x10000E700	0x00000070	[  2] _$s8APMTools12LeftListViewV19currentSelectedItemSivpACTK
+0x10000E770	0x00000070	[  2] _$s8APMTools12LeftListViewV19currentSelectedItemSivpACTk
+0x10000E7E0	0x000000B0	[  2] _$s8APMTools12LeftListViewV19currentSelectedItemSivs
+0x10000E890	0x00000030	[  2] _$s7SwiftUI7BindingVySiGWOh
+0x10000E8C0	0x00000130	[  2] _$s8APMTools12LeftListViewV19currentSelectedItemSivM
+0x10000E9F0	0x00000120	[  2] _$s8APMTools12LeftListViewV19currentSelectedItemSivM.resume.0
+0x10000EB10	0x00000100	[  2] _$s8APMTools12LeftListViewV20$currentSelectedItem7SwiftUI7BindingVySiGvg
+0x10000EC10	0x00000020	[  2] _$s8APMTools12LeftListViewV9sideItemsSayAA8SideItemVGvg
+0x10000EC30	0x00000260	[  2] _$s8APMTools12LeftListViewV4bodyQrvg
+0x10000EE90	0x00000430	[  2] _$s8APMTools12LeftListViewV4bodyQrvg7SwiftUI05TupleD0VyAE7ForEachVySnySiGSiAE0D0PAEE12onTapGesture5count7performQrSi_yyctFQOyAlEE7paddingyQr12CoreGraphics7CGFloatVFQOyAE6HStackVyAGyAlEE5frame5width6height9alignmentQrASSg_AzE9AlignmentVtFQOyAlEE11aspectRatio_11contentModeQrAZ_AE11ContentModeOtFQOyAE5ImageV_Qo__Qo__AE4TextVAE6SpacerVtGG_Qo__Qo_G_A12_tGyXEfU_
+0x10000F2C0	0x00000020	[  2] _$s8APMTools12LeftListViewV4bodyQrvg7SwiftUI05TupleD0VyAE7ForEachVySnySiGSiAE0D0PAEE12onTapGesture5count7performQrSi_yyctFQOyAlEE7paddingyQr12CoreGraphics7CGFloatVFQOyAE6HStackVyAGyAlEE5frame5width6height9alignmentQrASSg_AzE9AlignmentVtFQOyAlEE11aspectRatio_11contentModeQrAZ_AE11ContentModeOtFQOyAE5ImageV_Qo__Qo__AE4TextVAE6SpacerVtGG_Qo__Qo_G_A12_tGyXEfU_TA
+0x10000F2E0	0x000009B0	[  2] _$s8APMTools12LeftListViewV4bodyQrvg7SwiftUI05TupleD0VyAE7ForEachVySnySiGSiAE0D0PAEE12onTapGesture5count7performQrSi_yyctFQOyAlEE7paddingyQr12CoreGraphics7CGFloatVFQOyAE6HStackVyAGyAlEE5frame5width6height9alignmentQrASSg_AzE9AlignmentVtFQOyAlEE11aspectRatio_11contentModeQrAZ_AE11ContentModeOtFQOyAE5ImageV_Qo__Qo__AE4TextVAE6SpacerVtGG_Qo__Qo_G_A12_tGyXEfU_A16_SicfU_
+0x10000FC90	0x000009A0	[  2] _$s8APMTools12LeftListViewV4bodyQrvg7SwiftUI05TupleD0VyAE7ForEachVySnySiGSiAE0D0PAEE12onTapGesture5count7performQrSi_yyctFQOyAlEE7paddingyQr12CoreGraphics7CGFloatVFQOyAE6HStackVyAGyAlEE5frame5width6height9alignmentQrASSg_AzE9AlignmentVtFQOyAlEE11aspectRatio_11contentModeQrAZ_AE11ContentModeOtFQOyAE5ImageV_Qo__Qo__AE4TextVAE6SpacerVtGG_Qo__Qo_G_A12_tGyXEfU_A16_SicfU_A13_yXEfU_
+0x100010630	0x00000020	[  2] _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtFfA_
+0x100010650	0x00000040	[  2] _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtFfA0_
+0x100010690	0x00000020	[  2] _$s7SwiftUI4ViewPAAE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AkA9AlignmentVtFfA1_
+0x1000106B0	0x000000F0	[  2] _$s7SwiftUI11ViewBuilderV10buildBlockyAA05TupleC0Vyx_q_q0_tGx_q_q0_tAA0C0RzAaHR_AaHR0_r1_lFZ
+0x1000107A0	0x00000020	[  2] _$s7SwiftUI6HStackV9alignment7spacing7contentACyxGAA17VerticalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfcfA_
+0x1000107C0	0x00000050	[  2] _$s8APMTools12LeftListViewV4bodyQrvg7SwiftUI05TupleD0VyAE7ForEachVySnySiGSiAE0D0PAEE12onTapGesture5count7performQrSi_yyctFQOyAlEE7paddingyQr12CoreGraphics7CGFloatVFQOyAE6HStackVyAGyAlEE5frame5width6height9alignmentQrASSg_AzE9AlignmentVtFQOyAlEE11aspectRatio_11contentModeQrAZ_AE11ContentModeOtFQOyAE5ImageV_Qo__Qo__AE4TextVAE6SpacerVtGG_Qo__Qo_G_A12_tGyXEfU_A16_SicfU_yycfU0_
+0x100010810	0x00000010	[  2] _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFfA_
+0x100010820	0x00000020	[  2] _$s7SwiftUI6VStackV9alignment7spacing7contentACyxGAA19HorizontalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfcfA_
+0x100010840	0x00000050	[  2] _$s7SwiftUI9TupleViewVyAA7ForEachVySnySiGSiAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyACyAMyAMyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_G_A_tGACyxGAagAWl
+0x100010890	0x000000D0	[  2] _$s7SwiftUI6VStackVyAA9TupleViewVyAA7ForEachVySnySiGSiAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAEyAOyAOyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VG_AA4TextVAA6SpacerVtGGAA08_PaddingS0VG_Qo_G_A1_tGGWOc
+0x100010960	0x00000050	[  2] _$s7SwiftUI6VStackVyAA9TupleViewVyAA7ForEachVySnySiGSiAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAEyAOyAOyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VG_AA4TextVAA6SpacerVtGGAA08_PaddingS0VG_Qo_G_A1_tGGACyxGAaiAWl
+0x1000109B0	0x00000060	[  2] _$s7SwiftUI6VStackVyAA9TupleViewVyAA7ForEachVySnySiGSiAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAEyAOyAOyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VG_AA4TextVAA6SpacerVtGGAA08_PaddingS0VG_Qo_G_A1_tGGWOh
+0x100010A10	0x000000D0	[  2] _$s7SwiftUI6VStackVyAA9TupleViewVyAA7ForEachVySnySiGSiAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAEyAOyAOyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VG_AA4TextVAA6SpacerVtGGAA08_PaddingS0VG_Qo_G_A1_tGGWOb
+0x100010AE0	0x00000010	[  2] _$s8APMTools12LeftListViewV7SwiftUI0D0AadEP05_makeD04view6inputsAD01_D7OutputsVAD11_GraphValueVyxG_AD01_D6InputsVtFZTW
+0x100010AF0	0x00000010	[  2] _$s8APMTools12LeftListViewV7SwiftUI0D0AadEP05_makedC04view6inputsAD01_dC7OutputsVAD11_GraphValueVyxG_AD01_dC6InputsVtFZTW
+0x100010B00	0x00000010	[  2] _$s8APMTools12LeftListViewV7SwiftUI0D0AadEP05_viewC5Count6inputsSiSgAD01_dcH6InputsV_tFZTW
+0x100010B10	0x00000020	[  2] _$s8APMTools12LeftListViewV7SwiftUI0D0AadEP4body4BodyQzvgTW
+0x100010B30	0x000001A0	[  2] _$s8APMTools20ContentView_PreviewsV8previewsQrvgZ
+0x100010CD0	0x00000040	[  2] _$s8APMTools11ContentViewVAC7SwiftUI0C0AAWl
+0x100010D10	0x00000010	[  2] _$s8APMTools20ContentView_PreviewsVACycfC
+0x100010D20	0x00000010	[  2] _$s8APMTools8SideItemVSHAASQWb
+0x100010D30	0x00000040	[  2] _$s8APMTools8SideItemVACSQAAWl
+0x100010D70	0x00000020	[  2] _$s8APMTools11ContentViewV7SwiftUI0C0AA4BodyAdEP_AGWT
+0x100010D90	0x00000020	[  2] _$s8APMTools12LeftListViewV7SwiftUI0D0AA4BodyAdEP_AGWT
+0x100010DB0	0x00000010	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAaD01_gH0PWb
+0x100010DC0	0x00000040	[  2] _$s8APMTools20ContentView_PreviewsVAC7SwiftUI16_PreviewProviderAAWl
+0x100010E00	0x00000020	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAA0D0AdEP_AD0C0PWT
+0x100010E20	0x00000010	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAadEP8previews0D0QzvgZTW
+0x100010E30	0x00000010	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAadEP8platformAD0G8PlatformOSgvgZTW
+0x100010E40	0x00000030	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI16_PreviewProviderAadEP9_previewsypvgZTW
+0x100010E70	0x00000030	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI16_PreviewProviderAadEP9_platformAD0G8PlatformOSgvgZTW
+0x100010EA0	0x00000030	[  2] _$s8APMTools8SideItemVwCP
+0x100010ED0	0x00000030	[  2] _$s8APMTools8SideItemVwxx
+0x100010F00	0x00000070	[  2] _$s8APMTools8SideItemVwcp
+0x100010F70	0x00000080	[  2] _$s8APMTools8SideItemVwca
+0x100010FF0	0x00000030	[  2] ___swift_memcpy32_8
+0x100011020	0x00000060	[  2] _$s8APMTools8SideItemVwta
+0x100011080	0x00000100	[  2] _$s8APMTools8SideItemVwet
+0x100011180	0x00000160	[  2] _$s8APMTools8SideItemVwst
+0x1000112E0	0x00000010	[  2] _$s8APMTools8SideItemVMa
+0x1000112F0	0x00000030	[  2] _$s8APMTools11ContentViewVwCP
+0x100011320	0x00000050	[  2] _$s8APMTools11ContentViewVwxx
+0x100011370	0x000000A0	[  2] _$s8APMTools11ContentViewVwcp
+0x100011410	0x000000D0	[  2] _$s8APMTools11ContentViewVwca
+0x1000114E0	0x00000020	[  2] ___swift_memcpy40_8
+0x100011500	0x00000090	[  2] _$s8APMTools11ContentViewVwta
+0x100011590	0x00000100	[  2] _$s8APMTools11ContentViewVwet
+0x100011690	0x00000160	[  2] _$s8APMTools11ContentViewVwst
+0x1000117F0	0x00000010	[  2] _$s8APMTools11ContentViewVMa
+0x100011800	0x00000030	[  2] _$s8APMTools12LeftListViewVwCP
+0x100011830	0x00000040	[  2] _$s8APMTools12LeftListViewVwxx
+0x100011870	0x00000080	[  2] _$s8APMTools12LeftListViewVwcp
+0x1000118F0	0x000000A0	[  2] _$s8APMTools12LeftListViewVwca
+0x100011990	0x00000070	[  2] _$s8APMTools12LeftListViewVwta
+0x100011A00	0x00000100	[  2] _$s8APMTools12LeftListViewVwet
+0x100011B00	0x00000160	[  2] _$s8APMTools12LeftListViewVwst
+0x100011C60	0x00000010	[  2] _$s8APMTools12LeftListViewVMa
+0x100011C70	0x00000010	[  2] _$s8APMTools20ContentView_PreviewsVMa
+0x100011C80	0x00000010	[  2] l_get_witness_table 7SwiftUI14NavigationViewVyAA05TupleD0Vy8APMTools08LeftListD0V_AA19_ConditionalContentVyAF07LinkMapD0VAA4TextVGtGGAA0D0HPyHC
+0x100011C90	0x00000010	[  2] l_get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA7ForEachVySnySiGSiAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAEyAOyAOyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VG_AA4TextVAA6SpacerVtGGAA08_PaddingS0VG_Qo_G_A1_tGGAaIHPyHC
+0x100011CA0	0x00000010	[  2] l_get_witness_table 8APMTools11ContentViewV7SwiftUI0C0HPyHC
+0x100011CB0	0x00000070	[  2] _$s8APMTools12LeftListViewVWOc
+0x100011D20	0x00000030	[  2] _$sSay8APMTools10ObjectFileCGWOc
+0x100011D50	0x00000090	[  2] _$s8APMTools11ContentViewVWOc
+0x100011DE0	0x00000040	[  2] _$s8APMTools20ContentView_PreviewsVAC7SwiftUI15PreviewProviderAAWl
+0x100011E20	0x00000050	[  2] _$sSay8APMTools8SideItemVGSayxGSksWl
+0x100011E70	0x00000040	[  2] l_objectdestroy
+0x100011EB0	0x00000020	[  2] _$s8APMTools12LeftListViewV4bodyQrvg7SwiftUI05TupleD0VyAE7ForEachVySnySiGSiAE0D0PAEE12onTapGesture5count7performQrSi_yyctFQOyAlEE7paddingyQr12CoreGraphics7CGFloatVFQOyAE6HStackVyAGyAlEE5frame5width6height9alignmentQrASSg_AzE9AlignmentVtFQOyAlEE11aspectRatio_11contentModeQrAZ_AE11ContentModeOtFQOyAE5ImageV_Qo__Qo__AE4TextVAE6SpacerVtGG_Qo__Qo_G_A12_tGyXEfU_A16_SicfU_TA
+0x100011ED0	0x00000070	[  2] _$sSnySiGSnyxGSksSxRzSZ6StrideRpzrlWl
+0x100011F40	0x00000040	[  2] _$sS2iSZsWl
+0x100011F80	0x00000070	[  2] _$s7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA4TextVAA6SpacerVtGGAA08_PaddingK0VGACyxq_GAA0G0A2aZRzAA0G8ModifierR_rlWl
+0x100011FF0	0x00000050	[  2] _$s7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA4TextVAA6SpacerVtGGACyxGAA0E0AAWl
+0x100012040	0x000000A0	[  2] _$s7SwiftUI7ForEachVySnySiGSiAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAA05TupleE0VyAKyAKyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_GACyxq_q0_GAae2aER0_rlWl
+0x1000120E0	0x00000070	[  2] _$s7SwiftUI9TupleViewVyAA7ForEachVySnySiGSiAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyACyAMyAMyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_G_A_tGWOb
+0x100012150	0x00000070	[  2] _$s7SwiftUI9TupleViewVyAA7ForEachVySnySiGSiAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyACyAMyAMyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_G_A_tGWOc
+0x1000121C0	0x00000040	[  2] _$s7SwiftUI9TupleViewVyAA7ForEachVySnySiGSiAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyACyAMyAMyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_G_A_tGWOh
+0x100012200	0x00000040	[  2] _$s8APMTools12LeftListViewV4bodyQrvg7SwiftUI05TupleD0VyAE7ForEachVySnySiGSiAE0D0PAEE12onTapGesture5count7performQrSi_yyctFQOyAlEE7paddingyQr12CoreGraphics7CGFloatVFQOyAE6HStackVyAGyAlEE5frame5width6height9alignmentQrASSg_AzE9AlignmentVtFQOyAlEE11aspectRatio_11contentModeQrAZ_AE11ContentModeOtFQOyAE5ImageV_Qo__Qo__AE4TextVAE6SpacerVtGG_Qo__Qo_G_A12_tGyXEfU_A16_SicfU_A13_yXEfU_TA
+0x100012240	0x00000050	[  2] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAEyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VG_AA4TextVAA6SpacerVtGACyxGAA0D0AAWl
+0x100012290	0x00000050	[  2] _$s7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA4TextVAA6SpacerVtGGWOh
+0x1000122E0	0x00000040	[  2] _$s7SwiftUI4TextV7StorageOWOe
+0x100012320	0x00000040	[  2] l_objectdestroy.5
+0x100012360	0x00000020	[  2] _$s8APMTools12LeftListViewV4bodyQrvg7SwiftUI05TupleD0VyAE7ForEachVySnySiGSiAE0D0PAEE12onTapGesture5count7performQrSi_yyctFQOyAlEE7paddingyQr12CoreGraphics7CGFloatVFQOyAE6HStackVyAGyAlEE5frame5width6height9alignmentQrASSg_AzE9AlignmentVtFQOyAlEE11aspectRatio_11contentModeQrAZ_AE11ContentModeOtFQOyAE5ImageV_Qo__Qo__AE4TextVAE6SpacerVtGG_Qo__Qo_G_A12_tGyXEfU_A16_SicfU_yycfU0_TA
+0x100012380	0x00000050	[  2] _$s7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA4TextVAA6SpacerVtGGAA08_PaddingK0VGWOh
+0x1000123D0	0x00000020	[  2] _$s7SwiftUI5ImageVWOh
+0x1000123F0	0x00000070	[  2] _$s7SwiftUI15ModifiedContentVyAA5ImageVAA18_AspectRatioLayoutVGACyxq_GAA4ViewA2aJRzAA0I8ModifierR_rlWl
+0x100012460	0x00000020	[  2] _$s7SwiftUI15ModifiedContentVyAA5ImageVAA18_AspectRatioLayoutVGWOh
+0x100012480	0x00000040	[  2] _$s7SwiftUI4TextV7StorageOWOy
+0x1000124C0	0x00000070	[  2] _$s7SwiftUI15ModifiedContentVyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameH0VGACyxq_GAA4ViewA2aMRzAA0J8ModifierR_rlWl
+0x100012530	0x00000040	[  2] _$s7SwiftUI4TextVWOh
+0x100012570	0x00000020	[  2] _$s7SwiftUI15ModifiedContentVyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameH0VGWOh
+0x100012590	0x00000050	[  2] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAEyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VG_AA4TextVAA6SpacerVtGWOh
+0x1000125E0	0x00000040	[  2] _$s8APMTools11LinkMapViewVAC7SwiftUI0D0AAWl
+0x100012620	0x000000A0	[  2] _$s7SwiftUI19_ConditionalContentV7StorageOy8APMTools11LinkMapViewVAA4TextV_GWOy
+0x1000126C0	0x00000040	[  2] _$s8APMTools12LeftListViewVAC7SwiftUI0D0AAWl
+0x100012700	0x00000070	[  2] _$s7SwiftUI19_ConditionalContentVy8APMTools11LinkMapViewVAA4TextVGACyxq_GAA0H0A2aKRzAaKR_rlWl
+0x100012770	0x00000060	[  2] _$s7SwiftUI19_ConditionalContentVy8APMTools11LinkMapViewVAA4TextVGWOh
+0x1000127D0	0x000000A0	[  2] _$s7SwiftUI19_ConditionalContentV7StorageOy8APMTools11LinkMapViewVAA4TextV_GWOe
+0x100012870	0x00000040	[  2] _$s8APMTools12LeftListViewVWOh
+0x1000128B0	0x00000080	[  2] _$s7SwiftUI9TupleViewVy8APMTools08LeftListD0V_AA19_ConditionalContentVyAD07LinkMapD0VAA4TextVGtGWOh
+0x100012930	0x00000080	[  2] _$s8APMTools11LinkMapViewVWOr
+0x1000129B0	0x00000060	[  2] _$s8APMTools11LinkMapViewVWOh
+0x100012A10	0x00000010	[  2] l_coro.devirt.trigger
+0x100012A20	0x000000A0	[  3] _$s8APMTools11LinkMapViewV11objectFilesSayAA10ObjectFileCGvg
+0x100012AC0	0x00000050	[  3] _$s7SwiftUI7BindingVySay8APMTools10ObjectFileCGGWOr
+0x100012B10	0x00000050	[  3] _$s7SwiftUI7BindingVySay8APMTools10ObjectFileCGGWOs
+0x100012B60	0x00000080	[  3] _$s8APMTools11LinkMapViewV11objectFilesSayAA10ObjectFileCGvpACTK
+0x100012BE0	0x00000090	[  3] _$s8APMTools11LinkMapViewV11objectFilesSayAA10ObjectFileCGvpACTk
+0x100012C70	0x000000A0	[  3] _$s8APMTools11LinkMapViewV11objectFilesSayAA10ObjectFileCGvs
+0x100012D10	0x00000040	[  3] _$s7SwiftUI7BindingVySay8APMTools10ObjectFileCGGWOh
+0x100012D50	0x000000C0	[  3] _$s8APMTools11LinkMapViewV11objectFilesSayAA10ObjectFileCGvM
+0x100012E10	0x00000120	[  3] _$s8APMTools11LinkMapViewV11objectFilesSayAA10ObjectFileCGvM.resume.0
+0x100012F30	0x000000C0	[  3] _$s8APMTools11LinkMapViewV12$objectFiles7SwiftUI7BindingVySayAA10ObjectFileCGGvg
+0x100012FF0	0x00000090	[  3] _$s8APMTools11LinkMapViewV8filePathSSvpfP
+0x100013080	0x000000B0	[  3] _$s8APMTools11LinkMapViewV8filePathSSvg
+0x100013130	0x00000040	[  3] _$s7SwiftUI5StateVySSGWOr
+0x100013170	0x00000040	[  3] _$s7SwiftUI5StateVySSGWOs
+0x1000131B0	0x00000080	[  3] _$s8APMTools11LinkMapViewV8filePathSSvpACTK
+0x100013230	0x000000B0	[  3] _$s8APMTools11LinkMapViewV8filePathSSvpACTk
+0x1000132E0	0x000000B0	[  3] _$s8APMTools11LinkMapViewV8filePathSSvs
+0x100013390	0x00000030	[  3] _$s7SwiftUI5StateVySSGWOh
+0x1000133C0	0x000000D0	[  3] _$s8APMTools11LinkMapViewV8filePathSSvM
+0x100013490	0x00000150	[  3] _$s8APMTools11LinkMapViewV8filePathSSvM.resume.0
+0x1000135E0	0x00000020	[  3] _$s8APMTools11LinkMapViewV9_filePath33_7720EBC3405E795EBC1D45E738FDF210LL7SwiftUI5StateVySSGvpfi
+0x100013600	0x000000E0	[  3] _$s8APMTools11LinkMapViewV9$filePath7SwiftUI7BindingVySSGvg
+0x1000136E0	0x00000040	[  3] _$s8APMTools11LinkMapViewV9isLoadingSbvpfP
+0x100013720	0x00000080	[  3] _$s8APMTools11LinkMapViewV9isLoadingSbvg
+0x1000137A0	0x00000020	[  3] _$s7SwiftUI5StateVySbGWOr
+0x1000137C0	0x00000020	[  3] _$s7SwiftUI5StateVySbGWOs
+0x1000137E0	0x00000080	[  3] _$s8APMTools11LinkMapViewV9isLoadingSbvpACTK
+0x100013860	0x00000090	[  3] _$s8APMTools11LinkMapViewV9isLoadingSbvpACTk
+0x1000138F0	0x00000080	[  3] _$s8APMTools11LinkMapViewV9isLoadingSbvs
+0x100013970	0x00000020	[  3] _$s7SwiftUI5StateVySbGWOh
+0x100013990	0x000000A0	[  3] _$s8APMTools11LinkMapViewV9isLoadingSbvM
+0x100013A30	0x000000D0	[  3] _$s8APMTools11LinkMapViewV9isLoadingSbvM.resume.0
+0x100013B00	0x00000010	[  3] _$s8APMTools11LinkMapViewV10_isLoading33_7720EBC3405E795EBC1D45E738FDF210LL7SwiftUI5StateVySbGvpfi
+0x100013B10	0x000000A0	[  3] _$s8APMTools11LinkMapViewV10$isLoading7SwiftUI7BindingVySbGvg
+0x100013BB0	0x00000430	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg
+0x100013FE0	0x000003E0	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_
+0x1000143C0	0x00000010	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_TA
+0x1000143D0	0x00000050	[  3] _$s7SwiftUI9TupleViewVyAA6HStackVyACy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VASGSgtGGtGG_AF11LinkMapListVtGACyxGAA0D0AAWl
+0x100014420	0x00000080	[  3] _$s8APMTools11LinkMapViewVWOs
+0x1000144A0	0x00000420	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_
+0x1000148C0	0x00000010	[  3] _$s8APMTools16InputContentViewV10isTargeted7fileUrlACSb_7SwiftUI7BindingVySSGtcfcfA_
+0x1000148D0	0x00000070	[  3] _$s8APMTools16InputContentViewV10isTargeted7fileUrlACSb_7SwiftUI7BindingVySSGtcfC
+0x100014940	0x000005C0	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_
+0x100014F00	0x000000F0	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_
+0x100014FF0	0x000000D0	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_yyYaYbcfU_
+0x1000150C0	0x000004B0	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_yyYaYbcfU_TQ0_
+0x100015570	0x00000080	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_yyYaYbcfU_SbAA10ObjectFileC_A5_tXEfU_
+0x1000155F0	0x00000050	[  3] _$s8APMTools10ObjectFileCACSbs5Error_pIgggdzo_A2CSbsAD_pIegnndzo_TR
+0x100015640	0x00000160	[  3] _$sScTss5NeverORs_rlE8detached8priority9operationScTyxABGScPSg_xyYaYbcntFZ
+0x1000157A0	0x00000040	[  3] _$s7SwiftUI11ViewBuilderV7buildIfyxSgAeA0C0RzlFZ
+0x1000157E0	0x00000010	[  3] _$s8APMTools11LinkMapListV11objectFilesAC7SwiftUI7BindingVySayAA10ObjectFileCGG_tcfC
+0x1000157F0	0x00000020	[  3] _$s7SwiftUI4ViewPAAE6border_5widthQrqd___12CoreGraphics7CGFloatVtAA10ShapeStyleRd__lFfA0_
+0x100015810	0x00000050	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEy8APMTools012InputContentE0V_ACyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGG_AH11LinkMapListVtGGACyxGAA0E0AAWl
+0x100015860	0x00000020	[  3] _$s7SwiftUI5ColorVWOh
+0x100015880	0x000001D0	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEy8APMTools012InputContentE0V_ACyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGG_AH11LinkMapListVtGGWOh
+0x100015A50	0x000005B0	[  3] _$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy8APMTools05InputdG0V_AEyAGyAA6ButtonVyAA4TextVG_AA08ProgressG0VyAA05EmptyG0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeG0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGGWOc
+0x100016000	0x00000080	[  3] _$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy8APMTools05InputdG0V_AEyAGyAA6ButtonVyAA4TextVG_AA08ProgressG0VyAA05EmptyG0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeG0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGGACyxq_GAA0G0A2AA21_RzAA0gS0R_rlWl
+0x100016080	0x00000050	[  3] _$s7SwiftUI16_OverlayModifierVyAA10_ShapeViewVyAA08_StrokedE0VyAA9RectangleV6_InsetVGAA5ColorVGGACyxGAA0fD0AAWl
+0x1000160D0	0x00000210	[  3] _$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy8APMTools05InputdG0V_AEyAGyAA6ButtonVyAA4TextVG_AA08ProgressG0VyAA05EmptyG0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeG0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGGWOh
+0x1000162E0	0x00000350	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6VStackVyACyAA6HStackVyACy8APMTools05InputfD0V_AGyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeD0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtGWOb
+0x100016630	0x00000610	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6VStackVyACyAA6HStackVyACy8APMTools05InputfD0V_AGyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeD0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtGWOc
+0x100016C40	0x00000210	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6VStackVyACyAA6HStackVyACy8APMTools05InputfD0V_AGyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeD0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtGWOh
+0x100016E50	0x00000020	[  3] _$s8APMTools11LinkMapViewV11objectFiles8filePath9isLoadingAC7SwiftUI7BindingVySayAA10ObjectFileCGG_SSSbtcfcfA0_
+0x100016E70	0x00000010	[  3] _$s8APMTools11LinkMapViewV11objectFiles8filePath9isLoadingAC7SwiftUI7BindingVySayAA10ObjectFileCGG_SSSbtcfcfA1_
+0x100016E80	0x000000A0	[  3] _$s8APMTools11LinkMapViewV11objectFiles8filePath9isLoadingAC7SwiftUI7BindingVySayAA10ObjectFileCGG_SSSbtcfC
+0x100016F20	0x00000010	[  3] _$s8APMTools11LinkMapViewV7SwiftUI0D0AadEP05_makeD04view6inputsAD01_D7OutputsVAD11_GraphValueVyxG_AD01_D6InputsVtFZTW
+0x100016F30	0x00000010	[  3] _$s8APMTools11LinkMapViewV7SwiftUI0D0AadEP05_makeD4List4view6inputsAD01_dH7OutputsVAD11_GraphValueVyxG_AD01_dH6InputsVtFZTW
+0x100016F40	0x00000010	[  3] _$s8APMTools11LinkMapViewV7SwiftUI0D0AadEP14_viewListCount6inputsSiSgAD01_dhI6InputsV_tFZTW
+0x100016F50	0x00000040	[  3] _$s8APMTools11LinkMapViewV7SwiftUI0D0AadEP4body4BodyQzvgTW
+0x100016F90	0x00000040	[  3] _$s8APMTools16InputContentViewV10isTargetedSbvpfP
+0x100016FD0	0x00000080	[  3] _$s8APMTools16InputContentViewV10isTargetedSbvg
+0x100017050	0x00000060	[  3] _$s8APMTools16InputContentViewV10isTargetedSbvpACTK
+0x1000170B0	0x00000070	[  3] _$s8APMTools16InputContentViewV10isTargetedSbvpACTk
+0x100017120	0x00000080	[  3] _$s8APMTools16InputContentViewV10isTargetedSbvs
+0x1000171A0	0x000000A0	[  3] _$s8APMTools16InputContentViewV10isTargetedSbvM
+0x100017240	0x000000D0	[  3] _$s8APMTools16InputContentViewV10isTargetedSbvM.resume.0
+0x100017310	0x00000010	[  3] _$s8APMTools16InputContentViewV11_isTargeted33_7720EBC3405E795EBC1D45E738FDF210LL7SwiftUI5StateVySbGvpfi
+0x100017320	0x000000A0	[  3] _$s8APMTools16InputContentViewV11$isTargeted7SwiftUI7BindingVySbGvg
+0x1000173C0	0x000000D0	[  3] _$s8APMTools16InputContentViewV7fileUrlSSvg
+0x100017490	0x00000050	[  3] _$s7SwiftUI7BindingVySSGWOr
+0x1000174E0	0x00000050	[  3] _$s7SwiftUI7BindingVySSGWOs
+0x100017530	0x00000060	[  3] _$s8APMTools16InputContentViewV7fileUrlSSvpACTK
+0x100017590	0x00000090	[  3] _$s8APMTools16InputContentViewV7fileUrlSSvpACTk
+0x100017620	0x000000D0	[  3] _$s8APMTools16InputContentViewV7fileUrlSSvs
+0x1000176F0	0x00000040	[  3] _$s7SwiftUI7BindingVySSGWOh
+0x100017730	0x000000E0	[  3] _$s8APMTools16InputContentViewV7fileUrlSSvM
+0x100017810	0x00000180	[  3] _$s8APMTools16InputContentViewV7fileUrlSSvM.resume.0
+0x100017990	0x00000100	[  3] _$s8APMTools16InputContentViewV8$fileUrl7SwiftUI7BindingVySSGvg
+0x100017A90	0x000009B0	[  3] _$s8APMTools16InputContentViewV4bodyQrvg
+0x100018440	0x00000070	[  3] _$s7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWl
+0x1000184B0	0x00000040	[  3] _$s7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGWOh
+0x1000184F0	0x00000070	[  3] _$s7SwiftUI15ModifiedContentVyACyAA4TextVAA14_PaddingLayoutVGAA06_FrameG0VGACyxq_GAA4ViewA2aMRzAA0I8ModifierR_rlWl
+0x100018560	0x00000040	[  3] _$s7SwiftUI15ModifiedContentVyACyAA4TextVAA14_PaddingLayoutVGAA06_FrameG0VGWOh
+0x1000185A0	0x00000190	[  3] _$s8APMTools16InputContentViewV4bodyQrvgSbSaySo14NSItemProviderCGcfU_
+0x100018730	0x00000060	[  3] _$s8APMTools16InputContentViewVWOr
+0x100018790	0x00000050	[  3] l_objectdestroy
+0x1000187E0	0x00000020	[  3] _$s8APMTools16InputContentViewV4bodyQrvgSbSaySo14NSItemProviderCGcfU_TA
+0x100018800	0x00000080	[  3] _$s7SwiftUI15ModifiedContentVyACyACyAA4TextVAA14_PaddingLayoutVGAA06_FrameG0VGAA16_OverlayModifierVyAA10_ShapeViewVyAA08_StrokedK0VyAA9RectangleV6_InsetVGAA5ColorVGGGACyxq_GAA0L0A2AA1_RzAA0lJ0R_rlWl
+0x100018880	0x00000030	[  3] _$s7SwiftUI7BindingVySbGSgWOe
+0x1000188B0	0x00000060	[  3] _$s7SwiftUI15ModifiedContentVyACyACyAA4TextVAA14_PaddingLayoutVGAA06_FrameG0VGAA16_OverlayModifierVyAA10_ShapeViewVyAA08_StrokedK0VyAA9RectangleV6_InsetVGAA5ColorVGGGWOh
+0x100018910	0x00000050	[  3] _$s8APMTools16InputContentViewV4bodyQrvgSbSaySo14NSItemProviderCGcfU_SbAFXEfU_
+0x100018960	0x00000040	[  3] _$sSo14NSItemProviderCSbs5Error_pIggdzo_ABSbsAC_pIegndzo_TR
+0x1000189A0	0x00000180	[  3] _$s8APMTools16InputContentViewV4bodyQrvgSbSaySo14NSItemProviderCGcfU_y10Foundation3URLVSg_s5Error_pSgtcfU0_
+0x100018B20	0x00000010	[  3] _$s8APMTools16InputContentViewV7SwiftUI0D0AadEP05_makeD04view6inputsAD01_D7OutputsVAD11_GraphValueVyxG_AD01_D6InputsVtFZTW
+0x100018B30	0x00000010	[  3] _$s8APMTools16InputContentViewV7SwiftUI0D0AadEP05_makeD4List4view6inputsAD01_dH7OutputsVAD11_GraphValueVyxG_AD01_dH6InputsVtFZTW
+0x100018B40	0x00000010	[  3] _$s8APMTools16InputContentViewV7SwiftUI0D0AadEP14_viewListCount6inputsSiSgAD01_dhI6InputsV_tFZTW
+0x100018B50	0x00000040	[  3] _$s8APMTools16InputContentViewV7SwiftUI0D0AadEP4body4BodyQzvgTW
+0x100018B90	0x000000D0	[  3] _$s8APMTools11LinkMapListV11objectFilesSayAA10ObjectFileCGvg
+0x100018C60	0x00000060	[  3] _$s8APMTools11LinkMapListV11objectFilesSayAA10ObjectFileCGvpACTK
+0x100018CC0	0x00000070	[  3] _$s8APMTools11LinkMapListV11objectFilesSayAA10ObjectFileCGvpACTk
+0x100018D30	0x000000D0	[  3] _$s8APMTools11LinkMapListV11objectFilesSayAA10ObjectFileCGvs
+0x100018E00	0x00000130	[  3] _$s8APMTools11LinkMapListV11objectFilesSayAA10ObjectFileCGvM
+0x100018F30	0x00000170	[  3] _$s8APMTools11LinkMapListV11objectFilesSayAA10ObjectFileCGvM.resume.0
+0x1000190A0	0x00000110	[  3] _$s8APMTools11LinkMapListV12$objectFiles7SwiftUI7BindingVySayAA10ObjectFileCGGvg
+0x1000191B0	0x00000250	[  3] _$s8APMTools11LinkMapListV4bodyQrvg
+0x100019400	0x000007F0	[  3] _$s8APMTools11LinkMapListV4bodyQrvg7SwiftUI6HStackVyAE9TupleViewVyAE0J0PAEE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AsE9AlignmentVtFQOyAE4TextV_Qo__AkEEAlmnOQrAS_AsUtFQOyAE6SpacerV_Qo_AWtGGAA10ObjectFileCcfU_
+0x100019BF0	0x00000970	[  3] _$s8APMTools11LinkMapListV4bodyQrvg7SwiftUI6HStackVyAE9TupleViewVyAE0J0PAEE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AsE9AlignmentVtFQOyAE4TextV_Qo__AkEEAlmnOQrAS_AsUtFQOyAE6SpacerV_Qo_AWtGGAA10ObjectFileCcfU_A0_yXEfU_
+0x10001A560	0x00000300	[  3] _$s7SwiftUI4ListVAAs5NeverORszrlE_2id10rowContentACyAeA7ForEachVyqd__qd_0_qd_1_GGqd___s7KeyPathCy7ElementQyd__qd_0_Gqd_1_AOctcAJRs_SkRd__SHRd_0_AA4ViewRd_1_r1_lufC
+0x10001A860	0x00000050	[  3] _$sSay8APMTools10ObjectFileCGSayxGSksWl
+0x10001A8B0	0x00000050	[  3] _$s8APMTools10ObjectFileCSo8NSObjectCSH10ObjectiveCWl
+0x10001A900	0x00000050	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AGyAA6SpacerVAKGAItGGACyxGAA0E0AAWl
+0x10001A950	0x00000050	[  3] _$s7SwiftUI4ListVys5NeverOAA7ForEachVySay8APMTools10ObjectFileCGAjA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AQyAA6SpacerVAUGAStGGGGACyxq_GAA0L0AAWl
+0x10001A9A0	0x00000020	[  3] _$s8APMTools11LinkMapViewV7SwiftUI0D0AA4BodyAdEP_AGWT
+0x10001A9C0	0x00000020	[  3] _$s8APMTools16InputContentViewV7SwiftUI0D0AA4BodyAdEP_AGWT
+0x10001A9E0	0x00000020	[  3] _$s8APMTools11LinkMapListV7SwiftUI4ViewAA4BodyAdEP_AGWT
+0x10001AA00	0x00000010	[  3] _$s8APMTools11LinkMapListV7SwiftUI4ViewAadEP05_makeG04view6inputsAD01_G7OutputsVAD11_GraphValueVyxG_AD01_G6InputsVtFZTW
+0x10001AA10	0x00000010	[  3] _$s8APMTools11LinkMapListV7SwiftUI4ViewAadEP05_makegD04view6inputsAD01_gD7OutputsVAD11_GraphValueVyxG_AD01_gD6InputsVtFZTW
+0x10001AA20	0x00000010	[  3] _$s8APMTools11LinkMapListV7SwiftUI4ViewAadEP05_viewD5Count6inputsSiSgAD01_gdI6InputsV_tFZTW
+0x10001AA30	0x00000020	[  3] _$s8APMTools11LinkMapListV7SwiftUI4ViewAadEP4body4BodyQzvgTW
+0x10001AA50	0x00000030	[  3] _$s8APMTools11LinkMapViewVwCP
+0x10001AA80	0x00000060	[  3] _$s8APMTools11LinkMapViewVwxx
+0x10001AAE0	0x000000E0	[  3] _$s8APMTools11LinkMapViewVwcp
+0x10001ABC0	0x00000140	[  3] _$s8APMTools11LinkMapViewVwca
+0x10001AD00	0x00000020	[  3] ___swift_memcpy64_8
+0x10001AD20	0x000000C0	[  3] _$s8APMTools11LinkMapViewVwta
+0x10001ADE0	0x00000100	[  3] _$s8APMTools11LinkMapViewVwet
+0x10001AEE0	0x00000180	[  3] _$s8APMTools11LinkMapViewVwst
+0x10001B060	0x00000010	[  3] _$s8APMTools11LinkMapViewVMa
+0x10001B070	0x00000030	[  3] _$s8APMTools16InputContentViewVwCP
+0x10001B0A0	0x00000050	[  3] _$s8APMTools16InputContentViewVwxx
+0x10001B0F0	0x000000A0	[  3] _$s8APMTools16InputContentViewVwcp
+0x10001B190	0x000000E0	[  3] _$s8APMTools16InputContentViewVwca
+0x10001B270	0x00000020	[  3] ___swift_memcpy48_8
+0x10001B290	0x00000090	[  3] _$s8APMTools16InputContentViewVwta
+0x10001B320	0x00000100	[  3] _$s8APMTools16InputContentViewVwet
+0x10001B420	0x00000170	[  3] _$s8APMTools16InputContentViewVwst
+0x10001B590	0x00000010	[  3] _$s8APMTools16InputContentViewVMa
+0x10001B5A0	0x00000070	[  3] _$s8APMTools11LinkMapListVwCP
+0x10001B610	0x00000040	[  3] _$s8APMTools11LinkMapListVwxx
+0x10001B650	0x00000070	[  3] _$s8APMTools11LinkMapListVwcp
+0x10001B6C0	0x000000A0	[  3] _$s8APMTools11LinkMapListVwca
+0x10001B760	0x00000070	[  3] _$s8APMTools11LinkMapListVwta
+0x10001B7D0	0x00000100	[  3] _$s8APMTools11LinkMapListVwet
+0x10001B8D0	0x00000150	[  3] _$s8APMTools11LinkMapListVwst
+0x10001BA20	0x00000010	[  3] _$s8APMTools11LinkMapListVMa
+0x10001BA30	0x00000010	[  3] l_get_witness_table 7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6VStackVyACyAA6HStackVyACy8APMTools05InputfD0V_AGyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeD0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtGAA0D0HPyHC
+0x10001BA40	0x00000050	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6VStackVyACyAA6HStackVyACy8APMTools05InputfD0V_AGyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeD0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtGACyxGAA0D0AAWl
+0x10001BA90	0x00000050	[  3] l_get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE6onDrop2of10isTargeted7performQrSay22UniformTypeIdentifiers6UTTypeVG_AA7BindingVySbGSgSbSaySo14NSItemProviderCGctFQOyAA15ModifiedContentVyATyATyAA4TextVAA14_PaddingLayoutVGAA06_FrameU0VGAA16_OverlayModifierVyAA06_ShapeC0VyAA08_StrokedY0VyAA9RectangleV6_InsetVGAA5ColorVGGG_Qo_HO
+0x10001BAE0	0x00000010	[  3] l_get_witness_table 7SwiftUI4ListVys5NeverOAA7ForEachVySay8APMTools10ObjectFileCGAjA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AQyAA6SpacerVAUGAStGGGGAA0L0HPyHC
+0x10001BAF0	0x00000070	[  3] _$s8APMTools11LinkMapListVWOc
+0x10001BB60	0x000000A0	[  3] _$s8APMTools16InputContentViewVWOc
+0x10001BC00	0x00000060	[  3] _$s8APMTools16InputContentViewVWOs
+0x10001BC60	0x000000D0	[  3] _$s8APMTools11LinkMapViewVWOc
+0x10001BD30	0x00000080	[  3] _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR
+0x10001BDB0	0x00000060	[  3] _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTQ0_
+0x10001BE10	0x00000020	[  3] _$sScTyScTyxq_GBocfC
+0x10001BE30	0x000002C0	[  3] _$s7SwiftUI4ListVAAs5NeverORszrlE_2id10rowContentACyAeA7ForEachVyqd__qd_0_qd_1_GGqd___s7KeyPathCy7ElementQyd__qd_0_Gqd_1_AOctcAJRs_SkRd__SHRd_0_AA4ViewRd_1_r1_lufcAJyXEfU_
+0x10001C0F0	0x00000060	[  3] _$s7SwiftUI4ListVAAs5NeverORszrlE_2id10rowContentACyAeA7ForEachVyqd__qd_0_qd_1_GGqd___s7KeyPathCy7ElementQyd__qd_0_Gqd_1_AOctcAJRs_SkRd__SHRd_0_AA4ViewRd_1_r1_lufcAJyXEfU_TA
+0x10001C150	0x000000F0	[  3] _$s7SwiftUI4ListVAAs5NeverORszrlE_2id10rowContentACyAeA7ForEachVyqd__qd_0_qd_1_GGqd___s7KeyPathCy7ElementQyd__qd_0_Gqd_1_AOctcAJRs_SkRd__SHRd_0_AA4ViewRd_1_r1_lufcAJyXEfU_qd_1_AOcfU_
+0x10001C240	0x00000050	[  3] l_objectdestroy.5
+0x10001C290	0x00000060	[  3] _$s7SwiftUI4ListVAAs5NeverORszrlE_2id10rowContentACyAeA7ForEachVyqd__qd_0_qd_1_GGqd___s7KeyPathCy7ElementQyd__qd_0_Gqd_1_AOctcAJRs_SkRd__SHRd_0_AA4ViewRd_1_r1_lufcAJyXEfU_qd_1_AOcfU_TA
+0x10001C2F0	0x00000010	[  3] _$s8APMTools11LinkMapListV4bodyQrvg7SwiftUI6HStackVyAE9TupleViewVyAE0J0PAEE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AsE9AlignmentVtFQOyAE4TextV_Qo__AkEEAlmnOQrAS_AsUtFQOyAE6SpacerV_Qo_AWtGGAA10ObjectFileCcfU_A0_yXEfU_TA
+0x10001C300	0x00000050	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AEyAA6SpacerVAIGAGtGACyxGAA0D0AAWl
+0x10001C350	0x00000070	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AGyAA6SpacerVAKGAItGGWOh
+0x10001C3C0	0x00000040	[  3] _$ss6UInt64VABSzsWl
+0x10001C400	0x00000070	[  3] _$s7SwiftUI15ModifiedContentVyAA4TextVAA12_FrameLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWl
+0x10001C470	0x00000070	[  3] _$s7SwiftUI15ModifiedContentVyAA6SpacerVAA12_FrameLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWl
+0x10001C4E0	0x00000040	[  3] _$s7SwiftUI15ModifiedContentVyAA4TextVAA12_FrameLayoutVGWOh
+0x10001C520	0x00000070	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AEyAA6SpacerVAIGAGtGWOh
+0x10001C590	0x00000020	[  3] _$sSo14NSItemProviderCSbs5Error_pIggdzo_ABSbsAC_pIegndzo_TRTA
+0x10001C5B0	0x00000050	[  3] _$sSaySo14NSItemProviderCGSayxGSTsWl
+0x10001C600	0x00000050	[  3] l_objectdestroy.8
+0x10001C650	0x00000020	[  3] _$s8APMTools16InputContentViewV4bodyQrvgSbSaySo14NSItemProviderCGcfU_y10Foundation3URLVSg_s5Error_pSgtcfU0_TA
+0x10001C670	0x00000050	[  3] _$s10Foundation3URLVACs21_ObjectiveCBridgeableAAWl
+0x10001C6C0	0x000000A0	[  3] _$s10Foundation3URLVSgWOc
+0x10001C760	0x00000060	[  3] _$s10Foundation3URLVSgWOh
+0x10001C7C0	0x00000010	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_TA
+0x10001C7D0	0x00000050	[  3] _$s7SwiftUI9TupleViewVy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAQGSgtGGtGACyxGAA0D0AAWl
+0x10001C820	0x00000320	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVy8APMTools012InputContentE0V_AA6VStackVyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGGWOc
+0x10001CB40	0x00000050	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVy8APMTools012InputContentE0V_AA6VStackVyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGGACyxGAA0E0AAWl
+0x10001CB90	0x00000040	[  3] _$s8APMTools11LinkMapListVAC7SwiftUI4ViewAAWl
+0x10001CBD0	0x00000040	[  3] _$s8APMTools11LinkMapListVWOh
+0x10001CC10	0x00000150	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVy8APMTools012InputContentE0V_AA6VStackVyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGGWOh
+0x10001CD60	0x00000250	[  3] _$s7SwiftUI9TupleViewVyAA6HStackVyACy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VASGSgtGGtGG_AF11LinkMapListVtGWOb
+0x10001CFB0	0x00000400	[  3] _$s7SwiftUI9TupleViewVyAA6HStackVyACy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VASGSgtGGtGG_AF11LinkMapListVtGWOc
+0x10001D3B0	0x000001B0	[  3] _$s7SwiftUI9TupleViewVyAA6HStackVyACy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VASGSgtGGtGG_AF11LinkMapListVtGWOh
+0x10001D560	0x00000010	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_TA
+0x10001D570	0x00000050	[  3] _$s7SwiftUI9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VALGSgtGACyxGAA0D0AAWl
+0x10001D5C0	0x00000150	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VANGSgtGGWOc
+0x10001D710	0x00000040	[  3] _$s8APMTools16InputContentViewVAC7SwiftUI0D0AAWl
+0x10001D750	0x00000050	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VANGSgtGGACyxGAA0E0AAWl
+0x10001D7A0	0x000000C0	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VANGSgtGGWOh
+0x10001D860	0x00000050	[  3] _$s8APMTools16InputContentViewVWOh
+0x10001D8B0	0x000001B0	[  3] _$s7SwiftUI9TupleViewVy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAQGSgtGGtGWOb
+0x10001DA60	0x00000230	[  3] _$s7SwiftUI9TupleViewVy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAQGSgtGGtGWOc
+0x10001DC90	0x00000110	[  3] _$s7SwiftUI9TupleViewVy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAQGSgtGGtGWOh
+0x10001DDA0	0x00000060	[  3] l_objectdestroy.11
+0x10001DE00	0x00000020	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_TA
+0x10001DE20	0x00000050	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGACyxq_GAA0D0AAWl
+0x10001DE70	0x00000060	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGSgWOh
+0x10001DED0	0x000000B0	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGSgWOb
+0x10001DF80	0x000000B0	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGSgWOc
+0x10001E030	0x00000050	[  3] _$s7SwiftUI6ButtonVyAA4TextVGACyxGAA4ViewAAWl
+0x10001E080	0x00000070	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGSgxSgAA0D0A2aIRzlWl
+0x10001E0F0	0x00000100	[  3] _$s7SwiftUI9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VALGSgtGWOb
+0x10001E1F0	0x00000100	[  3] _$s7SwiftUI9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VALGSgtGWOc
+0x10001E2F0	0x000000A0	[  3] _$s7SwiftUI9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VALGSgtGWOh
+0x10001E390	0x00000090	[  3] _$sxSg7SwiftUI4ViewRzlWOc
+0x10001E420	0x00000060	[  3] l_objectdestroy.14
+0x10001E480	0x00000080	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_yyYaYbcfU_TA
+0x10001E500	0x00000060	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_yyYaYbcfU_TATQ0_
+0x10001E560	0x00000030	[  3] ___swift_async_resume_project_context
+0x10001E590	0x00000020	[  3] ___swift_suspend_dispatch_3
+0x10001E5B0	0x00000010	[  3] ___swift_suspend_dispatch_1
+0x10001E5C0	0x00000060	[  3] _$sScPSgWOh
+0x10001E620	0x000000A0	[  3] _$sScPSgWOc
+0x10001E6C0	0x00000040	[  3] l_objectdestroy.17
+0x10001E700	0x00000090	[  3] _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA
+0x10001E790	0x00000060	[  3] _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTATQ0_
+0x10001E7F0	0x00000040	[  3] ___swift_suspend_dispatch_5
+0x10001E830	0x00000010	[  3] ___swift_suspend_dispatch_2
+0x10001E840	0x00000020	[  3] ___swift_suspend_dispatch_3.19
+0x10001E860	0x00000010	[  3] ___swift_suspend_dispatch_2.20
+0x10001E870	0x00000020	[  3] ___swift_suspend_dispatch_3.21
+0x10001E890	0x00000010	[  3] ___swift_suspend_dispatch_1.22
+0x10001E8A0	0x00000050	[  3] _$sSD6ValuesVySS8APMTools10ObjectFileC_GAByxq__GSTsWl
+0x10001E8F0	0x00000020	[  3] _$s8APMTools10ObjectFileCACSbs5Error_pIgggdzo_A2CSbsAD_pIegnndzo_TRTA
+0x10001E910	0x00000050	[  3] _$sSay8APMTools10ObjectFileCGSayxGSTsWl
+0x10001E960	0x00000010	[  3] l_coro.devirt.trigger
+0x10001E970	0x00000040	[  4] _$s8APMTools0A3AppV4bodyQrvg
+0x10001E9B0	0x000003C0	[  4] _$s8APMTools0A3AppV4bodyQrvg7SwiftUI4ViewPAEE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AoE9AlignmentVtFQOyAA07ContentF0V_Qo_yXEfU_
+0x10001ED70	0x00000070	[  4] _$s7SwiftUI15ModifiedContentVy8APMTools0D4ViewVAA12_FrameLayoutVGACyxq_GAA0F0A2aKRzAA0F8ModifierR_rlWl
+0x10001EDE0	0x00000030	[  4] _$s8APMTools0A3AppV5$mainyyFZ
+0x10001EE10	0x00000040	[  4] _$s8APMTools0A3AppVAC7SwiftUI0B0AAWl
+0x10001EE50	0x00000010	[  4] _$s8APMTools0A3AppVACycfC
+0x10001EE60	0x00000010	[  4] _$s8APMTools0A3AppV7SwiftUI0B0AadEP4body4BodyQzvgTW
+0x10001EE70	0x00000010	[  4] _$s8APMTools0A3AppV7SwiftUI0B0AadEPxycfCTW
+0x10001EE80	0x00000010	[  4] _main
+0x10001EE90	0x00000020	[  4] _$s8APMTools0A3AppV7SwiftUI0B0AA4BodyAdEP_AD5ScenePWT
+0x10001EEB0	0x00000010	[  4] _$s8APMTools0A3AppVMa
+0x10001EEC0	0x00000010	[  4] l_get_witness_table 7SwiftUI11WindowGroupVyAA15ModifiedContentVy8APMTools0F4ViewVAA12_FrameLayoutVGGAA5SceneHPyHC
+0x10001EED0	0x00000050	[  4] _$s7SwiftUI11WindowGroupVyAA15ModifiedContentVy8APMTools0F4ViewVAA12_FrameLayoutVGGACyxGAA5SceneAAWl
+0x10001EF20	0x00000046	[  4] _$s7SwiftUI15ModifiedContentVy8APMTools0D4ViewVAA12_FrameLayoutVGWOh
+0x10001EF70	0x00000030	[  5] _$s8APMTools5OToolV13sectionPrefix_WZ
+0x10001EFA0	0x00000040	[  5] _$s8APMTools5OToolV13sectionPrefixSSvau
+0x10001EFE0	0x00000030	[  5] _$s8APMTools5OToolV13sectionPrefixSSvgZ
+0x10001F010	0x00000030	[  5] _$s8APMTools5OToolV15classListSuffix_WZ
+0x10001F040	0x00000040	[  5] _$s8APMTools5OToolV15classListSuffixSSvau
+0x10001F080	0x00000030	[  5] _$s8APMTools5OToolV15classListSuffixSSvgZ
+0x10001F0B0	0x00000030	[  5] _$s8APMTools5OToolV15classRefsSuffix_WZ
+0x10001F0E0	0x00000040	[  5] _$s8APMTools5OToolV15classRefsSuffixSSvau
+0x10001F120	0x00000030	[  5] _$s8APMTools5OToolV15classRefsSuffixSSvgZ
+0x10001F150	0x00000030	[  5] _$s8APMTools5OToolV20classSuperRefsSuffix_WZ
+0x10001F180	0x00000040	[  5] _$s8APMTools5OToolV20classSuperRefsSuffixSSvau
+0x10001F1C0	0x00000030	[  5] _$s8APMTools5OToolV20classSuperRefsSuffixSSvgZ
+0x10001F1F0	0x00001B40	[  5] _$s8APMTools5OToolV3runyyKF
+0x100020D30	0x00000040	[  5] _$sSh8IteratorVySS_GWOh
+0x100020D70	0x00000040	[  5] _$sSh8IteratorV8_VariantOyx__GSHRzlWOe
+0x100020DB0	0x00000020	[  5] _$sSaySSGWOh
+0x100020DD0	0x00000020	[  5] _$sShySSGWOh
+0x100020DF0	0x00000020	[  5] _$sSDyS2SGWOh
+0x100020E10	0x00000010	[  5] _$s8APMTools5OToolVACycfC
+0x100020E20	0x00000010	[  5] _$s8APMTools5OToolVMa
+0x100020E30	0x00000006	[ 12] _$s10Foundation3URLV4pathSSvg
+0x100020E36	0x00000006	[ 12] _$s10Foundation3URLVMa
+0x100020E3C	0x00000006	[  9] _$s22UniformTypeIdentifiers6UTTypeV7fileURLACvgZ
+0x100020E42	0x00000006	[  9] _$s22UniformTypeIdentifiers6UTTypeVMa
+0x100020E48	0x00000006	[  8] _$s7SwiftUI10EdgeInsetsV3top7leading6bottom8trailingAC12CoreGraphics7CGFloatV_A3JtcfC
+0x100020E4E	0x00000006	[  8] _$s7SwiftUI11WindowGroupV7contentACyxGxyXE_tcfC
+0x100020E54	0x00000006	[  8] _$s7SwiftUI12ProgressViewVA2A05EmptyD0VRs_rlEACyA2EGycAERszrlufC
+0x100020E5A	0x00000006	[  8] _$s7SwiftUI14NavigationViewV7contentACyxGxyXE_tcfC
+0x100020E60	0x00000006	[  8] _$s7SwiftUI15PreviewProviderPAAE8platformAA0C8PlatformOSgvgZ
+0x100020E66	0x00000006	[  8] _$s7SwiftUI15PreviewProviderPAAE9_platformAA0C8PlatformOSgvgZ
+0x100020E6C	0x00000006	[  8] _$s7SwiftUI15PreviewProviderPAAE9_previewsypvgZ
+0x100020E72	0x00000006	[  8] _$s7SwiftUI17VerticalAlignmentV6centerACvgZ
+0x100020E78	0x00000006	[  8] _$s7SwiftUI18LocalizedStringKeyV13stringLiteralACSS_tcfC
+0x100020E7E	0x00000006	[  8] _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ
+0x100020E84	0x00000006	[  8] _$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ
+0x100020E8A	0x00000006	[  8] _$s7SwiftUI19_ConditionalContentV7StorageOMa
+0x100020E90	0x00000006	[  8] _$s7SwiftUI19_ConditionalContentVA2A4ViewRzAaDR_rlE7storageACyxq_GAC7StorageOyxq__G_tcfC
+0x100020E96	0x00000006	[  8] _$s7SwiftUI3AppPAAE4mainyyFZ
+0x100020E9C	0x00000006	[  8] _$s7SwiftUI4ListVAAs5NeverORszrlE7contentACyAEq_Gq_yXE_tcfC
+0x100020EA2	0x00000006	[  8] _$s7SwiftUI4ListVMa
+0x100020EA8	0x00000006	[  8] _$s7SwiftUI4TextV15foregroundColoryAcA0E0VSgF
+0x100020EAE	0x00000006	[  8] _$s7SwiftUI4TextV_9tableName6bundle7commentAcA18LocalizedStringKeyV_SSSgSo8NSBundleCSgs06StaticI0VSgtcfC
+0x100020EB4	0x00000006	[  8] _$s7SwiftUI4TextVyACxcSyRzlufC
+0x100020EBA	0x00000006	[  8] _$s7SwiftUI4ViewPAAE05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
+0x100020EC0	0x00000006	[  8] _$s7SwiftUI4ViewPAAE05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZ
+0x100020EC6	0x00000006	[  8] _$s7SwiftUI4ViewPAAE11aspectRatio_11contentModeQr12CoreGraphics7CGFloatVSg_AA07ContentG0OtF
+0x100020ECC	0x00000006	[  8] _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctF
+0x100020ED2	0x00000006	[  8] _$s7SwiftUI4ViewPAAE14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZ
+0x100020ED8	0x00000006	[  8] _$s7SwiftUI4ViewPAAE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AkA9AlignmentVtF
+0x100020EDE	0x00000006	[  8] _$s7SwiftUI4ViewPAAE6border_5widthQrqd___12CoreGraphics7CGFloatVtAA10ShapeStyleRd__lF
+0x100020EE4	0x00000006	[  8] _$s7SwiftUI4ViewPAAE6onDrop2of10isTargeted7performQrSay22UniformTypeIdentifiers6UTTypeVG_AA7BindingVySbGSgSbSaySo14NSItemProviderCGctF
+0x100020EEA	0x00000006	[  8] _$s7SwiftUI4ViewPAAE7paddingyQr12CoreGraphics7CGFloatVF
+0x100020EF0	0x00000006	[  8] _$s7SwiftUI4ViewPAAE7paddingyQrAA10EdgeInsetsVF
+0x100020EF6	0x00000006	[  8] _$s7SwiftUI5ColorV3redACvgZ
+0x100020EFC	0x00000006	[  8] _$s7SwiftUI5ColorV4grayACvgZ
+0x100020F02	0x00000006	[  8] _$s7SwiftUI5ColorV5greenACvgZ
+0x100020F08	0x00000006	[  8] _$s7SwiftUI5ColorV5whiteACvgZ
+0x100020F0E	0x00000006	[  8] _$s7SwiftUI5ImageV10systemNameACSS_tcfC
+0x100020F14	0x00000006	[  8] _$s7SwiftUI5ImageV12ResizingModeOMa
+0x100020F1A	0x00000006	[  8] _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF
+0x100020F20	0x00000006	[  8] _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC
+0x100020F26	0x00000006	[  8] _$s7SwiftUI5StateV12wrappedValuexvg
+0x100020F2C	0x00000006	[  8] _$s7SwiftUI5StateV12wrappedValuexvs
+0x100020F32	0x00000006	[  8] _$s7SwiftUI5StateV14projectedValueAA7BindingVyxGvg
+0x100020F38	0x00000006	[  8] _$s7SwiftUI6ButtonVA2A4TextVRszrlE_6actionACyAEGAA18LocalizedStringKeyV_yyctcfC
+0x100020F3E	0x00000006	[  8] _$s7SwiftUI6HStackV9alignment7spacing7contentACyxGAA17VerticalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfC
+0x100020F44	0x00000006	[  8] _$s7SwiftUI6SpacerV9minLengthAC12CoreGraphics7CGFloatVSg_tcfC
+0x100020F4A	0x00000006	[  8] _$s7SwiftUI6VStackV9alignment7spacing7contentACyxGAA19HorizontalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfC
+0x100020F50	0x00000006	[  8] _$s7SwiftUI7BindingV12wrappedValuexvg
+0x100020F56	0x00000006	[  8] _$s7SwiftUI7BindingV12wrappedValuexvs
+0x100020F5C	0x00000006	[  8] _$s7SwiftUI7BindingV14projectedValueACyxGvg
+0x100020F62	0x00000006	[  8] _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
+0x100020F68	0x00000006	[  8] _$s7SwiftUI7ForEachVMa
+0x100020F6E	0x00000006	[  8] _$s7SwiftUI9AlignmentV6centerACvgZ
+0x100020F74	0x00000006	[  8] _$s7SwiftUI9AlignmentV7leadingACvgZ
+0x100020F7A	0x00000006	[  8] _$s7SwiftUI9TupleViewVyACyxGxcfC
+0x100020F80	0x00000006	[ 11] _$sS2Dyxq_GycfC
+0x100020F86	0x00000006	[ 11] _$sS2ayxGycfC
+0x100020F8C	0x00000006	[ 11] _$sSD5countSivg
+0x100020F92	0x00000006	[ 11] _$sSD6valuesSD6ValuesVyxq__Gvg
+0x100020F98	0x00000006	[ 11] _$sSDyq_Sgxcig
+0x100020F9E	0x00000006	[ 11] _$sSDyq_Sgxcis
+0x100020FA4	0x00000006	[ 11] _$sSHsE13_rawHashValue4seedS2i_tF
+0x100020FAA	0x00000006	[ 11] _$sSJ38_builtinExtendedGraphemeClusterLiteral17utf8CodeUnitCount7isASCIISJBp_BwBi1_tcfC
+0x100020FB0	0x00000006	[ 11] _$sSKsE4last7ElementQzSgvg
+0x100020FB6	0x00000006	[ 12] _$sSS10FoundationE14contentsOfFile8encodingS2Sh_SSAAE8EncodingVtKcfC
+0x100020FBC	0x00000006	[ 12] _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+0x100020FC2	0x00000006	[ 12] _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+0x100020FC8	0x00000006	[ 12] _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
+0x100020FCE	0x00000006	[ 12] _$sSS10FoundationE8EncodingV10macOSRomanACvgZ
+0x100020FD4	0x00000006	[ 12] _$sSS10FoundationE8EncodingVMa
+0x100020FDA	0x00000006	[ 11] _$sSS19stringInterpolationSSs013DefaultStringB0V_tcfC
+0x100020FE0	0x00000006	[ 11] _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
+0x100020FE6	0x00000006	[ 11] _$sSS2eeoiySbSS_SStFZ
+0x100020FEC	0x00000006	[ 11] _$sSS5IndexV2eeoiySbAB_ABtFZ
+0x100020FF2	0x00000006	[ 11] _$sSS5countSivg
+0x100020FF8	0x00000006	[ 11] _$sSS5index_8offsetBySS5IndexVAD_SitF
+0x100020FFE	0x00000006	[ 11] _$sSS9hasPrefixySbSSF
+0x100021004	0x00000006	[ 11] _$sSSySSSshcfC
+0x10002100A	0x00000006	[ 11] _$sSTsE5first5where7ElementQzSgSbADKXE_tKF
+0x100021010	0x00000006	[ 11] _$sSTsE6sorted2bySay7ElementQzGSbAD_ADtKXE_tKF
+0x100021016	0x00000006	[ 11] _$sSa6appendyyxnF
+0x10002101C	0x00000006	[ 11] _$sSaMa
+0x100021022	0x00000006	[ 11] _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC
+0x100021028	0x00000006	[ 11] _$sSayxSicig
+0x10002102E	0x00000006	[ 10] _$sScP8rawValues5UInt8Vvg
+0x100021034	0x00000006	[ 10] _$sScPMa
+0x10002103A	0x00000006	[ 11] _$sSdySdxcSzRzlufC
+0x100021040	0x00000006	[ 11] _$sSh12arrayLiteralShyxGxd_tcfC
+0x100021046	0x00000006	[ 11] _$sSh12makeIteratorSh0B0Vyx_GyF
+0x10002104C	0x00000006	[ 11] _$sSh6insertySb8inserted_x17memberAfterInserttxnF
+0x100021052	0x00000006	[ 11] _$sSh8IteratorV4nextxSgyF
+0x100021058	0x00000006	[ 11] _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE7indicesACvg
+0x10002105E	0x00000006	[ 11] _$sSlsE9dropFirsty11SubSequenceQzSiF
+0x100021064	0x00000006	[ 11] _$sSlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluig
+0x10002106A	0x00000006	[ 11] _$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tF
+0x100021070	0x00000006	[ 11] _$sSlss16IndexingIteratorVyxG0B0RtzrlE04makeB0ACyF
+0x100021076	0x00000006	[ 12] _$sSo14NSItemProviderC10FoundationE10loadObject7ofClass17completionHandlerSo10NSProgressCxm_yxSg_s5Error_pSgtcts21_ObjectiveCBridgeableRzSo0aB7Reading01_L5CTypeRpzlF
+0x10002107C	0x00000006	[ 12] _$sSo14NSItemProviderC10FoundationE13canLoadObject7ofClassSbxm_ts21_ObjectiveCBridgeableRzSo0aB7Reading01_I5CTypeRpzlF
+0x100021082	0x00000006	[ 11] _$sSqMa
+0x100021088	0x00000006	[ 12] _$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF
+0x10002108E	0x00000006	[ 12] _$sSy10FoundationE8containsySbqd__SyRd__lF
+0x100021094	0x00000006	[ 11] _$ss10_hashValue3forSix_tSHRzlF
+0x10002109A	0x00000006	[ 11] _$ss16IndexingIteratorV4next7ElementQzSgyF
+0x1000210A0	0x00000006	[ 11] _$ss16PartialRangeFromVyAByxGxcfC
+0x1000210A6	0x00000006	[ 11] _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufC
+0x1000210AC	0x00000006	[ 11] _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+0x1000210B2	0x00000006	[ 11] _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+0x1000210B8	0x00000006	[ 11] _$ss19PartialRangeThroughVyAByxGxcfC
+0x1000210BE	0x00000006	[ 11] _$ss26DefaultStringInterpolationV06appendC0yyxs06CustomB11ConvertibleRzlF
+0x1000210C4	0x00000006	[ 11] _$ss26DefaultStringInterpolationV13appendLiteralyySSF
+0x1000210CA	0x00000006	[ 11] _$ss26DefaultStringInterpolationV15literalCapacity18interpolationCountABSi_SitcfC
+0x1000210D0	0x00000006	[ 11] _$ss27_allocateUninitializedArrayySayxG_BptBwlF
+0x1000210D6	0x00000006	[ 11] _$ss5print_9separator10terminatoryypd_S2StF
+0x1000210DC	0x00000006	[ 11] _$ss6HasherV7combineyyxSHRzlF
+0x1000210E2	0x00000006	[ 11] _$ss7UnicodeO6ScalarVyADSgs6UInt32VcfC
+0x1000210E8	0x00000006	[ 11] __swift_stdlib_reportUnimplementedInitializerInFile
+0x1000210EE	0x00000006	[  7] _free
+0x1000210F4	0x00000006	[  7] _malloc
+0x1000210FA	0x00000006	[  7] _memcpy
+0x100021100	0x00000006	[  7] _memset
+0x100021106	0x00000006	[  6] _objc_allocWithZone
+0x10002110C	0x00000006	[  6] _objc_msgSend
+0x100021112	0x00000006	[  6] _objc_msgSendSuper2
+0x100021118	0x00000006	[  6] _objc_opt_self
+0x10002111E	0x00000006	[  6] _objc_retainAutoreleasedReturnValue
+0x100021124	0x00000006	[ 11] _swift_allocObject
+0x10002112A	0x00000006	[ 11] _swift_beginAccess
+0x100021130	0x00000006	[ 11] _swift_bridgeObjectRelease
+0x100021136	0x00000006	[ 11] _swift_bridgeObjectRetain
+0x10002113C	0x00000006	[ 11] _swift_checkMetadataState
+0x100021142	0x00000006	[ 11] _swift_deallocObject
+0x100021148	0x00000006	[ 11] _swift_endAccess
+0x10002114E	0x00000006	[ 11] _swift_errorRelease
+0x100021154	0x00000006	[ 11] _swift_errorRetain
+0x10002115A	0x00000006	[ 11] _swift_getKeyPath
+0x100021160	0x00000006	[ 11] _swift_getObjCClassMetadata
+0x100021166	0x00000006	[ 11] _swift_getOpaqueTypeConformance
+0x10002116C	0x00000006	[ 11] _swift_getTupleTypeMetadata2
+0x100021172	0x00000006	[ 11] _swift_getTupleTypeMetadata3
+0x100021178	0x00000006	[ 11] _swift_getTypeByMangledNameInContext
+0x10002117E	0x00000006	[ 11] _swift_getTypeByMangledNameInContextInMetadataState
+0x100021184	0x00000006	[ 11] _swift_getWitnessTable
+0x10002118A	0x00000006	[ 11] _swift_once
+0x100021190	0x00000006	[ 11] _swift_release
+0x100021196	0x00000006	[ 11] _swift_retain
+0x10002119C	0x00000006	[ 11] _swift_storeEnumTagMultiPayload
+0x1000211A2	0x00000006	[ 10] _swift_task_alloc
+0x1000211A8	0x00000006	[ 10] _swift_task_create
+0x1000211AE	0x00000006	[ 10] _swift_task_dealloc
+0x1000211B4	0x00000010	[  0] helper helper
+0x1000211C4	0x0000000A	[  6] _objc_allocWithZone
+0x1000211CE	0x0000000A	[  6] _objc_msgSend
+0x1000211D8	0x0000000A	[  6] _objc_msgSendSuper2
+0x1000211E2	0x0000000A	[  6] _objc_opt_self
+0x1000211EC	0x0000000A	[  6] _objc_retainAutoreleasedReturnValue
+0x1000211F6	0x0000000A	[  7] _free
+0x100021200	0x0000000A	[  7] _malloc
+0x10002120A	0x0000000A	[  7] _memcpy
+0x100021214	0x0000000A	[  7] _memset
+0x10002121E	0x0000000A	[  8] _$s7SwiftUI10EdgeInsetsV3top7leading6bottom8trailingAC12CoreGraphics7CGFloatV_A3JtcfC
+0x100021228	0x0000000A	[  8] _$s7SwiftUI11WindowGroupV7contentACyxGxyXE_tcfC
+0x100021232	0x0000000A	[  8] _$s7SwiftUI12ProgressViewVA2A05EmptyD0VRs_rlEACyA2EGycAERszrlufC
+0x10002123C	0x0000000A	[  8] _$s7SwiftUI14NavigationViewV7contentACyxGxyXE_tcfC
+0x100021246	0x0000000A	[  8] _$s7SwiftUI15PreviewProviderPAAE8platformAA0C8PlatformOSgvgZ
+0x100021250	0x0000000A	[  8] _$s7SwiftUI15PreviewProviderPAAE9_platformAA0C8PlatformOSgvgZ
+0x10002125A	0x0000000A	[  8] _$s7SwiftUI15PreviewProviderPAAE9_previewsypvgZ
+0x100021264	0x0000000A	[  8] _$s7SwiftUI17VerticalAlignmentV6centerACvgZ
+0x10002126E	0x0000000A	[  8] _$s7SwiftUI18LocalizedStringKeyV13stringLiteralACSS_tcfC
+0x100021278	0x0000000A	[  8] _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ
+0x100021282	0x0000000A	[  8] _$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ
+0x10002128C	0x0000000A	[  8] _$s7SwiftUI19_ConditionalContentV7StorageOMa
+0x100021296	0x0000000A	[  8] _$s7SwiftUI19_ConditionalContentVA2A4ViewRzAaDR_rlE7storageACyxq_GAC7StorageOyxq__G_tcfC
+0x1000212A0	0x0000000A	[  8] _$s7SwiftUI3AppPAAE4mainyyFZ
+0x1000212AA	0x0000000A	[  8] _$s7SwiftUI4ListVAAs5NeverORszrlE7contentACyAEq_Gq_yXE_tcfC
+0x1000212B4	0x0000000A	[  8] _$s7SwiftUI4ListVMa
+0x1000212BE	0x0000000A	[  8] _$s7SwiftUI4TextV15foregroundColoryAcA0E0VSgF
+0x1000212C8	0x0000000A	[  8] _$s7SwiftUI4TextV_9tableName6bundle7commentAcA18LocalizedStringKeyV_SSSgSo8NSBundleCSgs06StaticI0VSgtcfC
+0x1000212D2	0x0000000A	[  8] _$s7SwiftUI4TextVyACxcSyRzlufC
+0x1000212DC	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
+0x1000212E6	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZ
+0x1000212F0	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE11aspectRatio_11contentModeQr12CoreGraphics7CGFloatVSg_AA07ContentG0OtF
+0x1000212FA	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctF
+0x100021304	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZ
+0x10002130E	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AkA9AlignmentVtF
+0x100021318	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE6border_5widthQrqd___12CoreGraphics7CGFloatVtAA10ShapeStyleRd__lF
+0x100021322	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE6onDrop2of10isTargeted7performQrSay22UniformTypeIdentifiers6UTTypeVG_AA7BindingVySbGSgSbSaySo14NSItemProviderCGctF
+0x10002132C	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE7paddingyQr12CoreGraphics7CGFloatVF
+0x100021336	0x0000000A	[  8] _$s7SwiftUI4ViewPAAE7paddingyQrAA10EdgeInsetsVF
+0x100021340	0x0000000A	[  8] _$s7SwiftUI5ColorV3redACvgZ
+0x10002134A	0x0000000A	[  8] _$s7SwiftUI5ColorV4grayACvgZ
+0x100021354	0x0000000A	[  8] _$s7SwiftUI5ColorV5greenACvgZ
+0x10002135E	0x0000000A	[  8] _$s7SwiftUI5ColorV5whiteACvgZ
+0x100021368	0x0000000A	[  8] _$s7SwiftUI5ImageV10systemNameACSS_tcfC
+0x100021372	0x0000000A	[  8] _$s7SwiftUI5ImageV12ResizingModeOMa
+0x10002137C	0x0000000A	[  8] _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF
+0x100021386	0x0000000A	[  8] _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC
+0x100021390	0x0000000A	[  8] _$s7SwiftUI5StateV12wrappedValuexvg
+0x10002139A	0x0000000A	[  8] _$s7SwiftUI5StateV12wrappedValuexvs
+0x1000213A4	0x0000000A	[  8] _$s7SwiftUI5StateV14projectedValueAA7BindingVyxGvg
+0x1000213AE	0x0000000A	[  8] _$s7SwiftUI6ButtonVA2A4TextVRszrlE_6actionACyAEGAA18LocalizedStringKeyV_yyctcfC
+0x1000213B8	0x0000000A	[  8] _$s7SwiftUI6HStackV9alignment7spacing7contentACyxGAA17VerticalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfC
+0x1000213C2	0x0000000A	[  8] _$s7SwiftUI6SpacerV9minLengthAC12CoreGraphics7CGFloatVSg_tcfC
+0x1000213CC	0x0000000A	[  8] _$s7SwiftUI6VStackV9alignment7spacing7contentACyxGAA19HorizontalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfC
+0x1000213D6	0x0000000A	[  8] _$s7SwiftUI7BindingV12wrappedValuexvg
+0x1000213E0	0x0000000A	[  8] _$s7SwiftUI7BindingV12wrappedValuexvs
+0x1000213EA	0x0000000A	[  8] _$s7SwiftUI7BindingV14projectedValueACyxGvg
+0x1000213F4	0x0000000A	[  8] _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
+0x1000213FE	0x0000000A	[  8] _$s7SwiftUI7ForEachVMa
+0x100021408	0x0000000A	[  8] _$s7SwiftUI9AlignmentV6centerACvgZ
+0x100021412	0x0000000A	[  8] _$s7SwiftUI9AlignmentV7leadingACvgZ
+0x10002141C	0x0000000A	[  8] _$s7SwiftUI9TupleViewVyACyxGxcfC
+0x100021426	0x0000000A	[  9] _$s22UniformTypeIdentifiers6UTTypeV7fileURLACvgZ
+0x100021430	0x0000000A	[  9] _$s22UniformTypeIdentifiers6UTTypeVMa
+0x10002143A	0x0000000A	[ 10] _$sScP8rawValues5UInt8Vvg
+0x100021444	0x0000000A	[ 10] _$sScPMa
+0x10002144E	0x0000000A	[ 10] _swift_task_alloc
+0x100021458	0x0000000A	[ 10] _swift_task_create
+0x100021462	0x0000000A	[ 10] _swift_task_dealloc
+0x10002146C	0x0000000A	[ 11] _$sS2Dyxq_GycfC
+0x100021476	0x0000000A	[ 11] _$sS2ayxGycfC
+0x100021480	0x0000000A	[ 11] _$sSD5countSivg
+0x10002148A	0x0000000A	[ 11] _$sSD6valuesSD6ValuesVyxq__Gvg
+0x100021494	0x0000000A	[ 11] _$sSDyq_Sgxcig
+0x10002149E	0x0000000A	[ 11] _$sSDyq_Sgxcis
+0x1000214A8	0x0000000A	[ 11] _$sSHsE13_rawHashValue4seedS2i_tF
+0x1000214B2	0x0000000A	[ 11] _$sSJ38_builtinExtendedGraphemeClusterLiteral17utf8CodeUnitCount7isASCIISJBp_BwBi1_tcfC
+0x1000214BC	0x0000000A	[ 11] _$sSKsE4last7ElementQzSgvg
+0x1000214C6	0x0000000A	[ 11] _$sSS19stringInterpolationSSs013DefaultStringB0V_tcfC
+0x1000214D0	0x0000000A	[ 11] _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
+0x1000214DA	0x0000000A	[ 11] _$sSS2eeoiySbSS_SStFZ
+0x1000214E4	0x0000000A	[ 11] _$sSS5IndexV2eeoiySbAB_ABtFZ
+0x1000214EE	0x0000000A	[ 11] _$sSS5countSivg
+0x1000214F8	0x0000000A	[ 11] _$sSS5index_8offsetBySS5IndexVAD_SitF
+0x100021502	0x0000000A	[ 11] _$sSS9hasPrefixySbSSF
+0x10002150C	0x0000000A	[ 11] _$sSSySSSshcfC
+0x100021516	0x0000000A	[ 11] _$sSTsE5first5where7ElementQzSgSbADKXE_tKF
+0x100021520	0x0000000A	[ 11] _$sSTsE6sorted2bySay7ElementQzGSbAD_ADtKXE_tKF
+0x10002152A	0x0000000A	[ 11] _$sSa6appendyyxnF
+0x100021534	0x0000000A	[ 11] _$sSaMa
+0x10002153E	0x0000000A	[ 11] _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC
+0x100021548	0x0000000A	[ 11] _$sSayxSicig
+0x100021552	0x0000000A	[ 11] _$sSdySdxcSzRzlufC
+0x10002155C	0x0000000A	[ 11] _$sSh12arrayLiteralShyxGxd_tcfC
+0x100021566	0x0000000A	[ 11] _$sSh12makeIteratorSh0B0Vyx_GyF
+0x100021570	0x0000000A	[ 11] _$sSh6insertySb8inserted_x17memberAfterInserttxnF
+0x10002157A	0x0000000A	[ 11] _$sSh8IteratorV4nextxSgyF
+0x100021584	0x0000000A	[ 11] _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE7indicesACvg
+0x10002158E	0x0000000A	[ 11] _$sSlsE9dropFirsty11SubSequenceQzSiF
+0x100021598	0x0000000A	[ 11] _$sSlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluig
+0x1000215A2	0x0000000A	[ 11] _$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tF
+0x1000215AC	0x0000000A	[ 11] _$sSlss16IndexingIteratorVyxG0B0RtzrlE04makeB0ACyF
+0x1000215B6	0x0000000A	[ 11] _$sSqMa
+0x1000215C0	0x0000000A	[ 11] _$ss10_hashValue3forSix_tSHRzlF
+0x1000215CA	0x0000000A	[ 11] _$ss16IndexingIteratorV4next7ElementQzSgyF
+0x1000215D4	0x0000000A	[ 11] _$ss16PartialRangeFromVyAByxGxcfC
+0x1000215DE	0x0000000A	[ 11] _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufC
+0x1000215E8	0x0000000A	[ 11] _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+0x1000215F2	0x0000000A	[ 11] _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+0x1000215FC	0x0000000A	[ 11] _$ss19PartialRangeThroughVyAByxGxcfC
+0x100021606	0x0000000A	[ 11] _$ss26DefaultStringInterpolationV06appendC0yyxs06CustomB11ConvertibleRzlF
+0x100021610	0x0000000A	[ 11] _$ss26DefaultStringInterpolationV13appendLiteralyySSF
+0x10002161A	0x0000000A	[ 11] _$ss26DefaultStringInterpolationV15literalCapacity18interpolationCountABSi_SitcfC
+0x100021624	0x0000000A	[ 11] _$ss27_allocateUninitializedArrayySayxG_BptBwlF
+0x10002162E	0x0000000A	[ 11] _$ss5print_9separator10terminatoryypd_S2StF
+0x100021638	0x0000000A	[ 11] _$ss6HasherV7combineyyxSHRzlF
+0x100021642	0x0000000A	[ 11] _$ss7UnicodeO6ScalarVyADSgs6UInt32VcfC
+0x10002164C	0x0000000A	[ 11] __swift_stdlib_reportUnimplementedInitializerInFile
+0x100021656	0x0000000A	[ 11] _swift_allocObject
+0x100021660	0x0000000A	[ 11] _swift_beginAccess
+0x10002166A	0x0000000A	[ 11] _swift_bridgeObjectRelease
+0x100021674	0x0000000A	[ 11] _swift_bridgeObjectRetain
+0x10002167E	0x0000000A	[ 11] _swift_checkMetadataState
+0x100021688	0x0000000A	[ 11] _swift_deallocObject
+0x100021692	0x0000000A	[ 11] _swift_endAccess
+0x10002169C	0x0000000A	[ 11] _swift_errorRelease
+0x1000216A6	0x0000000A	[ 11] _swift_errorRetain
+0x1000216B0	0x0000000A	[ 11] _swift_getKeyPath
+0x1000216BA	0x0000000A	[ 11] _swift_getObjCClassMetadata
+0x1000216C4	0x0000000A	[ 11] _swift_getOpaqueTypeConformance
+0x1000216CE	0x0000000A	[ 11] _swift_getTupleTypeMetadata2
+0x1000216D8	0x0000000A	[ 11] _swift_getTupleTypeMetadata3
+0x1000216E2	0x0000000A	[ 11] _swift_getTypeByMangledNameInContext
+0x1000216EC	0x0000000A	[ 11] _swift_getTypeByMangledNameInContextInMetadataState
+0x1000216F6	0x0000000A	[ 11] _swift_getWitnessTable
+0x100021700	0x0000000A	[ 11] _swift_once
+0x10002170A	0x0000000A	[ 11] _swift_release
+0x100021714	0x0000000A	[ 11] _swift_retain
+0x10002171E	0x0000000A	[ 11] _swift_storeEnumTagMultiPayload
+0x100021728	0x0000000A	[ 12] _$s10Foundation3URLV4pathSSvg
+0x100021732	0x0000000A	[ 12] _$s10Foundation3URLVMa
+0x10002173C	0x0000000A	[ 12] _$sSS10FoundationE14contentsOfFile8encodingS2Sh_SSAAE8EncodingVtKcfC
+0x100021746	0x0000000A	[ 12] _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+0x100021750	0x0000000A	[ 12] _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+0x10002175A	0x0000000A	[ 12] _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
+0x100021764	0x0000000A	[ 12] _$sSS10FoundationE8EncodingV10macOSRomanACvgZ
+0x10002176E	0x0000000A	[ 12] _$sSS10FoundationE8EncodingVMa
+0x100021778	0x0000000A	[ 12] _$sSo14NSItemProviderC10FoundationE10loadObject7ofClass17completionHandlerSo10NSProgressCxm_yxSg_s5Error_pSgtcts21_ObjectiveCBridgeableRzSo0aB7Reading01_L5CTypeRpzlF
+0x100021782	0x0000000A	[ 12] _$sSo14NSItemProviderC10FoundationE13canLoadObject7ofClassSbxm_ts21_ObjectiveCBridgeableRzSo0aB7Reading01_I5CTypeRpzlF
+0x10002178C	0x0000000A	[ 12] _$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF
+0x100021796	0x0000000A	[ 12] _$sSy10FoundationE8containsySbqd__SyRd__lF
+0x1000217A0	0x00000001	[  1] literal string: 
+0x1000217B0	0x00000014	[  1] literal string: APMTools.ObjectFile
+0x1000217C4	0x00000007	[  1] literal string: init()
+0x1000217D0	0x00000017	[  1] literal string: APMTools/LinkMap.swift
+0x1000217F0	0x00000037	[  1] literal string: StaticString should have Unicode scalar representation
+0x100021830	0x00000028	[  1] literal string: Swift/x86_64-apple-macos.swiftinterface
+0x100021860	0x0000003A	[  1] literal string: Unexpectedly found nil while unwrapping an Optional value
+0x10002189A	0x0000000C	[  1] literal string: Fatal error
+0x1000218B0	0x00000030	[  1] literal string: StaticString should have pointer representation
+0x1000218E0	0x0000000E	[  1] literal string: 当前线程 
+0x1000218EE	0x00000002	[  1] literal string: \n
+0x1000218F0	0x00000002	[  1] literal string: #
+0x1000218F2	0x00000002	[  1] literal string: 	
+0x1000218F4	0x00000002	[  1] literal string: ]
+0x100021900	0x0000002C	[  1] literal string: Range cannot have an unordered upper bound.
+0x100021930	0x0000002C	[  1] literal string: Range cannot have an unordered lower bound.
+0x10002195C	0x00000002	[  1] literal string: /
+0x10002195E	0x00000010	[  1] literal string: # Object files:
+0x10002196E	0x0000000C	[  1] literal string: # Sections:
+0x10002197A	0x0000000B	[  1] literal string: # Symbols:
+0x100021990	0x0000001A	[  1] literal string: _TtC8APMTools10ObjectFile
+0x1000219AA	0x00000008	[  1] literal string: @16@0:8
+0x1000219B2	0x00000008	[  1] literal string: v16@0:8
+0x1000219BA	0x00000005	[  1] literal string: file
+0x1000219BF	0x00000005	[  1] literal string: path
+0x1000219C4	0x00000005	[  1] literal string: size
+0x1000219C9	0x00000002	[  1] literal string:  
+0x1000219D0	0x00000028	[  1] literal string: UnsafeBufferPointer with negative count
+0x100021A00	0x00000036	[  1] literal string: UnsafeBufferPointer has a nil start and nonzero count
+0x100021A40	0x0000002E	[  1] literal string: Not enough bits to represent the passed value
+0x100021A70	0x0000002C	[  1] literal string: Not enough bits to represent a signed value
+0x100021AA0	0x0000000E	[  2] literal string: LinkMap分析
+0x100021AB0	0x00000016	[  2] literal string: clock.badge.checkmark
+0x100021AC6	0x0000000C	[  2] literal string: OTool分析
+0x100021AE0	0x0000001C	[  2] literal string: arrow.triangle.2.circlepath
+0x100021AFC	0x00000006	[  2] literal string: Other
+0x100021B10	0x0000001A	[  3] literal string: 拖动LinkMap文件到此
+0x100021B2A	0x00000006	[  3] literal string: %.2fK
+0x100021B30	0x0000000D	[  3] literal string: 开始分析
+0x100021B40	0x0000000D	[  5] literal string: otool_result
+0x100021B4D	0x00000004	[  5] literal string: txt
+0x100021B53	0x0000000A	[  5] literal string: 000000010
+0x100021B5F	0x00000005	[  5] literal string: 0x10
+0x100021B64	0x00000005	[  5] literal string: name
+0x100021B70	0x00000011	[  5] literal string: __objc_superrefs
+0x100021B90	0x00000011	[  5] literal string: __objc_classrefs
+0x100021BB0	0x00000011	[  5] literal string: __objc_classlist
+0x100021BD0	0x00000015	[  5] literal string: Contents of (__DATA,
+0x100021BE5	0x00000005	[  1] literal string: init
+0x100021BEA	0x00000008	[  1] literal string: dealloc
+0x100021BF2	0x0000000E	[  1] literal string: currentThread
+0x100021C00	0x0000000E	[  1] literal string: .cxx_destruct
+0x100021C0E	0x0000000B	[  5] literal string: mainBundle
+0x100021C19	0x00000018	[  5] literal string: pathForResource:ofType:
+0x100021C32	0x00000008	[  1] _symbolic SaySSG
+0x100021C3A	0x0000000E	[  1] _symbolic _____ySaySSGG s16IndexingIteratorV
+0x100021C48	0x0000000E	[  1] _symbolic _____y_____G s19PartialRangeThroughV SS5IndexV
+0x100021C56	0x0000000E	[  1] _symbolic _____y_____G s16PartialRangeFromV SS5IndexV
+0x100021C64	0x0000000A	[  1] _symbolic Say_____G 8APMTools6SymbolV
+0x100021C6E	0x0000000A	[  1] _symbolic Say_____G 8APMTools7SectionV
+0x100021C78	0x0000000C	[  1] _symbolic SDySS_____G 8APMTools10ObjectFileC
+0x100021C84	0x00000008	[  1] _associated conformance 8APMTools6SymbolVSHAASQ
+0x100021C8C	0x0000000E	[  1] _symbolic So8NSObjectC
+0x100021C9A	0x00000006	[  1] _symbolic _____ 8APMTools10ObjectFileC
+0x100021CA0	0x00000004	[  1] _symbolic SS
+0x100021CA4	0x00000006	[  1] _symbolic _____ s6UInt64V
+0x100021CAA	0x00000006	[  1] _symbolic _____ 8APMTools7SectionV
+0x100021CB0	0x00000006	[  1] _symbolic _____ 8APMTools6SymbolV
+0x100021CB6	0x00000006	[  1] _symbolic _____ 8APMTools7LinkMapV
+0x100021CBC	0x00000006	[  1] _symbolic _____ 8APMTools11LinkMapUtilV
+0x100021CC2	0x0000000A	[  2] _symbolic _____ySiG 7SwiftUI5StateV
+0x100021CCC	0x0000000A	[  2] _symbolic Say_____G 8APMTools10ObjectFileC
+0x100021CD6	0x00000012	[  2] _symbolic _____ySay_____GG 7SwiftUI5StateV 8APMTools10ObjectFileC
+0x100021CE8	0x00000028	[  2] _symbolic _____y_____y___________y__________GtGG 7SwiftUI14NavigationViewV AA05TupleD0V 8APMTools08LeftListD0V AA19_ConditionalContentV AF07LinkMapD0V AA4TextV
+0x100021D10	0x00000020	[  2] _symbolic _____y___________y__________GtG 7SwiftUI9TupleViewV 8APMTools08LeftListD0V AA19_ConditionalContentV AD07LinkMapD0V AA4TextV
+0x100021D30	0x0000000A	[  2] _symbolic _____ySiG 7SwiftUI7BindingV
+0x100021D3A	0x00000066	[  2] _symbolic _____y_____y_____ySnySiGSi_____y_____y_____yAByAEyAEy__________G_____G___________tGG_____G_Qo_G_AMtGG 7SwiftUI6VStackV AA9TupleViewV AA7ForEachV AA0E0PAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameS0V AA4TextV AA6SpacerV AA08_PaddingS0V
+0x100021DA0	0x00000060	[  2] _symbolic _____y_____ySnySiGSi_____y_____y_____yAAyADyADy__________G_____G___________tGG_____G_Qo_G_ALtG 7SwiftUI9TupleViewV AA7ForEachV AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameR0V AA4TextV AA6SpacerV AA08_PaddingR0V
+0x100021E00	0x0000006C	[  2] _symbolic _____y___________y_____ySnySiGSi_____y_____y_____yACyAFyAFy__________G_____G___________tGG_____G_Qo_G_ANtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA7ForEachV AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA4TextV AA6SpacerV AA08_PaddingG0V
+0x100021E6C	0x00000058	[  2] _symbolic _____ySnySiGSi_____y_____y_____y_____yACyACy__________G_____G___________tGG_____G_Qo_G 7SwiftUI7ForEachV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameR0V AA4TextV AA6SpacerV AA08_PaddingR0V
+0x100021EC4	0x0000005C	[  2] _symbolic _____ySnySiGSi_____y_____y_____y_____yACyACy__________G_____G___________tGG_____G_Qo_G_ALt 7SwiftUI7ForEachV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameR0V AA4TextV AA6SpacerV AA08_PaddingR0V
+0x100021F20	0x00000008	[  2] _associated conformance 8APMTools8SideItemVSHAASQ
+0x100021F28	0x00000008	[  2] _associated conformance 8APMTools11ContentViewV7SwiftUI0C0AA4BodyAdEP_AdE
+0x100021F30	0x00000006	[  2] _symbolic _____ 8APMTools11ContentViewV
+0x100021F36	0x00000012	[  2] _symbolic $s7SwiftUI4ViewP
+0x100021F48	0x00000008	[  2] _associated conformance 8APMTools12LeftListViewV7SwiftUI0D0AA4BodyAdEP_AdE
+0x100021F50	0x00000006	[  2] _symbolic _____ 8APMTools12LeftListViewV
+0x100021F56	0x00000008	[  2] _associated conformance 8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAaD01_gH0
+0x100021F5E	0x00000008	[  2] _associated conformance 8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAA0D0AdEP_AD0C0
+0x100021F66	0x00000006	[  2] _symbolic _____ 8APMTools20ContentView_PreviewsV
+0x100021F6C	0x0000001E	[  2] _symbolic $s7SwiftUI15PreviewProviderP
+0x100021F8A	0x00000006	[  2] _symbolic _____ 8APMTools8SideItemV
+0x100021F90	0x0000000A	[  2] _symbolic Say_____G 8APMTools8SideItemV
+0x100021F9A	0x00000002	[  2] _symbolic x
+0x100021F9C	0x00000008	[  2] _get_witness_table 7SwiftUI14NavigationViewVyAA05TupleD0Vy8APMTools08LeftListD0V_AA19_ConditionalContentVyAF07LinkMapD0VAA4TextVGtGGAA0D0HPyHC.1
+0x100021FA4	0x00000008	[  2] _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA7ForEachVySnySiGSiAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAEyAOyAOyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VG_AA4TextVAA6SpacerVtGGAA08_PaddingS0VG_Qo_G_A1_tGGAaIHPyHC.2
+0x100021FAC	0x00000008	[  2] _get_witness_table 8APMTools11ContentViewV7SwiftUI0C0HPyHC.3
+0x100021FB4	0x00000004	[  2] _symbolic Si
+0x100021FB8	0x00000008	[  2] _symbolic SnySiG
+0x100021FC0	0x00000048	[  2] _symbolic _____y_____y_____y_____yAAyAAy__________G_____G___________tGG_____G_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameP0V AA4TextV AA6SpacerV AA08_PaddingP0V
+0x100022008	0x0000003E	[  2] _symbolic _____y_____y_____yAAyAAy__________G_____G___________tGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA4TextV AA6SpacerV AA08_PaddingK0V
+0x100022046	0x00000036	[  2] _symbolic _____y_____y_____yACy__________G_____G___________tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA4TextV AA6SpacerV
+0x10002207C	0x0000002E	[  2] _symbolic _____y_____yABy__________G_____G___________tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA4TextV AA6SpacerV
+0x1000220AA	0x00000012	[  2] _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
+0x1000220BC	0x0000001C	[  2] _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
+0x1000220D8	0x00000012	[  2] _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 8APMTools11LinkMapViewV AA4TextV
+0x1000220EA	0x00000012	[  3] _symbolic _____ySay_____GG 7SwiftUI7BindingV 8APMTools10ObjectFileC
+0x1000220FC	0x0000000A	[  3] _symbolic _____ySSG 7SwiftUI5StateV
+0x100022106	0x0000000A	[  3] _symbolic _____ySbG 7SwiftUI5StateV
+0x100022110	0x0000004E	[  3] _symbolic _____y_____y_____yABy______AAyABy_____y_____G______y_____AIGSgtGGtGG______tGG 7SwiftUI6VStackV AA9TupleViewV AA6HStackV 8APMTools012InputContentE0V AA6ButtonV AA4TextV AA08ProgressE0V AA05EmptyE0V AH11LinkMapListV
+0x10002215E	0x00000074	[  3] _symbolic _____y_____y_____y_____yACy______AByACy_____y_____G______y_____AJGSgtGGtGG______tGG_____y_____y_____y_____G_____GGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6HStackV 8APMTools05InputdG0V AA6ButtonV AA4TextV AA08ProgressG0V AA05EmptyG0V AJ11LinkMapListV AA16_OverlayModifierV AA06_ShapeG0V AA08_StrokedT0V AA9RectangleV6_InsetV AA5ColorV
+0x1000221D2	0x00000080	[  3] _symbolic _____y_____y_____yAAy_____yAAy______ACyAAy_____y_____G______y_____AJGSgtGGtGG______tGG_____y_____y_____y_____G_____GGG______tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6VStackV AA6HStackV 8APMTools05InputfD0V AA6ButtonV AA4TextV AA08ProgressD0V AA05EmptyD0V AJ11LinkMapListV AA16_OverlayModifierV AA06_ShapeD0V AA08_StrokedT0V AA9RectangleV6_InsetV AA5ColorV AA6SpacerV
+0x100022252	0x0000004A	[  3] _symbolic _____y_____yAAy___________yAAy_____y_____G______y_____AIGSgtGGtGG______tG 7SwiftUI9TupleViewV AA6HStackV 8APMTools012InputContentD0V AA6VStackV AA6ButtonV AA4TextV AA08ProgressD0V AA05EmptyD0V AF11LinkMapListV
+0x10002229C	0x00000058	[  3] _symbolic _____y___________y_____yACy___________yACy_____y_____G______y_____AKGSgtGGtGG______tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6HStackV 8APMTools012InputContentD0V AA0F0V AA6ButtonV AA4TextV AA08ProgressD0V AA05EmptyD0V AL11LinkMapListV
+0x1000222F4	0x00000046	[  3] _symbolic _____y___________y___________yACy_____y_____G______y_____AJGSgtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V 8APMTools012InputContentD0V AA6VStackV AA6ButtonV AA4TextV AA08ProgressD0V AA05EmptyD0V
+0x10002233A	0x00000034	[  3] _symbolic ___________y_____y_____y_____G______y_____AHGSgtGGt 8APMTools16InputContentViewV 7SwiftUI6VStackV AD05TupleD0V AD6ButtonV AD4TextV AD08ProgressD0V AD05EmptyD0V
+0x10002236E	0x00000034	[  3] _symbolic _____y___________y_____y_____G______y_____AHGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6ButtonV AA4TextV AA08ProgressD0V AA05EmptyD0V
+0x1000223A2	0x0000000E	[  3] _symbolic _____y_____G 7SwiftUI6ButtonV AA4TextV
+0x1000223B0	0x00000020	[  3] _symbolic _____y_____G______y_____AEGSgt 7SwiftUI6ButtonV AA4TextV AA12ProgressViewV AA05EmptyF0V
+0x1000223D0	0x00000010	[  3] _symbolic _____y_____ABG 7SwiftUI12ProgressViewV AA05EmptyD0V
+0x1000223E0	0x00000046	[  3] _symbolic _____y_____y___________yABy_____y_____G______y_____AIGSgtGGtGG______t 7SwiftUI6HStackV AA9TupleViewV 8APMTools012InputContentE0V AA6VStackV AA6ButtonV AA4TextV AA08ProgressE0V AA05EmptyE0V AF11LinkMapListV
+0x100022426	0x00000012	[  3] _symbolic _____y_____ABGSg 7SwiftUI12ProgressViewV AA05EmptyD0V
+0x100022438	0x00000020	[  3] _symbolic _____y_____y_____y_____G_____GG 7SwiftUI16_OverlayModifierV AA10_ShapeViewV AA08_StrokedE0V AA9RectangleV6_InsetV AA5ColorV
+0x100022458	0x0000007C	[  3] _symbolic _____y_____y_____y_____yACy______AByACy_____y_____G______y_____AJGSgtGGtGG______tGG_____y_____y_____y_____G_____GGG______t 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6HStackV 8APMTools05InputdG0V AA6ButtonV AA4TextV AA08ProgressG0V AA05EmptyG0V AJ11LinkMapListV AA16_OverlayModifierV AA06_ShapeG0V AA08_StrokedT0V AA9RectangleV6_InsetV AA5ColorV AA6SpacerV
+0x1000224D4	0x0000000A	[  3] _symbolic _____ySSG 7SwiftUI7BindingV
+0x1000224DE	0x00000048	[  3] _symbolic _____y_____yAAyAAy__________G_____G_____y_____y_____y_____G_____GGG_Qo_ 7SwiftUI4ViewPAAE6onDrop2of10isTargeted7performQrSay22UniformTypeIdentifiers6UTTypeVG_AA7BindingVySbGSgSbSaySo14NSItemProviderCGctFQO AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA06_FrameU0V AA16_OverlayModifierV AA06_ShapeC0V AA08_StrokedY0V AA9RectangleV6_InsetV AA5ColorV
+0x100022526	0x00000012	[  3] _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
+0x100022538	0x0000001C	[  3] _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA06_FrameG0V
+0x100022554	0x00000006	[  3] _symbolic _____ 8APMTools16InputContentViewV
+0x10002255A	0x0000003E	[  3] _symbolic _____yAAyAAy__________G_____G_____y_____y_____y_____G_____GGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA06_FrameG0V AA16_OverlayModifierV AA10_ShapeViewV AA08_StrokedK0V AA9RectangleV6_InsetV AA5ColorV
+0x100022598	0x0000004E	[  3] _symbolic _____y__________ySay_____GAD_____y_____y_____y__________G_AHy_____AJGAItGGGG 7SwiftUI4ListV s5NeverO AA7ForEachV 8APMTools10ObjectFileC AA6HStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA12_FrameLayoutV AA6SpacerV
+0x1000225E6	0x00000030	[  3] _symbolic _____y_____y_____y__________G_ACy_____AEGADtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA12_FrameLayoutV AA6SpacerV
+0x100022616	0x00000008	[  3] _associated conformance 8APMTools11LinkMapViewV7SwiftUI0D0AA4BodyAdEP_AdE
+0x10002261E	0x00000006	[  3] _symbolic _____ 8APMTools11LinkMapViewV
+0x100022624	0x00000008	[  3] _associated conformance 8APMTools16InputContentViewV7SwiftUI0D0AA4BodyAdEP_AdE
+0x10002262C	0x00000008	[  3] _associated conformance 8APMTools11LinkMapListV7SwiftUI4ViewAA4BodyAdEP_AdE
+0x100022634	0x00000006	[  3] _symbolic _____ 8APMTools11LinkMapListV
+0x10002263A	0x00000008	[  3] _get_witness_table 7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6VStackVyACyAA6HStackVyACy8APMTools05InputfD0V_AGyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeD0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtGAA0D0HPyHC.1
+0x100022642	0x00000008	[  3] _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE6onDrop2of10isTargeted7performQrSay22UniformTypeIdentifiers6UTTypeVG_AA7BindingVySbGSgSbSaySo14NSItemProviderCGctFQOyAA15ModifiedContentVyATyATyAA4TextVAA14_PaddingLayoutVGAA06_FrameU0VGAA16_OverlayModifierVyAA06_ShapeC0VyAA08_StrokedY0VyAA9RectangleV6_InsetVGAA5ColorVGGG_Qo_HO.2
+0x10002264A	0x00000008	[  3] _get_witness_table 7SwiftUI4ListVys5NeverOAA7ForEachVySay8APMTools10ObjectFileCGAjA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AQyAA6SpacerVAUGAStGGGGAA0L0HPyHC.3
+0x100022652	0x0000001C	[  3] _symbolic 7ElementSTQyd__qd_1_Iegnr_
+0x10002266E	0x00000006	[  3] _symbolic qd__
+0x100022674	0x00000004	[  3] _symbolic B0
+0x100022678	0x00000006	[  3] _symbolic qd_0_
+0x10002267E	0x00000004	[  3] _symbolic B1
+0x100022682	0x00000006	[  3] _symbolic qd_1_
+0x100022688	0x00000004	[  3] _symbolic B2
+0x10002268C	0x00000028	[  3] _symbolic _____y_____y__________G_ABy_____ADGACtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA12_FrameLayoutV AA6SpacerV
+0x1000226B4	0x00000008	[  3] _symbolic ______p s7CVarArgP
+0x1000226BC	0x00000012	[  3] _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV
+0x1000226CE	0x00000012	[  3] _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA6SpacerV AA12_FrameLayoutV
+0x1000226E0	0x00000018	[  3] _symbolic SaySo14NSItemProviderCG
+0x1000226F8	0x00000008	[  3] _symbolic _____Sg 10Foundation3URLV
+0x100022700	0x00000040	[  3] _symbolic _____y_____y___________yABy_____y_____G______y_____AIGSgtGGtGG 7SwiftUI6HStackV AA9TupleViewV 8APMTools012InputContentE0V AA6VStackV AA6ButtonV AA4TextV AA08ProgressE0V AA05EmptyE0V
+0x100022740	0x00000038	[  3] _symbolic _____y___________yAAy_____y_____G______y_____AHGSgtGGtG 7SwiftUI9TupleViewV 8APMTools012InputContentD0V AA6VStackV AA6ButtonV AA4TextV AA08ProgressD0V AA05EmptyD0V
+0x100022778	0x0000002E	[  3] _symbolic _____y_____y_____y_____G______y_____AGGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA6ButtonV AA4TextV AA08ProgressE0V AA05EmptyE0V
+0x1000227A6	0x00000026	[  3] _symbolic _____y_____y_____G______y_____AFGSgtG 7SwiftUI9TupleViewV AA6ButtonV AA4TextV AA08ProgressD0V AA05EmptyD0V
+0x1000227CC	0x00000006	[  3] _symbolic ScPSg
+0x1000227D2	0x0000000A	[  3] _symbolic xIeghHr_
+0x1000227DC	0x00000010	[  3] _symbolic _____ySS______G SD6ValuesV 8APMTools10ObjectFileC
+0x1000227EC	0x00000012	[  4] _symbolic _____y__________G 7SwiftUI15ModifiedContentV 8APMTools0D4ViewV AA12_FrameLayoutV
+0x1000227FE	0x00000008	[  4] _associated conformance 8APMTools0A3AppV7SwiftUI0B0AA4BodyAdEP_AD5Scene
+0x100022806	0x0000001A	[  4] _symbolic _____y_____y__________GG 7SwiftUI11WindowGroupV AA15ModifiedContentV 8APMTools0F4ViewV AA12_FrameLayoutV
+0x100022820	0x00000006	[  4] _symbolic _____ 8APMTools0A3AppV
+0x100022826	0x00000010	[  4] _symbolic $s7SwiftUI3AppP
+0x100022836	0x00000007	[  4] _get_witness_table 7SwiftUI11WindowGroupVyAA15ModifiedContentVy8APMTools0F4ViewVAA12_FrameLayoutVGGAA5SceneHPyHC.1
+0x10002283E	0x0000000C	[  5] _symbolic _____ySS_G Sh8IteratorV
+0x10002284A	0x00000008	[  5] _symbolic SDyS2SG
+0x100022852	0x00000008	[  5] _symbolic ShySSG
+0x10002285A	0x00000006	[  5] _symbolic _____ 8APMTools5OToolV
+0x100022860	0x00000040	[  1] _$s8APMTools6SymbolVSHAAMc
+0x1000228A0	0x00000028	[  1] _$s8APMTools6SymbolVSQAAMc
+0x1000228C8	0x00000000	[  1] _$s8APMTools6SymbolV4nameSSvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools6SymbolV4sizes6UInt64VvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools6SymbolV9hashValueSivpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools6SymbolV7addressSSvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools7LinkMapV7symbolsSayAA6SymbolVGvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools7LinkMapV010objectFileC0SDySSAA06ObjectE0CGvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools7SectionV4sizes6UInt64VvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools7LinkMapV8sectionsSayAA7SectionVGvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools7SectionV7sectionSSvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools7SectionV7addressSSvpMV
+0x1000228C8	0x00000000	[  1] _$s8APMTools7SectionV7segmentSSvpMV
+0x1000228C8	0x00000004	[  1] _$s8APMTools6SymbolV4fileSSvpMV
+0x1000228CC	0x0000000C	[  1] l___unnamed_32
+0x1000228D8	0x0000000C	[  1] l___unnamed_33
+0x1000228E4	0x00000034	[  1] _$s8APMTools10ObjectFileCMn
+0x100022918	0x00000008	[  1] _$s8APMTools10ObjectFileC4fileSSvgTq
+0x100022920	0x00000008	[  1] _$s8APMTools10ObjectFileC4fileSSvsTq
+0x100022928	0x00000008	[  1] _$s8APMTools10ObjectFileC4fileSSvMTq
+0x100022930	0x00000008	[  1] _$s8APMTools10ObjectFileC4pathSSvgTq
+0x100022938	0x00000008	[  1] _$s8APMTools10ObjectFileC4pathSSvsTq
+0x100022940	0x00000008	[  1] _$s8APMTools10ObjectFileC4pathSSvMTq
+0x100022948	0x00000008	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvgTq
+0x100022950	0x00000008	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvsTq
+0x100022958	0x00000008	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvMTq
+0x100022960	0x00000008	[  1] _$s8APMTools10ObjectFileC4file4path4sizeACSS_SSs6UInt64VtcfCTq
+0x100022968	0x00000008	[  1] l___unnamed_37
+0x100022970	0x0000001C	[  1] _$s8APMTools7SectionVMn
+0x10002298C	0x00000008	[  1] l___unnamed_41
+0x100022994	0x0000001C	[  1] _$s8APMTools6SymbolVMn
+0x1000229B0	0x00000008	[  1] l___unnamed_43
+0x1000229B8	0x0000001C	[  1] _$s8APMTools7LinkMapVMn
+0x1000229D4	0x0000000C	[  1] l___unnamed_47
+0x1000229E0	0x0000001C	[  1] _$s8APMTools11LinkMapUtilVMn
+0x100022A00	0x00000008	[  2] 8-byte-literal
+0x100022A10	0x00000040	[  2] _$s8APMTools8SideItemVSHAAMc
+0x100022A50	0x00000028	[  2] _$s8APMTools8SideItemVSQAAMc
+0x100022A78	0x00000050	[  2] _$s8APMTools11ContentViewV7SwiftUI0C0AAMc
+0x100022AC8	0x00000050	[  2] _$s8APMTools12LeftListViewV7SwiftUI0D0AAMc
+0x100022B18	0x00000048	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAAMc
+0x100022B60	0x00000030	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI16_PreviewProviderAAMc
+0x100022B90	0x00000000	[  2] _$s8APMTools11ContentViewV4bodyQrvpMV
+0x100022B90	0x00000000	[  2] _$s8APMTools11ContentViewV20$currentSelectedItem7SwiftUI7BindingVySiGvpMV
+0x100022B90	0x00000000	[  2] _$s8APMTools12LeftListViewV20$currentSelectedItem7SwiftUI7BindingVySiGvpMV
+0x100022B90	0x00000000	[  2] _$s8APMTools11ContentViewV9sideItemsSayAA8SideItemVGvpMV
+0x100022B90	0x00000000	[  2] _$s8APMTools12LeftListViewV9sideItemsSayAA8SideItemVGvpMV
+0x100022B90	0x00000000	[  2] _$s8APMTools12LeftListViewV4bodyQrvpMV
+0x100022B90	0x00000000	[  2] _$s8APMTools8SideItemV9hashValueSivpMV
+0x100022B90	0x00000000	[  2] _$s8APMTools8SideItemV5titleSSvpMV
+0x100022B90	0x00000000	[  2] _$s8APMTools8SideItemV9imageNameSSvpMV
+0x100022B90	0x00000004	[  2] _$s8APMTools11ContentViewV12$objectFiles7SwiftUI7BindingVySayAA10ObjectFileCGGvpMV
+0x100022B94	0x0000000C	[  2] l___unnamed_8
+0x100022BA0	0x0000000C	[  2] _$s8APMToolsMXM
+0x100022BAC	0x0000000C	[  2] l___unnamed_9
+0x100022BB8	0x0000001C	[  2] _$s8APMTools8SideItemVMn
+0x100022BD4	0x0000000C	[  2] l___unnamed_12
+0x100022BE0	0x0000001C	[  2] _$s8APMTools11ContentViewVMn
+0x100022BFC	0x00000010	[  2] l___unnamed_16
+0x100022C0C	0x00000024	[  2] _$s8APMTools12LeftListViewVMn
+0x100022C30	0x00000018	[  2] l___unnamed_17
+0x100022C48	0x00000028	[  2] _$s8APMTools20ContentView_PreviewsVMn
+0x100022C70	0x00000024	[  2] l___unnamed_18
+0x100022C94	0x0000000C	[  2] _$s8APMTools11ContentViewV4bodyQrvpMXX
+0x100022CA0	0x00000030	[  2] _$s8APMTools11ContentViewV4bodyQrvpQOMQ
+0x100022CD0	0x00000024	[  2] l___unnamed_19
+0x100022CF4	0x0000000C	[  2] _$s8APMTools12LeftListViewV4bodyQrvpMXX
+0x100022D00	0x00000030	[  2] _$s8APMTools12LeftListViewV4bodyQrvpQOMQ
+0x100022D30	0x00000034	[  2] l___unnamed_20
+0x100022D64	0x0000000C	[  2] _$s8APMTools20ContentView_PreviewsV8previewsQrvpZMXX
+0x100022D70	0x00000028	[  2] _$s8APMTools20ContentView_PreviewsV8previewsQrvpZQOMQ
+0x100022D98	0x00000008	[  2] l___unnamed_21
+0x100022DA0	0x00000018	[  2] l_keypath
+0x100022DB8	0x00000008	[  3] 8-byte-literal
+0x100022DC0	0x00000008	[  3] 8-byte-literal
+0x100022DD0	0x00000008	[  3] l___unnamed_7
+0x100022DD8	0x00000018	[  3] l_keypath
+0x100022DF0	0x00000050	[  3] _$s8APMTools11LinkMapViewV7SwiftUI0D0AAMc
+0x100022E40	0x00000050	[  3] _$s8APMTools16InputContentViewV7SwiftUI0D0AAMc
+0x100022E90	0x00000050	[  3] _$s8APMTools11LinkMapListV7SwiftUI4ViewAAMc
+0x100022EE0	0x00000000	[  3] _$s8APMTools11LinkMapListV4bodyQrvpMV
+0x100022EE0	0x00000000	[  3] _$s8APMTools11LinkMapViewV10$isLoading7SwiftUI7BindingVySbGvpMV
+0x100022EE0	0x00000000	[  3] _$s8APMTools11LinkMapViewV12$objectFiles7SwiftUI7BindingVySayAA10ObjectFileCGGvpMV
+0x100022EE0	0x00000000	[  3] _$s8APMTools11LinkMapViewV4bodyQrvpMV
+0x100022EE0	0x00000000	[  3] _$s8APMTools11LinkMapViewV9$filePath7SwiftUI7BindingVySSGvpMV
+0x100022EE0	0x00000000	[  3] _$s8APMTools16InputContentViewV11$isTargeted7SwiftUI7BindingVySbGvpMV
+0x100022EE0	0x00000000	[  3] _$s8APMTools16InputContentViewV4bodyQrvpMV
+0x100022EE0	0x00000000	[  3] _$s8APMTools16InputContentViewV8$fileUrl7SwiftUI7BindingVySSGvpMV
+0x100022EE0	0x00000004	[  3] _$s8APMTools11LinkMapListV12$objectFiles7SwiftUI7BindingVySayAA10ObjectFileCGGvpMV
+0x100022EE4	0x0000000C	[  3] l___unnamed_9
+0x100022EFC	0x0000000C	[  3] l___unnamed_10
+0x100022F08	0x00000028	[  3] _$s8APMTools11LinkMapViewVMn
+0x100022F30	0x00000014	[  3] l___unnamed_14
+0x100022F44	0x0000001C	[  3] _$s8APMTools16InputContentViewVMn
+0x100022F60	0x0000000C	[  3] l___unnamed_17
+0x100022F6C	0x00000024	[  3] _$s8APMTools11LinkMapListVMn
+0x100022F90	0x00000024	[  3] l___unnamed_18
+0x100022FB4	0x0000000C	[  3] _$s8APMTools11LinkMapViewV4bodyQrvpMXX
+0x100022FC0	0x00000030	[  3] _$s8APMTools11LinkMapViewV4bodyQrvpQOMQ
+0x100022FF0	0x00000028	[  3] l___unnamed_19
+0x100023018	0x0000000C	[  3] _$s8APMTools16InputContentViewV4bodyQrvpMXX
+0x100023024	0x0000002C	[  3] _$s8APMTools16InputContentViewV4bodyQrvpQOMQ
+0x100023050	0x00000024	[  3] l___unnamed_20
+0x100023074	0x0000000C	[  3] _$s8APMTools11LinkMapListV4bodyQrvpMXX
+0x100023080	0x00000028	[  3] _$s8APMTools11LinkMapListV4bodyQrvpQOMQ
+0x1000230B0	0x00000040	[  4] _$s8APMTools0A3AppV7SwiftUI0B0AAMc
+0x1000230F0	0x00000004	[  4] _$s8APMTools0A3AppV4bodyQrvpMV
+0x1000230F4	0x0000000C	[  4] l___unnamed_2
+0x10002310C	0x0000000C	[  4] l___unnamed_3
+0x100023118	0x00000028	[  4] _$s8APMTools0A3AppVMn
+0x100023140	0x0000001C	[  4] l___unnamed_4
+0x10002315C	0x0000000C	[  4] _$s8APMTools0A3AppV4bodyQrvpMXX
+0x100023168	0x00000028	[  4] _$s8APMTools0A3AppV4bodyQrvpQOMQ
+0x100023190	0x00000002	[  4] ___swift_reflection_version
+0x100023194	0x0000000C	[  5] l___unnamed_12
+0x1000231A0	0x00000008	[  5] l___unnamed_13
+0x1000231A8	0x0000001C	[  5] _$s8APMTools5OToolVMn
+0x1000231D0	0x00000005	[  1] l___unnamed_34
+0x1000231D5	0x00000005	[  1] l___unnamed_35
+0x1000231DA	0x00000005	[  1] l___unnamed_36
+0x1000231DF	0x00000008	[  1] l___unnamed_38
+0x1000231E7	0x00000008	[  1] l___unnamed_39
+0x1000231EF	0x00000008	[  1] l___unnamed_40
+0x1000231F7	0x00000005	[  1] l___unnamed_42
+0x1000231FC	0x0000000E	[  1] l___unnamed_44
+0x10002320A	0x00000009	[  1] l___unnamed_45
+0x100023213	0x00000008	[  1] l___unnamed_46
+0x100023220	0x00000005	[  2] l___unnamed_6
+0x100023225	0x00000009	[  2] l___unnamed_7
+0x10002322E	0x00000006	[  2] l___unnamed_10
+0x100023234	0x0000000C	[  2] l___unnamed_11
+0x100023240	0x00000015	[  2] l___unnamed_13
+0x100023255	0x0000000D	[  2] l___unnamed_14
+0x100023262	0x0000000A	[  2] l___unnamed_15
+0x10002326C	0x00000005	[  3] l___unnamed_8
+0x100023271	0x0000000D	[  3] l___unnamed_11
+0x10002327E	0x0000000A	[  3] l___unnamed_12
+0x100023288	0x0000000B	[  3] l___unnamed_13
+0x100023293	0x0000000C	[  3] l___unnamed_15
+0x10002329F	0x00000009	[  3] l___unnamed_16
+0x1000232A8	0x00000005	[  4] l___unnamed_1
+0x1000232B0	0x00000034	[  1] _$s8APMTools10ObjectFileCMF
+0x1000232E4	0x00000040	[  1] _$s8APMTools7SectionVMF
+0x100023324	0x00000040	[  1] _$s8APMTools6SymbolVMF
+0x100023364	0x00000034	[  1] _$s8APMTools7LinkMapVMF
+0x100023398	0x00000010	[  1] _$s8APMTools11LinkMapUtilVMF
+0x1000233A8	0x00000028	[  2] _$s8APMTools8SideItemVMF
+0x1000233D0	0x00000034	[  2] _$s8APMTools11ContentViewVMF
+0x100023404	0x00000028	[  2] _$s8APMTools12LeftListViewVMF
+0x10002342C	0x00000010	[  2] _$s8APMTools20ContentView_PreviewsVMF
+0x10002343C	0x00000034	[  3] _$s8APMTools11LinkMapViewVMF
+0x100023470	0x00000028	[  3] _$s8APMTools16InputContentViewVMF
+0x100023498	0x0000001C	[  3] _$s8APMTools11LinkMapListVMF
+0x1000234B4	0x00000010	[  4] _$s8APMTools0A3AppVMF
+0x1000234C4	0x00000010	[  5] _$s8APMTools5OToolVMF
+0x1000234D4	0x00000004	[  1] l_$s8APMTools6SymbolVSHAAHc
+0x1000234D8	0x00000004	[  1] l_$s8APMTools6SymbolVSQAAHc
+0x1000234DC	0x00000004	[  2] l_$s8APMTools8SideItemVSHAAHc
+0x1000234E0	0x00000004	[  2] l_$s8APMTools8SideItemVSQAAHc
+0x1000234E4	0x00000004	[  2] l_$s8APMTools11ContentViewV7SwiftUI0C0AAHc
+0x1000234E8	0x00000004	[  2] l_$s8APMTools12LeftListViewV7SwiftUI0D0AAHc
+0x1000234EC	0x00000004	[  2] l_$s8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAAHc
+0x1000234F0	0x00000004	[  2] l_$s8APMTools20ContentView_PreviewsV7SwiftUI16_PreviewProviderAAHc
+0x1000234F4	0x00000004	[  3] l_$s8APMTools11LinkMapViewV7SwiftUI0D0AAHc
+0x1000234F8	0x00000004	[  3] l_$s8APMTools16InputContentViewV7SwiftUI0D0AAHc
+0x1000234FC	0x00000004	[  3] l_$s8APMTools11LinkMapListV7SwiftUI4ViewAAHc
+0x100023500	0x00000004	[  4] l_$s8APMTools0A3AppV7SwiftUI0B0AAHc
+0x100023504	0x00000004	[  1] l_$s8APMTools10ObjectFileCHn
+0x100023508	0x00000004	[  1] l_$s8APMTools7SectionVHn
+0x10002350C	0x00000004	[  1] l_$s8APMTools6SymbolVHn
+0x100023510	0x00000004	[  1] l_$s8APMTools7LinkMapVHn
+0x100023514	0x00000004	[  1] l_$s8APMTools11LinkMapUtilVHn
+0x100023518	0x00000004	[  2] l_$s8APMTools8SideItemVHn
+0x10002351C	0x00000004	[  2] l_$s8APMTools11ContentViewVHn
+0x100023520	0x00000004	[  2] l_$s8APMTools12LeftListViewVHn
+0x100023524	0x00000004	[  2] l_$s8APMTools20ContentView_PreviewsVHn
+0x100023528	0x00000004	[  2] l_$s8APMTools11ContentViewV4bodyQrvpQOHo
+0x10002352C	0x00000004	[  2] l_$s8APMTools12LeftListViewV4bodyQrvpQOHo
+0x100023530	0x00000004	[  2] l_$s8APMTools20ContentView_PreviewsV8previewsQrvpZQOHo
+0x100023534	0x00000004	[  3] l_$s8APMTools11LinkMapViewVHn
+0x100023538	0x00000004	[  3] l_$s8APMTools16InputContentViewVHn
+0x10002353C	0x00000004	[  3] l_$s8APMTools11LinkMapListVHn
+0x100023540	0x00000004	[  3] l_$s8APMTools11LinkMapViewV4bodyQrvpQOHo
+0x100023544	0x00000004	[  3] l_$s8APMTools16InputContentViewV4bodyQrvpQOHo
+0x100023548	0x00000004	[  3] l_$s8APMTools11LinkMapListV4bodyQrvpQOHo
+0x10002354C	0x00000004	[  4] l_$s8APMTools0A3AppVHn
+0x100023550	0x00000004	[  4] l_$s8APMTools0A3AppV4bodyQrvpQOHo
+0x100023554	0x00000004	[  5] l_$s8APMTools5OToolVHn
+0x100023558	0x00000018	[  2] _$s8APMTools11ContentViewV7SwiftUI0C0AAMA
+0x100023570	0x00000018	[  2] _$s8APMTools12LeftListViewV7SwiftUI0D0AAMA
+0x100023588	0x00000018	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAAMA
+0x1000235A0	0x00000018	[  3] _$s8APMTools11LinkMapViewV7SwiftUI0D0AAMA
+0x1000235B8	0x00000018	[  3] _$s8APMTools16InputContentViewV7SwiftUI0D0AAMA
+0x1000235D0	0x00000018	[  3] _$s8APMTools11LinkMapListV7SwiftUI4ViewAAMA
+0x1000235E8	0x00000018	[  4] _$s8APMTools0A3AppV7SwiftUI0B0AAMA
+0x100023600	0x00000010	[  2] l__swift5_reflection_descriptor
+0x100023610	0x00000014	[  2] l__swift5_reflection_descriptor.4
+0x100023624	0x00000010	[  3] l__swift5_reflection_descriptor
+0x100023634	0x00000028	[  3] l__swift5_reflection_descriptor.4
+0x10002365C	0x00000010	[  3] l__swift5_reflection_descriptor.7
+0x10002366C	0x00000010	[  3] l__swift5_reflection_descriptor.10
+0x10002367C	0x00000010	[  3] l__swift5_reflection_descriptor.13
+0x10002368C	0x00000018	[  3] l__swift5_reflection_descriptor.16
+0x1000236A4	0x00000004	[  4] l_entry_point
+0x1000236A8	0x00000508	[  0] compact unwind info
+0x100023BB0	0x00000018	[  1] CIE
+0x100023BC8	0x00000028	[  1] FDE for: _$s8APMTools11LinkMapUtilV7analyze4withAA0bC0VSS_tYaKFZ
+0x100023BF0	0x00000020	[  1] FDE for: ___swift_suspend_dispatch_5
+0x100023C10	0x00000020	[  1] FDE for: ___swift_suspend_dispatch_5.1
+0x100023C30	0x00000020	[  1] FDE for: _$s8APMTools7SectionVMa
+0x100023C50	0x00000020	[  1] FDE for: _$s8APMTools6SymbolVMa
+0x100023C70	0x00000020	[  1] FDE for: _$s8APMTools7LinkMapVMa
+0x100023C90	0x00000020	[  1] FDE for: _$s8APMTools11LinkMapUtilVMa
+0x100023CB0	0x00000020	[  1] FDE for: l_coro.devirt.trigger
+0x100023CD0	0x00000020	[  1] FDE for: ___chkstk_darwin
+0x100023CF0	0x00000020	[  1] FDE for: ___chkstk_darwin_llvm_probe
+0x100023D10	0x00000018	[  2] CIE
+0x100023D28	0x00000020	[  2] FDE for: _$s8APMTools8SideItemVMa
+0x100023D48	0x00000020	[  2] FDE for: _$s8APMTools11ContentViewVMa
+0x100023D68	0x00000020	[  2] FDE for: _$s8APMTools12LeftListViewVMa
+0x100023D88	0x00000020	[  2] FDE for: _$s8APMTools20ContentView_PreviewsVMa
+0x100023DA8	0x00000020	[  2] FDE for: l_coro.devirt.trigger
+0x100023DC8	0x00000018	[  3] CIE
+0x100023DE0	0x00000028	[  3] FDE for: _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_yyYaYbcfU_TQ0_
+0x100023E08	0x00000020	[  3] FDE for: _$s8APMTools11LinkMapViewVMa
+0x100023E28	0x00000020	[  3] FDE for: _$s8APMTools16InputContentViewVMa
+0x100023E48	0x00000020	[  3] FDE for: _$s8APMTools11LinkMapListVMa
+0x100023E68	0x00000020	[  3] FDE for: ___swift_suspend_dispatch_3
+0x100023E88	0x00000020	[  3] FDE for: ___swift_suspend_dispatch_1
+0x100023EA8	0x00000020	[  3] FDE for: ___swift_suspend_dispatch_5
+0x100023EC8	0x00000020	[  3] FDE for: ___swift_suspend_dispatch_2
+0x100023EE8	0x00000020	[  3] FDE for: ___swift_suspend_dispatch_3.19
+0x100023F08	0x00000020	[  3] FDE for: ___swift_suspend_dispatch_2.20
+0x100023F28	0x00000020	[  3] FDE for: ___swift_suspend_dispatch_3.21
+0x100023F48	0x00000020	[  3] FDE for: ___swift_suspend_dispatch_1.22
+0x100023F68	0x00000020	[  3] FDE for: l_coro.devirt.trigger
+0x100023F88	0x00000018	[  4] CIE
+0x100023FA0	0x00000020	[  4] FDE for: _$s8APMTools0A3AppVMa
+0x100023FC0	0x00000018	[  5] CIE
+0x100023FD8	0x00000020	[  5] FDE for: _$s8APMTools5OToolVMa
+0x100024000	0x00000008	[  0] non-lazy-pointer-to-local: _$s10Foundation3URLVMn
+0x100024008	0x00000008	[  0] non-lazy-pointer-to-local: _$s10Foundation3URLVs21_ObjectiveCBridgeableAAMc
+0x100024010	0x00000008	[  0] non-lazy-pointer-to-local: _$s4Body7SwiftUI3AppPTl
+0x100024018	0x00000008	[  0] non-lazy-pointer-to-local: _$s4Body7SwiftUI4ViewPTl
+0x100024020	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI10_ShapeViewVMn
+0x100024028	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI11WindowGroupVMn
+0x100024030	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI11WindowGroupVyxGAA5SceneAAMc
+0x100024038	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI12ProgressViewVMn
+0x100024040	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI12ProgressViewVyxq_GAA0D0AAMc
+0x100024048	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+0x100024050	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI12_FrameLayoutVMn
+0x100024058	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI13_HStackLayoutVMn
+0x100024060	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI13_StrokedShapeVMn
+0x100024068	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI13_VStackLayoutVMn
+0x100024070	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI13_VariadicViewO4TreeVMn
+0x100024078	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI14NavigationViewVMn
+0x100024080	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI14NavigationViewVyxGAA0D0AAMc
+0x100024088	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+0x100024090	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI14_PaddingLayoutVMn
+0x100024098	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI15ModifiedContentVMn
+0x1000240A0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI15ModifiedContentVyxq_GAA4ViewA2aERzAA0E8ModifierR_rlMc
+0x1000240A8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI15PreviewProviderMp
+0x1000240B0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI15PreviewProviderP8PreviewsAC_AA4ViewTn
+0x1000240B8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI15PreviewProviderP8platformAA0C8PlatformOSgvgZTq
+0x1000240C0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI15PreviewProviderP8previews8PreviewsQzvgZTq
+0x1000240C8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI15PreviewProviderPAA01_cD0Tb
+0x1000240D0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI16_OverlayModifierVMn
+0x1000240D8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI16_OverlayModifierVyxGAA04ViewD0AAMc
+0x1000240E0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI16_PreviewProviderMp
+0x1000240E8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI16_PreviewProviderP9_platformAA0C8PlatformOSgvgZTq
+0x1000240F0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI16_PreviewProviderP9_previewsypvgZTq
+0x1000240F8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+0x100024100	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI18_AspectRatioLayoutVMn
+0x100024108	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI19_ConditionalContentVMn
+0x100024110	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
+0x100024118	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI3AppMp
+0x100024120	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI3AppP4BodyAC_AA5SceneTn
+0x100024128	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI3AppP4body4BodyQzvgTq
+0x100024130	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI3AppPxycfCTq
+0x100024138	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ListVMn
+0x100024140	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ListVyxq_GAA4ViewAAMc
+0x100024148	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4TextVAA4ViewAAWP
+0x100024150	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4TextVMn
+0x100024158	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4TextVN
+0x100024160	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ViewMp
+0x100024168	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ViewP05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZTq
+0x100024170	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ViewP05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZTq
+0x100024178	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ViewP14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZTq
+0x100024180	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ViewP4BodyAC_AaBTn
+0x100024188	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ViewP4body4BodyQzvgTq
+0x100024190	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOMQ
+0x100024198	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI4ViewPAAE6onDrop2of10isTargeted7performQrSay22UniformTypeIdentifiers6UTTypeVG_AA7BindingVySbGSgSbSaySo14NSItemProviderCGctFQOMQ
+0x1000241A0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+0x1000241A8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5ColorVMn
+0x1000241B0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5ColorVN
+0x1000241B8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5ImageV12ResizingModeO7stretchyA2EmFWC
+0x1000241C0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5ImageVAA4ViewAAWP
+0x1000241C8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5ImageVMn
+0x1000241D0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5ImageVN
+0x1000241D8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5SceneMp
+0x1000241E0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI5StateVMn
+0x1000241E8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6ButtonVMn
+0x1000241F0	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6ButtonVyxGAA4ViewAAMc
+0x1000241F8	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6HStackVMn
+0x100024200	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6HStackVyxGAA4ViewAAMc
+0x100024208	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6SpacerVAA4ViewAAWP
+0x100024210	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6SpacerVMn
+0x100024218	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6SpacerVN
+0x100024220	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6VStackVMn
+0x100024228	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI6VStackVyxGAA4ViewAAMc
+0x100024230	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI7BindingVMn
+0x100024238	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI7ForEachVMn
+0x100024240	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI7ForEachVyxq_q0_GAA4ViewA2aER0_rlMc
+0x100024248	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI9EmptyViewVMn
+0x100024250	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI9RectangleV6_InsetVMn
+0x100024258	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI9TupleViewVMn
+0x100024260	0x00000008	[  0] non-lazy-pointer-to-local: _$s7SwiftUI9TupleViewVyxGAA0D0AAMc
+0x100024268	0x00000008	[  0] non-lazy-pointer-to-local: _$s8APMTools10ObjectFileCMn
+0x100024270	0x00000008	[  0] non-lazy-pointer-to-local: _$s8APMTools11ContentViewVMn
+0x100024278	0x00000008	[  0] non-lazy-pointer-to-local: _$s8APMTools11LinkMapViewVMn
+0x100024280	0x00000008	[  0] non-lazy-pointer-to-local: _$s8Previews7SwiftUI15PreviewProviderPTl
+0x100024288	0x00000008	[  0] non-lazy-pointer-to-local: _$sSD6ValuesVMn
+0x100024290	0x00000008	[  0] non-lazy-pointer-to-local: _$sSD6ValuesVyxq__GSTsMc
+0x100024298	0x00000008	[  0] non-lazy-pointer-to-local: _$sSH13_rawHashValue4seedS2i_tFTq
+0x1000242A0	0x00000008	[  0] non-lazy-pointer-to-local: _$sSH4hash4intoys6HasherVz_tFTq
+0x1000242A8	0x00000008	[  0] non-lazy-pointer-to-local: _$sSH9hashValueSivgTq
+0x1000242B0	0x00000008	[  0] non-lazy-pointer-to-local: _$sSHMp
+0x1000242B8	0x00000008	[  0] non-lazy-pointer-to-local: _$sSHSQTb
+0x1000242C0	0x00000008	[  0] non-lazy-pointer-to-local: _$sSJSQsWP
+0x1000242C8	0x00000008	[  0] non-lazy-pointer-to-local: _$sSQ2eeoiySbx_xtFZTq
+0x1000242D0	0x00000008	[  0] non-lazy-pointer-to-local: _$sSQMp
+0x1000242D8	0x00000008	[  0] non-lazy-pointer-to-local: _$sSS5IndexVMn
+0x1000242E0	0x00000008	[  0] non-lazy-pointer-to-local: _$sSS5IndexVN
+0x1000242E8	0x00000008	[  0] non-lazy-pointer-to-local: _$sSS5IndexVSLsWP
+0x1000242F0	0x00000008	[  0] non-lazy-pointer-to-local: _$sSSN
+0x1000242F8	0x00000008	[  0] non-lazy-pointer-to-local: _$sSSSHsWP
+0x100024300	0x00000008	[  0] non-lazy-pointer-to-local: _$sSSSlsMc
+0x100024308	0x00000008	[  0] non-lazy-pointer-to-local: _$sSSSysMc
+0x100024310	0x00000008	[  0] non-lazy-pointer-to-local: _$sSayxGSKsMc
+0x100024318	0x00000008	[  0] non-lazy-pointer-to-local: _$sSayxGSTsMc
+0x100024320	0x00000008	[  0] non-lazy-pointer-to-local: _$sSayxGSksMc
+0x100024328	0x00000008	[  0] non-lazy-pointer-to-local: _$sSayxGSlsMc
+0x100024330	0x00000008	[  0] non-lazy-pointer-to-local: _$sSbN
+0x100024338	0x00000008	[  0] non-lazy-pointer-to-local: _$sSdN
+0x100024340	0x00000008	[  0] non-lazy-pointer-to-local: _$sSds7CVarArgsWP
+0x100024348	0x00000008	[  0] non-lazy-pointer-to-local: _$sSh8IteratorVMn
+0x100024350	0x00000008	[  0] non-lazy-pointer-to-local: _$sSiN
+0x100024358	0x00000008	[  0] non-lazy-pointer-to-local: _$sSiSHsWP
+0x100024360	0x00000008	[  0] non-lazy-pointer-to-local: _$sSiSZsMc
+0x100024368	0x00000008	[  0] non-lazy-pointer-to-local: _$sSiSxsWP
+0x100024370	0x00000008	[  0] non-lazy-pointer-to-local: _$sSnyxGSksSxRzSZ6StrideRpzrlMc
+0x100024378	0x00000008	[  0] non-lazy-pointer-to-local: _$sSo8NSObjectCSH10ObjectiveCMc
+0x100024380	0x00000008	[  0] non-lazy-pointer-to-local: _$sSo8NSObjectCs23CustomStringConvertible10FoundationMc
+0x100024388	0x00000008	[  0] non-lazy-pointer-to-local: _$sSsN
+0x100024390	0x00000008	[  0] non-lazy-pointer-to-local: _$sSsSysMc
+0x100024398	0x00000008	[  0] non-lazy-pointer-to-local: _$ss16IndexingIteratorVMn
+0x1000243A0	0x00000008	[  0] non-lazy-pointer-to-local: _$ss16PartialRangeFromVMn
+0x1000243A8	0x00000008	[  0] non-lazy-pointer-to-local: _$ss16PartialRangeFromVyxGSXsMc
+0x1000243B0	0x00000008	[  0] non-lazy-pointer-to-local: _$ss19PartialRangeThroughVMn
+0x1000243B8	0x00000008	[  0] non-lazy-pointer-to-local: _$ss19PartialRangeThroughVyxGSXsMc
+0x1000243C0	0x00000008	[  0] non-lazy-pointer-to-local: _$ss5NeverOMn
+0x1000243C8	0x00000008	[  0] non-lazy-pointer-to-local: _$ss5NeverON
+0x1000243D0	0x00000008	[  0] non-lazy-pointer-to-local: _$ss5NeverOSHsWP
+0x1000243D8	0x00000008	[  0] non-lazy-pointer-to-local: _$ss5NeverOs5ErrorsWP
+0x1000243E0	0x00000008	[  0] non-lazy-pointer-to-local: _$ss6UInt32VN
+0x1000243E8	0x00000008	[  0] non-lazy-pointer-to-local: _$ss6UInt64VMn
+0x1000243F0	0x00000008	[  0] non-lazy-pointer-to-local: _$ss6UInt64VN
+0x1000243F8	0x00000008	[  0] non-lazy-pointer-to-local: _$ss6UInt64VSHsWP
+0x100024400	0x00000008	[  0] non-lazy-pointer-to-local: _$ss6UInt64VSzsMc
+0x100024408	0x00000008	[  0] non-lazy-pointer-to-local: _$ss6UInt64Vs17FixedWidthIntegersMc
+0x100024410	0x00000008	[  0] non-lazy-pointer-to-local: _$ss7CVarArgMp
+0x100024418	0x00000008	[  0] non-lazy-pointer-to-local: _$ss7KeyPathCMo
+0x100024420	0x00000008	[  0] non-lazy-pointer-to-local: _$sxSg7SwiftUI4ViewA2bCRzlMc
+0x100024428	0x00000008	[  0] non-lazy-pointer-to-local: _$sypN
+0x100024430	0x00000008	[  0] non-lazy-pointer-to-local: _$sytN
+0x100024438	0x00000008	[  0] non-lazy-pointer-to-local: ____chkstk_darwin
+0x100024440	0x00000008	[  0] non-lazy-pointer-to-local: _objc_release
+0x100024448	0x00000008	[  0] non-lazy-pointer-to-local: _objc_retain
+0x100024450	0x00000008	[  0] non-lazy-pointer-to-local: _swift_isaMask
+0x100024458	0x00000008	[  0] non-lazy-pointer-to-local: dyld_stub_binder
+0x100024460	0x00000010	[  1] _$s8APMTools10ObjectFileC4fileSSvpMV
+0x100024470	0x00000010	[  1] _$s8APMTools10ObjectFileC4pathSSvpMV
+0x100024480	0x00000010	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvpMV
+0x100024490	0x00000058	[  1] _$s8APMTools7SectionVWV
+0x1000244E8	0x00000008	[  1] _$s8APMTools7SectionVMf
+0x1000244F0	0x00000020	[  1] _$s8APMTools7SectionVN
+0x100024510	0x00000058	[  1] _$s8APMTools6SymbolVWV
+0x100024568	0x00000008	[  1] _$s8APMTools6SymbolVMf
+0x100024570	0x00000020	[  1] _$s8APMTools6SymbolVN
+0x100024590	0x00000058	[  1] _$s8APMTools7LinkMapVWV
+0x1000245E8	0x00000008	[  1] _$s8APMTools7LinkMapVMf
+0x1000245F0	0x00000020	[  1] _$s8APMTools7LinkMapVN
+0x100024610	0x00000008	[  1] _$s8APMTools11LinkMapUtilVMf
+0x100024618	0x00000010	[  1] _$s8APMTools11LinkMapUtilVN
+0x100024628	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftFoundation_$_APMTools
+0x100024630	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftObjectiveC_$_APMTools
+0x100024638	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftDarwin_$_APMTools
+0x100024640	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftCoreFoundation_$_APMTools
+0x100024648	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftDispatch_$_APMTools
+0x100024650	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftXPC_$_APMTools
+0x100024658	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftIOKit_$_APMTools
+0x100024660	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftCoreGraphics_$_APMTools
+0x100024668	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftos_$_APMTools
+0x100024670	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_APMTools
+0x100024678	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftAppKit_$_APMTools
+0x100024680	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftCoreImage_$_APMTools
+0x100024688	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftMetal_$_APMTools
+0x100024690	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftCoreData_$_APMTools
+0x100024698	0x00000008	[  1] __swift_FORCE_LOAD_$_swiftQuartzCore_$_APMTools
+0x1000246A0	0x00000010	[  2] _$s8APMTools11ContentViewV19currentSelectedItemSivpMV
+0x1000246B0	0x00000010	[  2] _$s8APMTools11ContentViewV11objectFilesSayAA10ObjectFileCGvpMV
+0x1000246C0	0x00000010	[  2] _$s8APMTools12LeftListViewV19currentSelectedItemSivpMV
+0x1000246D0	0x00000058	[  2] _$s8APMTools8SideItemVWV
+0x100024728	0x00000008	[  2] _$s8APMTools8SideItemVMf
+0x100024730	0x00000018	[  2] _$s8APMTools8SideItemVN
+0x100024748	0x00000058	[  2] _$s8APMTools11ContentViewVWV
+0x1000247A0	0x00000008	[  2] _$s8APMTools11ContentViewVMf
+0x1000247A8	0x00000020	[  2] _$s8APMTools11ContentViewVN
+0x1000247C8	0x00000058	[  2] _$s8APMTools12LeftListViewVWV
+0x100024820	0x00000008	[  2] _$s8APMTools12LeftListViewVMf
+0x100024828	0x00000018	[  2] _$s8APMTools12LeftListViewVN
+0x100024840	0x00000008	[  2] _$s8APMTools20ContentView_PreviewsVMf
+0x100024848	0x00000010	[  2] _$s8APMTools20ContentView_PreviewsVN
+0x100024858	0x00000028	[  2] l_metadata
+0x100024880	0x00000028	[  2] l_metadata.6
+0x1000248A8	0x00000028	[  3] l_metadata
+0x1000248D0	0x00000010	[  3] _$s8APMTools11LinkMapViewV11objectFilesSayAA10ObjectFileCGvpMV
+0x1000248E0	0x00000010	[  3] _$s8APMTools11LinkMapViewV8filePathSSvpMV
+0x1000248F0	0x00000010	[  3] _$s8APMTools11LinkMapViewV9isLoadingSbvpMV
+0x100024900	0x00000010	[  3] _$s8APMTools16InputContentViewV10isTargetedSbvpMV
+0x100024910	0x00000010	[  3] _$s8APMTools16InputContentViewV7fileUrlSSvpMV
+0x100024920	0x00000010	[  3] _$s8APMTools11LinkMapListV11objectFilesSayAA10ObjectFileCGvpMV
+0x100024930	0x00000058	[  3] _$s8APMTools11LinkMapViewVWV
+0x100024988	0x00000008	[  3] _$s8APMTools11LinkMapViewVMf
+0x100024990	0x00000020	[  3] _$s8APMTools11LinkMapViewVN
+0x1000249B0	0x00000058	[  3] _$s8APMTools16InputContentViewVWV
+0x100024A08	0x00000008	[  3] _$s8APMTools16InputContentViewVMf
+0x100024A10	0x00000018	[  3] _$s8APMTools16InputContentViewVN
+0x100024A28	0x00000058	[  3] _$s8APMTools11LinkMapListVWV
+0x100024A80	0x00000008	[  3] _$s8APMTools11LinkMapListVMf
+0x100024A88	0x00000018	[  3] _$s8APMTools11LinkMapListVN
+0x100024AA0	0x00000028	[  3] l_metadata.6
+0x100024AC8	0x00000028	[  3] l_metadata.9
+0x100024AF0	0x00000028	[  3] l_metadata.12
+0x100024B18	0x00000028	[  3] l_metadata.15
+0x100024B40	0x00000028	[  3] l_metadata.18
+0x100024B68	0x00000008	[  4] _$s8APMTools0A3AppVMf
+0x100024B70	0x00000010	[  4] _$s8APMTools0A3AppVN
+0x100024B80	0x00000008	[  5] _$s8APMTools5OToolVMf
+0x100024B88	0x00000010	[  5] _$s8APMTools5OToolVN
+0x100024B98	0x00000008	[  1] objc-cat-list
+0x100024BA0	0x00000008	[  0] objc image info
+0x100028000	0x00000008	[ 12] _$s10Foundation3URLV4pathSSvg
+0x100028008	0x00000008	[ 12] _$s10Foundation3URLVMa
+0x100028010	0x00000008	[  9] _$s22UniformTypeIdentifiers6UTTypeV7fileURLACvgZ
+0x100028018	0x00000008	[  9] _$s22UniformTypeIdentifiers6UTTypeVMa
+0x100028020	0x00000008	[  8] _$s7SwiftUI10EdgeInsetsV3top7leading6bottom8trailingAC12CoreGraphics7CGFloatV_A3JtcfC
+0x100028028	0x00000008	[  8] _$s7SwiftUI11WindowGroupV7contentACyxGxyXE_tcfC
+0x100028030	0x00000008	[  8] _$s7SwiftUI12ProgressViewVA2A05EmptyD0VRs_rlEACyA2EGycAERszrlufC
+0x100028038	0x00000008	[  8] _$s7SwiftUI14NavigationViewV7contentACyxGxyXE_tcfC
+0x100028040	0x00000008	[  8] _$s7SwiftUI15PreviewProviderPAAE8platformAA0C8PlatformOSgvgZ
+0x100028048	0x00000008	[  8] _$s7SwiftUI15PreviewProviderPAAE9_platformAA0C8PlatformOSgvgZ
+0x100028050	0x00000008	[  8] _$s7SwiftUI15PreviewProviderPAAE9_previewsypvgZ
+0x100028058	0x00000008	[  8] _$s7SwiftUI17VerticalAlignmentV6centerACvgZ
+0x100028060	0x00000008	[  8] _$s7SwiftUI18LocalizedStringKeyV13stringLiteralACSS_tcfC
+0x100028068	0x00000008	[  8] _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ
+0x100028070	0x00000008	[  8] _$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ
+0x100028078	0x00000008	[  8] _$s7SwiftUI19_ConditionalContentV7StorageOMa
+0x100028080	0x00000008	[  8] _$s7SwiftUI19_ConditionalContentVA2A4ViewRzAaDR_rlE7storageACyxq_GAC7StorageOyxq__G_tcfC
+0x100028088	0x00000008	[  8] _$s7SwiftUI3AppPAAE4mainyyFZ
+0x100028090	0x00000008	[  8] _$s7SwiftUI4ListVAAs5NeverORszrlE7contentACyAEq_Gq_yXE_tcfC
+0x100028098	0x00000008	[  8] _$s7SwiftUI4ListVMa
+0x1000280A0	0x00000008	[  8] _$s7SwiftUI4TextV15foregroundColoryAcA0E0VSgF
+0x1000280A8	0x00000008	[  8] _$s7SwiftUI4TextV_9tableName6bundle7commentAcA18LocalizedStringKeyV_SSSgSo8NSBundleCSgs06StaticI0VSgtcfC
+0x1000280B0	0x00000008	[  8] _$s7SwiftUI4TextVyACxcSyRzlufC
+0x1000280B8	0x00000008	[  8] _$s7SwiftUI4ViewPAAE05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
+0x1000280C0	0x00000008	[  8] _$s7SwiftUI4ViewPAAE05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZ
+0x1000280C8	0x00000008	[  8] _$s7SwiftUI4ViewPAAE11aspectRatio_11contentModeQr12CoreGraphics7CGFloatVSg_AA07ContentG0OtF
+0x1000280D0	0x00000008	[  8] _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctF
+0x1000280D8	0x00000008	[  8] _$s7SwiftUI4ViewPAAE14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZ
+0x1000280E0	0x00000008	[  8] _$s7SwiftUI4ViewPAAE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AkA9AlignmentVtF
+0x1000280E8	0x00000008	[  8] _$s7SwiftUI4ViewPAAE6border_5widthQrqd___12CoreGraphics7CGFloatVtAA10ShapeStyleRd__lF
+0x1000280F0	0x00000008	[  8] _$s7SwiftUI4ViewPAAE6onDrop2of10isTargeted7performQrSay22UniformTypeIdentifiers6UTTypeVG_AA7BindingVySbGSgSbSaySo14NSItemProviderCGctF
+0x1000280F8	0x00000008	[  8] _$s7SwiftUI4ViewPAAE7paddingyQr12CoreGraphics7CGFloatVF
+0x100028100	0x00000008	[  8] _$s7SwiftUI4ViewPAAE7paddingyQrAA10EdgeInsetsVF
+0x100028108	0x00000008	[  8] _$s7SwiftUI5ColorV3redACvgZ
+0x100028110	0x00000008	[  8] _$s7SwiftUI5ColorV4grayACvgZ
+0x100028118	0x00000008	[  8] _$s7SwiftUI5ColorV5greenACvgZ
+0x100028120	0x00000008	[  8] _$s7SwiftUI5ColorV5whiteACvgZ
+0x100028128	0x00000008	[  8] _$s7SwiftUI5ImageV10systemNameACSS_tcfC
+0x100028130	0x00000008	[  8] _$s7SwiftUI5ImageV12ResizingModeOMa
+0x100028138	0x00000008	[  8] _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF
+0x100028140	0x00000008	[  8] _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC
+0x100028148	0x00000008	[  8] _$s7SwiftUI5StateV12wrappedValuexvg
+0x100028150	0x00000008	[  8] _$s7SwiftUI5StateV12wrappedValuexvs
+0x100028158	0x00000008	[  8] _$s7SwiftUI5StateV14projectedValueAA7BindingVyxGvg
+0x100028160	0x00000008	[  8] _$s7SwiftUI6ButtonVA2A4TextVRszrlE_6actionACyAEGAA18LocalizedStringKeyV_yyctcfC
+0x100028168	0x00000008	[  8] _$s7SwiftUI6HStackV9alignment7spacing7contentACyxGAA17VerticalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfC
+0x100028170	0x00000008	[  8] _$s7SwiftUI6SpacerV9minLengthAC12CoreGraphics7CGFloatVSg_tcfC
+0x100028178	0x00000008	[  8] _$s7SwiftUI6VStackV9alignment7spacing7contentACyxGAA19HorizontalAlignmentV_12CoreGraphics7CGFloatVSgxyXEtcfC
+0x100028180	0x00000008	[  8] _$s7SwiftUI7BindingV12wrappedValuexvg
+0x100028188	0x00000008	[  8] _$s7SwiftUI7BindingV12wrappedValuexvs
+0x100028190	0x00000008	[  8] _$s7SwiftUI7BindingV14projectedValueACyxGvg
+0x100028198	0x00000008	[  8] _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
+0x1000281A0	0x00000008	[  8] _$s7SwiftUI7ForEachVMa
+0x1000281A8	0x00000008	[  8] _$s7SwiftUI9AlignmentV6centerACvgZ
+0x1000281B0	0x00000008	[  8] _$s7SwiftUI9AlignmentV7leadingACvgZ
+0x1000281B8	0x00000008	[  8] _$s7SwiftUI9TupleViewVyACyxGxcfC
+0x1000281C0	0x00000008	[ 11] _$sS2Dyxq_GycfC
+0x1000281C8	0x00000008	[ 11] _$sS2ayxGycfC
+0x1000281D0	0x00000008	[ 11] _$sSD5countSivg
+0x1000281D8	0x00000008	[ 11] _$sSD6valuesSD6ValuesVyxq__Gvg
+0x1000281E0	0x00000008	[ 11] _$sSDyq_Sgxcig
+0x1000281E8	0x00000008	[ 11] _$sSDyq_Sgxcis
+0x1000281F0	0x00000008	[ 11] _$sSHsE13_rawHashValue4seedS2i_tF
+0x1000281F8	0x00000008	[ 11] _$sSJ38_builtinExtendedGraphemeClusterLiteral17utf8CodeUnitCount7isASCIISJBp_BwBi1_tcfC
+0x100028200	0x00000008	[ 11] _$sSKsE4last7ElementQzSgvg
+0x100028208	0x00000008	[ 12] _$sSS10FoundationE14contentsOfFile8encodingS2Sh_SSAAE8EncodingVtKcfC
+0x100028210	0x00000008	[ 12] _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+0x100028218	0x00000008	[ 12] _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+0x100028220	0x00000008	[ 12] _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
+0x100028228	0x00000008	[ 12] _$sSS10FoundationE8EncodingV10macOSRomanACvgZ
+0x100028230	0x00000008	[ 12] _$sSS10FoundationE8EncodingVMa
+0x100028238	0x00000008	[ 11] _$sSS19stringInterpolationSSs013DefaultStringB0V_tcfC
+0x100028240	0x00000008	[ 11] _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
+0x100028248	0x00000008	[ 11] _$sSS2eeoiySbSS_SStFZ
+0x100028250	0x00000008	[ 11] _$sSS5IndexV2eeoiySbAB_ABtFZ
+0x100028258	0x00000008	[ 11] _$sSS5countSivg
+0x100028260	0x00000008	[ 11] _$sSS5index_8offsetBySS5IndexVAD_SitF
+0x100028268	0x00000008	[ 11] _$sSS9hasPrefixySbSSF
+0x100028270	0x00000008	[ 11] _$sSSySSSshcfC
+0x100028278	0x00000008	[ 11] _$sSTsE5first5where7ElementQzSgSbADKXE_tKF
+0x100028280	0x00000008	[ 11] _$sSTsE6sorted2bySay7ElementQzGSbAD_ADtKXE_tKF
+0x100028288	0x00000008	[ 11] _$sSa6appendyyxnF
+0x100028290	0x00000008	[ 11] _$sSaMa
+0x100028298	0x00000008	[ 11] _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC
+0x1000282A0	0x00000008	[ 11] _$sSayxSicig
+0x1000282A8	0x00000008	[ 10] _$sScP8rawValues5UInt8Vvg
+0x1000282B0	0x00000008	[ 10] _$sScPMa
+0x1000282B8	0x00000008	[ 11] _$sSdySdxcSzRzlufC
+0x1000282C0	0x00000008	[ 11] _$sSh12arrayLiteralShyxGxd_tcfC
+0x1000282C8	0x00000008	[ 11] _$sSh12makeIteratorSh0B0Vyx_GyF
+0x1000282D0	0x00000008	[ 11] _$sSh6insertySb8inserted_x17memberAfterInserttxnF
+0x1000282D8	0x00000008	[ 11] _$sSh8IteratorV4nextxSgyF
+0x1000282E0	0x00000008	[ 11] _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE7indicesACvg
+0x1000282E8	0x00000008	[ 11] _$sSlsE9dropFirsty11SubSequenceQzSiF
+0x1000282F0	0x00000008	[ 11] _$sSlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluig
+0x1000282F8	0x00000008	[ 11] _$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tF
+0x100028300	0x00000008	[ 11] _$sSlss16IndexingIteratorVyxG0B0RtzrlE04makeB0ACyF
+0x100028308	0x00000008	[ 12] _$sSo14NSItemProviderC10FoundationE10loadObject7ofClass17completionHandlerSo10NSProgressCxm_yxSg_s5Error_pSgtcts21_ObjectiveCBridgeableRzSo0aB7Reading01_L5CTypeRpzlF
+0x100028310	0x00000008	[ 12] _$sSo14NSItemProviderC10FoundationE13canLoadObject7ofClassSbxm_ts21_ObjectiveCBridgeableRzSo0aB7Reading01_I5CTypeRpzlF
+0x100028318	0x00000008	[ 11] _$sSqMa
+0x100028320	0x00000008	[ 12] _$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF
+0x100028328	0x00000008	[ 12] _$sSy10FoundationE8containsySbqd__SyRd__lF
+0x100028330	0x00000008	[ 11] _$ss10_hashValue3forSix_tSHRzlF
+0x100028338	0x00000008	[ 11] _$ss16IndexingIteratorV4next7ElementQzSgyF
+0x100028340	0x00000008	[ 11] _$ss16PartialRangeFromVyAByxGxcfC
+0x100028348	0x00000008	[ 11] _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufC
+0x100028350	0x00000008	[ 11] _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+0x100028358	0x00000008	[ 11] _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+0x100028360	0x00000008	[ 11] _$ss19PartialRangeThroughVyAByxGxcfC
+0x100028368	0x00000008	[ 11] _$ss26DefaultStringInterpolationV06appendC0yyxs06CustomB11ConvertibleRzlF
+0x100028370	0x00000008	[ 11] _$ss26DefaultStringInterpolationV13appendLiteralyySSF
+0x100028378	0x00000008	[ 11] _$ss26DefaultStringInterpolationV15literalCapacity18interpolationCountABSi_SitcfC
+0x100028380	0x00000008	[ 11] _$ss27_allocateUninitializedArrayySayxG_BptBwlF
+0x100028388	0x00000008	[ 11] _$ss5print_9separator10terminatoryypd_S2StF
+0x100028390	0x00000008	[ 11] _$ss6HasherV7combineyyxSHRzlF
+0x100028398	0x00000008	[ 11] _$ss7UnicodeO6ScalarVyADSgs6UInt32VcfC
+0x1000283A0	0x00000008	[ 11] __swift_stdlib_reportUnimplementedInitializerInFile
+0x1000283A8	0x00000008	[  7] _free
+0x1000283B0	0x00000008	[  7] _malloc
+0x1000283B8	0x00000008	[  7] _memcpy
+0x1000283C0	0x00000008	[  7] _memset
+0x1000283C8	0x00000008	[  6] _objc_allocWithZone
+0x1000283D0	0x00000008	[  6] _objc_msgSend
+0x1000283D8	0x00000008	[  6] _objc_msgSendSuper2
+0x1000283E0	0x00000008	[  6] _objc_opt_self
+0x1000283E8	0x00000008	[  6] _objc_retainAutoreleasedReturnValue
+0x1000283F0	0x00000008	[ 11] _swift_allocObject
+0x1000283F8	0x00000008	[ 11] _swift_beginAccess
+0x100028400	0x00000008	[ 11] _swift_bridgeObjectRelease
+0x100028408	0x00000008	[ 11] _swift_bridgeObjectRetain
+0x100028410	0x00000008	[ 11] _swift_checkMetadataState
+0x100028418	0x00000008	[ 11] _swift_deallocObject
+0x100028420	0x00000008	[ 11] _swift_endAccess
+0x100028428	0x00000008	[ 11] _swift_errorRelease
+0x100028430	0x00000008	[ 11] _swift_errorRetain
+0x100028438	0x00000008	[ 11] _swift_getKeyPath
+0x100028440	0x00000008	[ 11] _swift_getObjCClassMetadata
+0x100028448	0x00000008	[ 11] _swift_getOpaqueTypeConformance
+0x100028450	0x00000008	[ 11] _swift_getTupleTypeMetadata2
+0x100028458	0x00000008	[ 11] _swift_getTupleTypeMetadata3
+0x100028460	0x00000008	[ 11] _swift_getTypeByMangledNameInContext
+0x100028468	0x00000008	[ 11] _swift_getTypeByMangledNameInContextInMetadataState
+0x100028470	0x00000008	[ 11] _swift_getWitnessTable
+0x100028478	0x00000008	[ 11] _swift_once
+0x100028480	0x00000008	[ 11] _swift_release
+0x100028488	0x00000008	[ 11] _swift_retain
+0x100028490	0x00000008	[ 11] _swift_storeEnumTagMultiPayload
+0x100028498	0x00000008	[ 10] _swift_task_alloc
+0x1000284A0	0x00000008	[ 10] _swift_task_create
+0x1000284A8	0x00000008	[ 10] _swift_task_dealloc
+0x1000284B0	0x00000048	[  1] __METACLASS_DATA__TtC8APMTools10ObjectFile
+0x1000284F8	0x00000068	[  1] __IVARS__TtC8APMTools10ObjectFile
+0x100028560	0x00000008	[  1] pointer-to-literal-cstring
+0x100028568	0x00000008	[  1] pointer-to-literal-cstring
+0x100028570	0x00000008	[  1] pointer-to-literal-cstring
+0x100028578	0x00000008	[  5] pointer-to-literal-cstring
+0x100028580	0x00000008	[  5] pointer-to-literal-cstring
+0x100028588	0x00000008	[  1] objc-class-ref
+0x100028590	0x00000008	[  5] objc-class-ref
+0x100028598	0x00000038	[  1] __INSTANCE_METHODS__TtC8APMTools10ObjectFile
+0x1000285D0	0x00000048	[  1] __DATA__TtC8APMTools10ObjectFile
+0x100028618	0x00000010	[  1] _$s8APMTools10ObjectFileCMf
+0x100028628	0x00000000	[  1] _OBJC_CLASS_$__TtC8APMTools10ObjectFile
+0x100028628	0x000000B8	[  1] _$s8APMTools10ObjectFileCN
+0x1000286E0	0x00000008	[  0] __dyld_private
+0x1000286E8	0x00000008	[  1] _$s8APMTools10ObjectFileC4fileSSvpWvd
+0x1000286F0	0x00000008	[  1] _$s8APMTools10ObjectFileC4pathSSvpWvd
+0x1000286F8	0x00000008	[  1] _$s8APMTools10ObjectFileC4sizes6UInt64VvpWvd
+0x100028700	0x00000008	[  1] _$s8APMTools6SymbolVACSHAAWL
+0x100028708	0x00000008	[  1] _$s8APMTools11LinkMapUtilV7analyze4withAA0bC0VSS_tYaKFZTu
+0x100028710	0x00000008	[  1] _$sSo8NSThreadCML
+0x100028718	0x00000008	[  1] _$sSo8NSThreadCSo8NSObjectCs23CustomStringConvertible10FoundationWL
+0x100028720	0x00000008	[  1] _$sS2SSysWL
+0x100028728	0x00000008	[  1] _$sSaySSGMD
+0x100028730	0x00000008	[  1] _$sSaySSGSayxGSlsWL
+0x100028738	0x00000008	[  1] _$ss16IndexingIteratorVySaySSGGMD
+0x100028740	0x00000008	[  1] _$sSaySSGSayxGSKsWL
+0x100028748	0x00000008	[  1] _$sS2SSlsWL
+0x100028750	0x00000008	[  1] _$ss19PartialRangeThroughVySS5IndexVGMD
+0x100028758	0x00000008	[  1] _$ss19PartialRangeThroughVySS5IndexVGAByxGSXsWL
+0x100028760	0x00000008	[  1] _$ss16PartialRangeFromVySS5IndexVGMD
+0x100028768	0x00000008	[  1] _$ss16PartialRangeFromVySS5IndexVGAByxGSXsWL
+0x100028770	0x00000008	[  1] _$ss6UInt64VABs17FixedWidthIntegersWL
+0x100028778	0x00000008	[  1] _$sS2sSysWL
+0x100028780	0x00000008	[  1] _$sSay8APMTools6SymbolVGMD
+0x100028788	0x00000008	[  1] _$sSay8APMTools7SectionVGMD
+0x100028790	0x00000008	[  1] _$sSDySS8APMTools10ObjectFileCGMD
+0x100028798	0x00000008	[  1] _$s8APMTools6SymbolVACSQAAWL
+0x1000287A0	0x00000028	[  1] _OBJC_METACLASS_$__TtC8APMTools10ObjectFile
+0x1000287C8	0x00000008	[  2] _$s8APMTools8SideItemVACSHAAWL
+0x1000287D0	0x00000008	[  2] _$s7SwiftUI5StateVySiGMD
+0x1000287D8	0x00000008	[  2] _$sSay8APMTools10ObjectFileCGMD
+0x1000287E0	0x00000008	[  2] _$s7SwiftUI5StateVySay8APMTools10ObjectFileCGGMD
+0x1000287E8	0x00000008	[  2] _$s7SwiftUI14NavigationViewVyAA05TupleD0Vy8APMTools08LeftListD0V_AA19_ConditionalContentVyAF07LinkMapD0VAA4TextVGtGGMD
+0x1000287F0	0x00000008	[  2] _$s7SwiftUI9TupleViewVy8APMTools08LeftListD0V_AA19_ConditionalContentVyAD07LinkMapD0VAA4TextVGtGMD
+0x1000287F8	0x00000008	[  2] _$s7SwiftUI9TupleViewVy8APMTools08LeftListD0V_AA19_ConditionalContentVyAD07LinkMapD0VAA4TextVGtGACyxGAA0D0AAWL
+0x100028800	0x00000008	[  2] _$s7SwiftUI14NavigationViewVyAA05TupleD0Vy8APMTools08LeftListD0V_AA19_ConditionalContentVyAF07LinkMapD0VAA4TextVGtGGACyxGAA0D0AAWL
+0x100028808	0x00000008	[  2] _$s7SwiftUI7BindingVySiGMD
+0x100028810	0x00000008	[  2] _$s7SwiftUI6VStackVyAA9TupleViewVyAA7ForEachVySnySiGSiAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAEyAOyAOyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VG_AA4TextVAA6SpacerVtGGAA08_PaddingS0VG_Qo_G_A1_tGGMD
+0x100028818	0x00000008	[  2] _$s7SwiftUI9TupleViewVyAA7ForEachVySnySiGSiAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyACyAMyAMyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_G_A_tGMD
+0x100028820	0x00000008	[  2] _$s7SwiftUI9TupleViewVyAA7ForEachVySnySiGSiAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyACyAMyAMyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_G_A_tGACyxGAagAWL
+0x100028828	0x00000008	[  2] _$s7SwiftUI13_VariadicViewO4TreeVy_AA13_VStackLayoutVAA05TupleD0VyAA7ForEachVySnySiGSiAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAIyASyASyAA5ImageVAA012_AspectRatioG0VGAA06_FrameG0VG_AA4TextVAA6SpacerVtGGAA08_PaddingG0VG_Qo_G_A5_tGGMD
+0x100028830	0x00000008	[  2] _$s7SwiftUI7ForEachVySnySiGSiAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAA05TupleE0VyAKyAKyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_GMD
+0x100028838	0x00000008	[  2] _$s7SwiftUI7ForEachVySnySiGSiAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAA05TupleE0VyAKyAKyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_G_A_tMD
+0x100028840	0x00000008	[  2] _$s7SwiftUI6VStackVyAA9TupleViewVyAA7ForEachVySnySiGSiAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAEyAOyAOyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VG_AA4TextVAA6SpacerVtGGAA08_PaddingS0VG_Qo_G_A1_tGGACyxGAaiAWL
+0x100028848	0x00000008	[  2] _$s8APMTools11ContentViewVAC7SwiftUI0C0AAWL
+0x100028850	0x00000008	[  2] _$s8APMTools8SideItemVACSQAAWL
+0x100028858	0x00000008	[  2] _$s8APMTools20ContentView_PreviewsVAC7SwiftUI16_PreviewProviderAAWL
+0x100028860	0x00000008	[  2] _$s8APMTools20ContentView_PreviewsVAC7SwiftUI15PreviewProviderAAWL
+0x100028868	0x00000008	[  2] _$sSay8APMTools8SideItemVGMD
+0x100028870	0x00000008	[  2] _$sSay8APMTools8SideItemVGSayxGSksWL
+0x100028878	0x00000008	[  2] _$sSnySiGMD
+0x100028880	0x00000008	[  2] _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAA05TupleC0VyAHyAHyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameP0VG_AA4TextVAA6SpacerVtGGAA08_PaddingP0VG_Qo_MD
+0x100028888	0x00000008	[  2] _$sSnySiGSnyxGSksSxRzSZ6StrideRpzrlWL
+0x100028890	0x00000008	[  2] _$sS2iSZsWL
+0x100028898	0x00000008	[  2] _$s7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA4TextVAA6SpacerVtGGAA08_PaddingK0VGMD
+0x1000288A0	0x00000008	[  2] _$s7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA4TextVAA6SpacerVtGGAA08_PaddingK0VGACyxq_GAA0G0A2aZRzAA0G8ModifierR_rlWL
+0x1000288A8	0x00000008	[  2] _$s7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA4TextVAA6SpacerVtGGACyxGAA0E0AAWL
+0x1000288B0	0x00000008	[  2] _$s7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA4TextVAA6SpacerVtGGMD
+0x1000288B8	0x00000008	[  2] _$s7SwiftUI7ForEachVySnySiGSiAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA6HStackVyAA05TupleE0VyAKyAKyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VG_AA4TextVAA6SpacerVtGGAA08_PaddingR0VG_Qo_GACyxq_q0_GAae2aER0_rlWL
+0x1000288C0	0x00000008	[  2] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAEyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VG_AA4TextVAA6SpacerVtGMD
+0x1000288C8	0x00000008	[  2] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAEyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VG_AA4TextVAA6SpacerVtGACyxGAA0D0AAWL
+0x1000288D0	0x00000008	[  2] _$s7SwiftUI15ModifiedContentVyAA5ImageVAA18_AspectRatioLayoutVGMD
+0x1000288D8	0x00000008	[  2] _$s7SwiftUI15ModifiedContentVyAA5ImageVAA18_AspectRatioLayoutVGACyxq_GAA4ViewA2aJRzAA0I8ModifierR_rlWL
+0x1000288E0	0x00000008	[  2] _$s7SwiftUI15ModifiedContentVyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameH0VGMD
+0x1000288E8	0x00000008	[  2] _$s7SwiftUI15ModifiedContentVyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameH0VGACyxq_GAA4ViewA2aMRzAA0J8ModifierR_rlWL
+0x1000288F0	0x00000008	[  2] _$s8APMTools11LinkMapViewVAC7SwiftUI0D0AAWL
+0x1000288F8	0x00000008	[  2] _$s7SwiftUI19_ConditionalContentVy8APMTools11LinkMapViewVAA4TextVGMD
+0x100028900	0x00000008	[  2] _$s8APMTools12LeftListViewVAC7SwiftUI0D0AAWL
+0x100028908	0x00000008	[  2] _$s7SwiftUI19_ConditionalContentVy8APMTools11LinkMapViewVAA4TextVGACyxq_GAA0H0A2aKRzAaKR_rlWL
+0x100028910	0x00000008	[  3] _$s7SwiftUI7BindingVySay8APMTools10ObjectFileCGGMD
+0x100028918	0x00000008	[  3] _$s7SwiftUI5StateVySSGMD
+0x100028920	0x00000008	[  3] _$s7SwiftUI5StateVySbGMD
+0x100028928	0x00000008	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEy8APMTools012InputContentE0V_ACyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGG_AH11LinkMapListVtGGMD
+0x100028930	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy8APMTools05InputdG0V_AEyAGyAA6ButtonVyAA4TextVG_AA08ProgressG0VyAA05EmptyG0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeG0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGGMD
+0x100028938	0x00000008	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6VStackVyACyAA6HStackVyACy8APMTools05InputfD0V_AGyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeD0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtGMD
+0x100028940	0x00000008	[  3] _$s7SwiftUI9TupleViewVyAA6HStackVyACy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VASGSgtGGtGG_AF11LinkMapListVtGMD
+0x100028948	0x00000008	[  3] _$s7SwiftUI9TupleViewVyAA6HStackVyACy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VASGSgtGGtGG_AF11LinkMapListVtGACyxGAA0D0AAWL
+0x100028950	0x00000008	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEy8APMTools012InputContentE0V_ACyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGG_AH11LinkMapListVtGGACyxGAA0E0AAWL
+0x100028958	0x00000008	[  3] _$s7SwiftUI13_VariadicViewO4TreeVy_AA13_VStackLayoutVAA05TupleD0VyAA6HStackVyAIy8APMTools012InputContentD0V_AA0F0VyAIyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAYGSgtGGtGG_AL11LinkMapListVtGGMD
+0x100028960	0x00000008	[  3] _$s7SwiftUI13_VariadicViewO4TreeVy_AA13_HStackLayoutVAA05TupleD0Vy8APMTools012InputContentD0V_AA6VStackVyAIyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAWGSgtGGtGGMD
+0x100028968	0x00000008	[  3] _$s8APMTools16InputContentViewV_7SwiftUI6VStackVyAD05TupleD0VyAD6ButtonVyAD4TextVG_AD08ProgressD0VyAD05EmptyD0VAQGSgtGGtMD
+0x100028970	0x00000008	[  3] _$s7SwiftUI13_VariadicViewO4TreeVy_AA13_VStackLayoutVAA05TupleD0VyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VARGSgtGGMD
+0x100028978	0x00000008	[  3] _$s7SwiftUI6ButtonVyAA4TextVGMD
+0x100028980	0x00000008	[  3] _$s7SwiftUI6ButtonVyAA4TextVG_AA12ProgressViewVyAA05EmptyF0VAJGSgtMD
+0x100028988	0x00000008	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGMD
+0x100028990	0x00000008	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVy8APMTools012InputContentE0V_AA6VStackVyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGG_AF11LinkMapListVtMD
+0x100028998	0x00000008	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGSgMD
+0x1000289A0	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy8APMTools05InputdG0V_AEyAGyAA6ButtonVyAA4TextVG_AA08ProgressG0VyAA05EmptyG0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeG0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGGACyxq_GAA0G0A2AA21_RzAA0gS0R_rlWL
+0x1000289A8	0x00000008	[  3] _$s7SwiftUI16_OverlayModifierVyAA10_ShapeViewVyAA08_StrokedE0VyAA9RectangleV6_InsetVGAA5ColorVGGACyxGAA0fD0AAWL
+0x1000289B0	0x00000008	[  3] _$s7SwiftUI16_OverlayModifierVyAA10_ShapeViewVyAA08_StrokedE0VyAA9RectangleV6_InsetVGAA5ColorVGGMD
+0x1000289B8	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy8APMTools05InputdG0V_AEyAGyAA6ButtonVyAA4TextVG_AA08ProgressG0VyAA05EmptyG0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeG0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtMD
+0x1000289C0	0x00000008	[  3] _$s7SwiftUI7BindingVySSGMD
+0x1000289C8	0x00000008	[  3] _$s7SwiftUI4ViewPAAE6onDrop2of10isTargeted7performQrSay22UniformTypeIdentifiers6UTTypeVG_AA7BindingVySbGSgSbSaySo14NSItemProviderCGctFQOyAA15ModifiedContentVyATyATyAA4TextVAA14_PaddingLayoutVGAA06_FrameU0VGAA16_OverlayModifierVyAA06_ShapeC0VyAA08_StrokedY0VyAA9RectangleV6_InsetVGAA5ColorVGGG_Qo_MD
+0x1000289D0	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGMD
+0x1000289D8	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWL
+0x1000289E0	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyACyAA4TextVAA14_PaddingLayoutVGAA06_FrameG0VGMD
+0x1000289E8	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyACyAA4TextVAA14_PaddingLayoutVGAA06_FrameG0VGACyxq_GAA4ViewA2aMRzAA0I8ModifierR_rlWL
+0x1000289F0	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyACyACyAA4TextVAA14_PaddingLayoutVGAA06_FrameG0VGAA16_OverlayModifierVyAA10_ShapeViewVyAA08_StrokedK0VyAA9RectangleV6_InsetVGAA5ColorVGGGMD
+0x1000289F8	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyACyACyAA4TextVAA14_PaddingLayoutVGAA06_FrameG0VGAA16_OverlayModifierVyAA10_ShapeViewVyAA08_StrokedK0VyAA9RectangleV6_InsetVGAA5ColorVGGGACyxq_GAA0L0A2AA1_RzAA0lJ0R_rlWL
+0x100028A00	0x00000008	[  3] _$s7SwiftUI4ListVys5NeverOAA7ForEachVySay8APMTools10ObjectFileCGAjA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AQyAA6SpacerVAUGAStGGGGMD
+0x100028A08	0x00000008	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AGyAA6SpacerVAKGAItGGMD
+0x100028A10	0x00000008	[  3] _$sSay8APMTools10ObjectFileCGSayxGSksWL
+0x100028A18	0x00000008	[  3] _$s8APMTools10ObjectFileCSo8NSObjectCSH10ObjectiveCWL
+0x100028A20	0x00000008	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AGyAA6SpacerVAKGAItGGACyxGAA0E0AAWL
+0x100028A28	0x00000008	[  3] _$s7SwiftUI4ListVys5NeverOAA7ForEachVySay8APMTools10ObjectFileCGAjA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AQyAA6SpacerVAUGAStGGGGACyxq_GAA0L0AAWL
+0x100028A30	0x00000008	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6VStackVyACyAA6HStackVyACy8APMTools05InputfD0V_AGyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAUGSgtGGtGG_AJ11LinkMapListVtGGAA16_OverlayModifierVyAA06_ShapeD0VyAA08_StrokedT0VyAA9RectangleV6_InsetVGAA5ColorVGGG_AA6SpacerVtGACyxGAA0D0AAWL
+0x100028A38	0x00000008	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AEyAA6SpacerVAIGAGtGMD
+0x100028A40	0x00000008	[  3] _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA4TextVAA12_FrameLayoutVG_AEyAA6SpacerVAIGAGtGACyxGAA0D0AAWL
+0x100028A48	0x00000008	[  3] _$ss7CVarArg_pMD
+0x100028A50	0x00000008	[  3] _$ss6UInt64VABSzsWL
+0x100028A58	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA4TextVAA12_FrameLayoutVGMD
+0x100028A60	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA6SpacerVAA12_FrameLayoutVGMD
+0x100028A68	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA4TextVAA12_FrameLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWL
+0x100028A70	0x00000008	[  3] _$s7SwiftUI15ModifiedContentVyAA6SpacerVAA12_FrameLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWL
+0x100028A78	0x00000008	[  3] _$sSaySo14NSItemProviderCGMD
+0x100028A80	0x00000008	[  3] _$sSaySo14NSItemProviderCGSayxGSTsWL
+0x100028A88	0x00000008	[  3] _$s10Foundation3URLVACs21_ObjectiveCBridgeableAAWL
+0x100028A90	0x00000008	[  3] _$s10Foundation3URLVSgMD
+0x100028A98	0x00000008	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVy8APMTools012InputContentE0V_AA6VStackVyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGGMD
+0x100028AA0	0x00000008	[  3] _$s7SwiftUI9TupleViewVy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAQGSgtGGtGMD
+0x100028AA8	0x00000008	[  3] _$s7SwiftUI9TupleViewVy8APMTools012InputContentD0V_AA6VStackVyACyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VAQGSgtGGtGACyxGAA0D0AAWL
+0x100028AB0	0x00000008	[  3] _$s7SwiftUI6HStackVyAA9TupleViewVy8APMTools012InputContentE0V_AA6VStackVyAEyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VASGSgtGGtGGACyxGAA0E0AAWL
+0x100028AB8	0x00000008	[  3] _$s8APMTools11LinkMapListVAC7SwiftUI4ViewAAWL
+0x100028AC0	0x00000008	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VANGSgtGGMD
+0x100028AC8	0x00000008	[  3] _$s7SwiftUI9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VALGSgtGMD
+0x100028AD0	0x00000008	[  3] _$s7SwiftUI9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressD0VyAA05EmptyD0VALGSgtGACyxGAA0D0AAWL
+0x100028AD8	0x00000008	[  3] _$s8APMTools16InputContentViewVAC7SwiftUI0D0AAWL
+0x100028AE0	0x00000008	[  3] _$s7SwiftUI6VStackVyAA9TupleViewVyAA6ButtonVyAA4TextVG_AA08ProgressE0VyAA05EmptyE0VANGSgtGGACyxGAA0E0AAWL
+0x100028AE8	0x00000008	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGACyxq_GAA0D0AAWL
+0x100028AF0	0x00000008	[  3] _$s7SwiftUI6ButtonVyAA4TextVGACyxGAA4ViewAAWL
+0x100028AF8	0x00000008	[  3] _$s7SwiftUI12ProgressViewVyAA05EmptyD0VAEGSgxSgAA0D0A2aIRzlWL
+0x100028B00	0x00000008	[  3] _$sScPSgMD
+0x100028B08	0x00000008	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_yyYaYbcfU_Tu
+0x100028B10	0x00000008	[  3] _$s8APMTools11LinkMapViewV4bodyQrvg7SwiftUI05TupleD0VyAE6HStackVyAGyAA012InputContentD0V_AE6VStackVyAGyAE6ButtonVyAE4TextVG_AE08ProgressD0VyAE05EmptyD0VAVGSgtGGtGG_AA0bC4ListVtGyXEfU_A_yXEfU_AYyXEfU_yycfU_yyYaYbcfU_TATu
+0x100028B18	0x00000008	[  3] _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTu
+0x100028B20	0x00000008	[  3] _$sxIeghHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTATu
+0x100028B28	0x00000008	[  3] _$sSD6ValuesVySS8APMTools10ObjectFileC_GMD
+0x100028B30	0x00000008	[  3] _$sSD6ValuesVySS8APMTools10ObjectFileC_GAByxq__GSTsWL
+0x100028B38	0x00000008	[  3] _$sSay8APMTools10ObjectFileCGSayxGSTsWL
+0x100028B40	0x00000008	[  4] _$s7SwiftUI15ModifiedContentVy8APMTools0D4ViewVAA12_FrameLayoutVGMD
+0x100028B48	0x00000008	[  4] _$s7SwiftUI15ModifiedContentVy8APMTools0D4ViewVAA12_FrameLayoutVGACyxq_GAA0F0A2aKRzAA0F8ModifierR_rlWL
+0x100028B50	0x00000008	[  4] _$s8APMTools0A3AppVAC7SwiftUI0B0AAWL
+0x100028B58	0x00000008	[  4] _$s7SwiftUI11WindowGroupVyAA15ModifiedContentVy8APMTools0F4ViewVAA12_FrameLayoutVGGACyxGAA5SceneAAWL
+0x100028B60	0x00000008	[  4] _$s7SwiftUI11WindowGroupVyAA15ModifiedContentVy8APMTools0F4ViewVAA12_FrameLayoutVGGMD
+0x100028B68	0x00000008	[  5] _$sSh8IteratorVySS_GMD
+0x100028B70	0x00000008	[  5] _$sSDyS2SGMD
+0x100028B78	0x00000008	[  5] _$sShySSGMD
+0x100028B80	0x00000080	[  1] _$s8APMTools6SymbolVSHAAMcMK
+0x100028C00	0x00000080	[  1] _$s8APMTools6SymbolVSQAAMcMK
+0x100028C80	0x00000080	[  2] _$s8APMTools8SideItemVSHAAMcMK
+0x100028D00	0x00000080	[  2] _$s8APMTools8SideItemVSQAAMcMK
+0x100028D80	0x00000080	[  2] _$s8APMTools11ContentViewV7SwiftUI0C0AAMcMK
+0x100028E00	0x00000080	[  2] _$s8APMTools12LeftListViewV7SwiftUI0D0AAMcMK
+0x100028E80	0x00000080	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI15PreviewProviderAAMcMK
+0x100028F00	0x00000080	[  2] _$s8APMTools20ContentView_PreviewsV7SwiftUI16_PreviewProviderAAMcMK
+0x100028F80	0x00000008	[  2] l_keypath_once
+0x100028F90	0x00000010	[  3] l_keypath_once
+0x100028FA0	0x00000080	[  3] _$s8APMTools11LinkMapViewV7SwiftUI0D0AAMcMK
+0x100029020	0x00000080	[  3] _$s8APMTools16InputContentViewV7SwiftUI0D0AAMcMK
+0x1000290A0	0x00000080	[  3] _$s8APMTools11LinkMapListV7SwiftUI4ViewAAMcMK
+0x100029120	0x00000080	[  4] _$s8APMTools0A3AppV7SwiftUI0B0AAMcMK
+0x1000291A0	0x00000008	[  5] _$s8APMTools5OToolV13sectionPrefix_Wz
+0x1000291A8	0x00000008	[  5] _$s8APMTools5OToolV15classListSuffix_Wz
+0x1000291B0	0x00000008	[  5] _$s8APMTools5OToolV15classRefsSuffix_Wz
+0x1000291B8	0x00000008	[  5] _$s8APMTools5OToolV20classSuperRefsSuffix_Wz
+0x1000291C0	0x00000010	[  5] _$s8APMTools5OToolV13sectionPrefixSSvpZ
+0x1000291D0	0x00000010	[  5] _$s8APMTools5OToolV15classListSuffixSSvpZ
+0x1000291E0	0x00000010	[  5] _$s8APMTools5OToolV15classRefsSuffixSSvpZ
+0x1000291F0	0x00000010	[  5] _$s8APMTools5OToolV20classSuperRefsSuffixSSvpZ
