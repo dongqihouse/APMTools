@@ -1,11 +1,7 @@
 //
 //  GitStatus.swift
 //  Created on 2022/7/18
-//  Description <#文件描述#>
-//  PD <#产品文档地址#>
-//  Design <#设计文档地址#>
-//  Copyright © 2022 Zepp Health. All rights reserved.
-//  @author dongqi(dongqi@zepp.com)   
+//  Drayl 
 //
 
 import Foundation
