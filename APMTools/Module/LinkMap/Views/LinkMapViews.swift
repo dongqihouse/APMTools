@@ -21,8 +21,8 @@ struct LinkMapView: View {
                             do {
                                 await self.viewModel.set(loading: true)
                                 let linkMap = try await LinkMapUtil.analyze(with: self.viewModel.filePath)
-                                let objectFiles = LinkMapUtil.sortedCombineSymbols(from: linkMap)
-                                await self.viewModel.set(fileObjects: objectFiles)
+                                await self.viewModel.set(moduleObjects: LinkMapUtil.sortedCombineSymbols(from: linkMap))
+                                await self.viewModel.set(fileObjects: LinkMapUtil.sortedSymbols(from: linkMap))
                                 await self.viewModel.set(loading: false)
                             } catch {
                                 await self.viewModel.set(loading: false)
@@ -36,13 +36,13 @@ struct LinkMapView: View {
                 }
             }
             TabView {
-                LinkMapList(objectFiles: $viewModel.fileObjects)
+                LinkMapList(items: $viewModel.fileObjects)
                     .tabItem {
-                        Label("大文件排名", systemImage: "tray.and.arrow.down.fill")
+                        Label("单文件列表", systemImage: "tray.and.arrow.down.fill")
                     }
-                LinkMapList(objectFiles: $viewModel.fileObjects)
+                LinkMapList(items: $viewModel.moduleObjects)
                     .tabItem {
-                        Label("+load方法列表", systemImage: "tray.and.arrow.down.fill")
+                        Label("模块列表", systemImage: "tray.and.arrow.down.fill")
                     }
             }
             
@@ -80,10 +80,10 @@ struct InputContentView: View {
 }
 
 struct LinkMapList: View {
-    @Binding var objectFiles: [ModuleFile]
+    @Binding var items: [LinkMapItem]
     
     var body: some View {
-        List(objectFiles, id: \.self) { file in
+        List(items, id: \.name) { file in
             HStack {
                 Text(file.name)
                     .frame(width: 200, alignment: .leading)

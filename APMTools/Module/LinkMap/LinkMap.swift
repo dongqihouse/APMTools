@@ -6,11 +6,12 @@
 
 import Foundation
 
+
 class ModuleFile: NSObject {
     var name = ""
-    var size: UInt64 = 0
+    var size: Int = 0
     
-    init(name: String = "", size: UInt64 = 0) {
+    init(name: String = "", size: Int = 0) {
         self.name = name
         self.size = size
     }
@@ -22,13 +23,13 @@ class ObjectFile: NSObject {
     /// Objects-normal/arm64/ActiveDeviceConnectedModule.o
     var path = ""
     ///
-    var size: UInt64 = 0
+    var size: Int = 0
     
     var name: String {
         return path.components(separatedBy: "/").last ?? ""
     }
     
-    init(file: String = "", path: String = "", size: UInt64 = 0) {
+    init(file: String = "", path: String = "", size: Int = 0) {
         self.file = file
         self.path = path
         self.size = size
@@ -39,7 +40,7 @@ struct Section {
     /// 0x108504BA8
     var address = ""
     /// 0x0000D3E0
-    var size: UInt64 = 0
+    var size: Int = 0
     /// __DATA
     var segment = ""
     /// __objc_classrefs
@@ -50,7 +51,7 @@ struct Symbol: Hashable {
     /// 0x108504BA8
     var address = ""
     /// 0x00000008
-    var size: UInt64 = 0
+    var size: Int = 0
     /// [  2]
     var file = ""
     /// objc-class-ref or literal string: ActiveDeviceConnectedModule
@@ -66,48 +67,6 @@ struct LinkMap {
 }
 
 struct LinkMapUtil {
-    
-    static func diff() async throws {
-        
-        let linkMap6100 = try await LinkMapUtil.analyze(with: "")
-        let linkMap6110 = try await LinkMapUtil.analyze(with: "")
-        
-        let objects6100 = Array(linkMap6100.objectFileMap.values)
-        var objectMap6100 = [String: UInt64]()
-        for object in objects6100 {
-            objectMap6100[object.name] = object.size
-        }
-        
-        let objects6110 = Array(linkMap6110.objectFileMap.values)
-        var objectMap6110 = [String: UInt64]()
-        for object in objects6110 {
-            objectMap6110[object.name] = object.size
-        }
-        
-        var outputDiff = [String]()
-        
-        var temp6110Map = objectMap6110
-        
-        for name in objectMap6100.keys {
-            let size6100 = UInt64(objectMap6100[name] ?? 0)
-            guard let size6110 = objectMap6110[name] else {
-                outputDiff.append("610独有 \(name): 610 Size: \(size6100) \n")
-                continue
-            }
-            if size6100 != size6110 {
-                outputDiff.append("\(name): 610 Size: \(size6100) 6110Size: \(size6110) \n")
-            }
-            temp6110Map[name] = nil
-        }
-        
-        for name in temp6110Map.keys {
-            let size6110 = UInt64(temp6110Map[name] ?? 0)
-            outputDiff.append("611独有 \(name): 6110Size: \(size6110) \n")
-        }
-        
-        print(outputDiff)
-        
-    }
     
     static func sortedSymbols(from linkMap: LinkMap) -> [ObjectFile] {
         let objectFiles = Array(linkMap.objectFileMap.values).sorted { $0.size > $1.size }
@@ -191,7 +150,7 @@ struct LinkMapUtil {
 //                    0x1068E2470    0x00009CFC    __TEXT    __stub_helper
                     let components = line.components(separatedBy: "\t")
                     let sizeHex = components[0]
-                    let size = UInt64(sizeHex.dropFirst(2), radix: 16) ?? 0
+                    let size = Int(sizeHex.dropFirst(2), radix: 16) ?? 0
                     sections.append(Section(address: components[0], size: size, segment: components[2], section: components[3]))
                 } else if isReachFiles && isReachSections && isReachSymbols {
 //                    # Symbols:
@@ -206,7 +165,7 @@ struct LinkMapUtil {
                     let file = String(fileAndName[...fileEnd])
                     let name = String(fileAndName[nameStart...])
                     let sizeHex = components[1]
-                    let size = UInt64(sizeHex.dropFirst(2), radix: 16) ?? 0
+                    let size = Int(sizeHex.dropFirst(2), radix: 16) ?? 0
                     let address = components[0]
                     symbols.append(Symbol(address: address, size: size, file: file, name: name))
                     objectFileMap[file]?.size += size
