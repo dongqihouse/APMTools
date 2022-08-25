@@ -33,12 +33,12 @@ struct ContentView: View {
     @StateObject var linkMapViewModel = LinkMapViewModel()
     
     let sideItems: [SideItem] = [
-        .init(title: "LinkMap分析", imageName: "clock.badge.checkmark"),
-        .init(title: "OTool工具分析", imageName: "arrow.triangle.2.circlepath"),
-        .init(title: "资源压缩", imageName: "arrow.triangle.2.circlepath"),
-        .init(title: "启动分析", imageName: "arrow.triangle.2.circlepath"),
-        .init(title: "Crash解析", imageName: "arrow.triangle.2.circlepath"),
-        .init(title: "Logan解析", imageName: "arrow.triangle.2.circlepath")
+        .init(title: "LinkMap分析", imageName: "p1"),
+        .init(title: "OTool工具分析", imageName: "p2"),
+        .init(title: "资源压缩", imageName: "p3"),
+        .init(title: "启动分析", imageName: "p4"),
+        .init(title: "Crash解析", imageName: "p5"),
+        .init(title: "Logan解析", imageName: "p6")
     ]
     
     var body: some View {
@@ -71,16 +71,19 @@ struct LeftListView: View {
     let sideItems: [SideItem]
     var body: some View {
         VStack {
+            Spacer().frame(height: 20)
             ForEach(sideItems.indices, id: \.self) { index in
                 let current = sideItems[currentSelectedItem]
                 let option = sideItems[index]
                 HStack {
-                    Image(systemName: option.imageName)
+                    Image(option.imageName)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 20)
+                        .frame(width: 30)
                     
-                    Text(option.title).foregroundColor(current == option ? .red : .white)
+                    Text(option.title)
+                        .font(.system(size: 15, weight: .bold))
+                        .foregroundColor(current == option ? .white : .gray)
                     
                     Spacer()
                 }
