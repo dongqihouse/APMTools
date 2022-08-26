@@ -13,7 +13,7 @@
 		702F26AC2876C2AD003BC8AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702F26AB2876C2AD003BC8AD /* Preview Assets.xcassets */; };
 		702F26B42876C2DE003BC8AD /* LinkMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702F26B32876C2DE003BC8AD /* LinkMap.swift */; };
 		704C6B3A28B3D0900073E657 /* LinkMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C6B3928B3D0900073E657 /* LinkMapViewModel.swift */; };
-		70BCA304288108D700EC9709 /* LinkMapViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCA303288108D700EC9709 /* LinkMapViews.swift */; };
+		70BCA304288108D700EC9709 /* LinkMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCA303288108D700EC9709 /* LinkMapView.swift */; };
 		70BCEDAE288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */; };
 		70D64CE2287BFA630057398C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D64CE1287BFA630057398C /* Property List.plist */; };
 		70D65920287C0F1B0057398C /* OTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D6591F287C0F1B0057398C /* OTool.swift */; };
@@ -28,7 +28,7 @@
 		702F26AD2876C2AD003BC8AD /* APMTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APMTools.entitlements; sourceTree = "<group>"; };
 		702F26B32876C2DE003BC8AD /* LinkMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMap.swift; sourceTree = "<group>"; };
 		704C6B3928B3D0900073E657 /* LinkMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMapViewModel.swift; sourceTree = "<group>"; };
-		70BCA303288108D700EC9709 /* LinkMapViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMapViews.swift; sourceTree = "<group>"; };
+		70BCA303288108D700EC9709 /* LinkMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMapView.swift; sourceTree = "<group>"; };
 		70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "APMTools-LinkMap-normal-x86_64.txt"; sourceTree = "<group>"; };
 		70D64CE1287BFA630057398C /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		70D6591F287C0F1B0057398C /* OTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTool.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		70BCA302288108B900EC9709 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				70BCA303288108D700EC9709 /* LinkMapViews.swift */,
+				70BCA303288108D700EC9709 /* LinkMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			files = (
 				702F26B42876C2DE003BC8AD /* LinkMap.swift in Sources */,
 				702F26A72876C2AB003BC8AD /* ContentView.swift in Sources */,
-				70BCA304288108D700EC9709 /* LinkMapViews.swift in Sources */,
+				70BCA304288108D700EC9709 /* LinkMapView.swift in Sources */,
 				704C6B3A28B3D0900073E657 /* LinkMapViewModel.swift in Sources */,
 				702F26A52876C2AB003BC8AD /* APMToolsApp.swift in Sources */,
 				70D65920287C0F1B0057398C /* OTool.swift in Sources */,
