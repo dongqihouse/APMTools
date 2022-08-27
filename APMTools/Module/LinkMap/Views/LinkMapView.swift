@@ -10,13 +10,15 @@ struct LinkMapView: View {
     @State var isTargeted = false
     @EnvironmentObject var viewModel: LinkMapViewModel
     
-    @State var isLoading = false
+    /// 0 单文件列表 1模块列表
+    @State var contentSelectedIndex = 0
+    
     var body: some View {
-
-            ZStack {
-                contentView()
-                addView().opacity(0)
-            }
+        
+        ZStack {
+            contentView()
+            addView().opacity(0)
+        }
         
     }
     
@@ -43,26 +45,44 @@ struct LinkMapView: View {
     func contentView() -> some View {
         VStack(alignment: .leading) {
             HStack {
-                Button(action: {
-                    analyze()
-                }, label: {
-                    Image("begin")
-                        .resizable()
-                        .scaledToFit()
+                if viewModel.isLoading {
+                    ProgressView()
                         .frame(width: 50, height: 50)
+                } else {
+                    Button(action: {
+                        analyze()
+                    }, label: {
+                        Image("begin")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 50, height: 50)
+                    })
+                        .buttonStyle(.borderless)
+                }
+                
+                Spacer().frame(width: 20)
+                Button(action: {
+                    contentSelectedIndex = 0
+                }, label: {
+                  Text("单文件列表")
+                        .foregroundColor(contentSelectedIndex == 0 ? .white : .gray)
                 })
                 .buttonStyle(.borderless)
+                Button(action: {
+                    contentSelectedIndex = 1
+                }, label: {
+                    Text("模块列表")
+                        .foregroundColor(contentSelectedIndex == 1 ? .white : .gray)
+                })
+                    .buttonStyle(.borderless)
+                
+                
                 Spacer()
             }
-            TabView {
+            if contentSelectedIndex == 0 {
                 LinkMapList(items: $viewModel.fileObjects)
-                    .tabItem {
-                        Label("单文件列表", systemImage: "tray.and.arrow.down.fill")
-                    }
+            } else {
                 LinkMapList(items: $viewModel.moduleObjects)
-                    .tabItem {
-                        Label("模块列表", systemImage: "tray.and.arrow.down.fill")
-                    }
             }
             Spacer()
             Text(viewModel.filePath.isEmpty ? "请拖入LinkMap文件...." : viewModel.filePath).font(.system(size: 12))

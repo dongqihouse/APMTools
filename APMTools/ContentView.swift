@@ -84,6 +84,7 @@ struct LeftListView: View {
                     Text(option.title)
                         .font(.system(size: 15, weight: .bold))
                         .foregroundColor(current == option ? .white : .gray)
+                        .frame(width: 100)
                     
                     Spacer()
                 }
