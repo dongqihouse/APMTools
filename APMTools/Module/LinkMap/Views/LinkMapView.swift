@@ -10,9 +10,6 @@ struct LinkMapView: View {
     @State var isTargeted = false
     @EnvironmentObject var viewModel: LinkMapViewModel
     
-    /// 0 单文件列表 1模块列表
-    @State var contentSelectedIndex = 0
-    
     var body: some View {
         
         ZStack {
@@ -62,24 +59,24 @@ struct LinkMapView: View {
                 
                 Spacer().frame(width: 20)
                 Button(action: {
-                    contentSelectedIndex = 0
+                    viewModel.contentSelectedIndex = 0
                 }, label: {
                   Text("单文件列表")
-                        .foregroundColor(contentSelectedIndex == 0 ? .white : .gray)
+                        .foregroundColor(viewModel.contentSelectedIndex == 0 ? .white : .gray)
                 })
                 .buttonStyle(.borderless)
                 Button(action: {
-                    contentSelectedIndex = 1
+                    viewModel.contentSelectedIndex = 1
                 }, label: {
                     Text("模块列表")
-                        .foregroundColor(contentSelectedIndex == 1 ? .white : .gray)
+                        .foregroundColor(viewModel.contentSelectedIndex == 1 ? .white : .gray)
                 })
                     .buttonStyle(.borderless)
                 
                 
                 Spacer()
             }
-            if contentSelectedIndex == 0 {
+            if viewModel.contentSelectedIndex == 0 {
                 LinkMapList(items: $viewModel.fileObjects)
             } else {
                 LinkMapList(items: $viewModel.moduleObjects)
@@ -98,6 +95,7 @@ struct LinkMapView: View {
                 await self.viewModel.set(moduleObjects: LinkMapUtil.sortedCombineSymbols(from: linkMap))
                 await self.viewModel.set(fileObjects: LinkMapUtil.sortedSymbols(from: linkMap))
                 await self.viewModel.set(loading: false)
+                await self.viewModel.set(contentSelectedIndex: 0)
             } catch {
                 await self.viewModel.set(loading: false)
                 print(error)
@@ -113,9 +111,8 @@ struct LinkMapList: View {
         List(items, id: \.name) { file in
             HStack {
                 Text(file.name)
-                    .frame(width: 200, alignment: .leading)
+                    .frame(width: 400, alignment: .leading)
                 Spacer()
-                    .frame(width: 100)
                 Text(String(format: "%.2fK", Double(file.size) / 1024.0))
             }
         }

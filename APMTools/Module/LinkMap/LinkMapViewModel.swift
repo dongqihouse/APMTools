@@ -14,6 +14,9 @@ class LinkMapViewModel: ObservableObject {
     @Published var fileObjects: [LinkMapItem] = []
     @Published var moduleObjects: [LinkMapItem] = []
     
+    /// 0 单文件列表 1模块列表
+    @Published var contentSelectedIndex = -1
+    
     func set(loading: Bool) {
         self.isLoading = loading
     }
@@ -28,6 +31,10 @@ class LinkMapViewModel: ObservableObject {
     
     func set(fileUrl: String) {
         self.filePath = fileUrl
+    }
+    
+    func set(contentSelectedIndex: Int) {
+        self.contentSelectedIndex = contentSelectedIndex
     }
     
 }
