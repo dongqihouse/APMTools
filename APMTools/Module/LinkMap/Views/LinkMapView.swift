@@ -32,7 +32,7 @@ struct LinkMapView: View {
                 if let provider = providers.first(where: { $0.canLoadObject(ofClass: URL.self) } ) {
                     let _ = provider.loadObject(ofClass: URL.self) { object, error in
                         if let url = object {
-                            update(url: url.path)
+                            viewModel.set(fileUrl: url.path)
                         }
                     }
                     return true
@@ -103,11 +103,6 @@ struct LinkMapView: View {
                 print(error)
             }
         }
-    }
-    
-    @MainActor
-    func update(url: String) {
-        viewModel.filePath = url
     }
 }
 

@@ -6,6 +6,7 @@
 
 import Foundation
 
+@MainActor
 class LinkMapViewModel: ObservableObject {
     @Published var filePath: String = ""
     @Published var isLoading: Bool = false
@@ -13,20 +14,20 @@ class LinkMapViewModel: ObservableObject {
     @Published var fileObjects: [LinkMapItem] = []
     @Published var moduleObjects: [LinkMapItem] = []
     
-    
-    @MainActor
     func set(loading: Bool) {
         self.isLoading = loading
     }
     
-    @MainActor
     func set(fileObjects: [LinkMapItem]) {
         self.fileObjects = fileObjects
     }
     
-    @MainActor
     func set(moduleObjects: [LinkMapItem]) {
         self.moduleObjects = moduleObjects
+    }
+    
+    func set(fileUrl: String) {
+        self.filePath = fileUrl
     }
     
 }
