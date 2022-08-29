@@ -58,6 +58,8 @@ struct ContentView: View {
         switch currentSelectedItemIndex {
         case 0:
             LinkMapView().environmentObject(linkMapViewModel)
+        case 1:
+            CrashView()
         default:
             Text("Other")
         }

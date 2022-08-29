@@ -17,6 +17,23 @@
 		70BCEDAE288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */; };
 		70D64CE2287BFA630057398C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D64CE1287BFA630057398C /* Property List.plist */; };
 		70D65920287C0F1B0057398C /* OTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D6591F287C0F1B0057398C /* OTool.swift */; };
+		9DD045EB28BCFFD90095B752 /* AppleJson.ips in Resources */ = {isa = PBXBuildFile; fileRef = 9DD045E328BCFFD90095B752 /* AppleJson.ips */; };
+		9DD045EC28BCFFD90095B752 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045E428BCFFD90095B752 /* Regex.swift */; };
+		9DD045ED28BCFFD90095B752 /* AppleDemo.ips in Resources */ = {isa = PBXBuildFile; fileRef = 9DD045E528BCFFD90095B752 /* AppleDemo.ips */; };
+		9DD045EE28BCFFD90095B752 /* HardwareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045E628BCFFD90095B752 /* HardwareModel.swift */; };
+		9DD045EF28BCFFD90095B752 /* SubProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045E728BCFFD90095B752 /* SubProcess.swift */; };
+		9DD045F028BCFFD90095B752 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045E828BCFFD90095B752 /* Extensions.swift */; };
+		9DD045F128BCFFD90095B752 /* symbolicatecrash in Resources */ = {isa = PBXBuildFile; fileRef = 9DD045E928BCFFD90095B752 /* symbolicatecrash */; };
+		9DD045F228BCFFD90095B752 /* models.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DD045EA28BCFFD90095B752 /* models.txt */; };
+		9DD045FA28BCFFE10095B752 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045F328BCFFE00095B752 /* Parser.swift */; };
+		9DD045FB28BCFFE10095B752 /* Symbolicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045F428BCFFE00095B752 /* Symbolicator.swift */; };
+		9DD045FC28BCFFE10095B752 /* Crash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045F528BCFFE00095B752 /* Crash.swift */; };
+		9DD045FD28BCFFE10095B752 /* ContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045F628BCFFE10095B752 /* ContentBuilder.swift */; };
+		9DD045FE28BCFFE10095B752 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045F728BCFFE10095B752 /* Doctor.swift */; };
+		9DD045FF28BCFFE10095B752 /* Convertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045F828BCFFE10095B752 /* Convertor.swift */; };
+		9DD0460028BCFFE10095B752 /* KeepJsonConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045F928BCFFE10095B752 /* KeepJsonConvertor.swift */; };
+		9DD0460228BD00170095B752 /* CrashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD0460128BD00170095B752 /* CrashView.swift */; };
+		9DD0460828BD01E20095B752 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD0460728BD01E20095B752 /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +49,22 @@
 		70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "APMTools-LinkMap-normal-x86_64.txt"; sourceTree = "<group>"; };
 		70D64CE1287BFA630057398C /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		70D6591F287C0F1B0057398C /* OTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTool.swift; sourceTree = "<group>"; };
+		9DD045E328BCFFD90095B752 /* AppleJson.ips */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleJson.ips; sourceTree = "<group>"; };
+		9DD045E428BCFFD90095B752 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		9DD045E528BCFFD90095B752 /* AppleDemo.ips */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleDemo.ips; sourceTree = "<group>"; };
+		9DD045E628BCFFD90095B752 /* HardwareModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardwareModel.swift; sourceTree = "<group>"; };
+		9DD045E728BCFFD90095B752 /* SubProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubProcess.swift; sourceTree = "<group>"; };
+		9DD045E828BCFFD90095B752 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9DD045E928BCFFD90095B752 /* symbolicatecrash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = symbolicatecrash; sourceTree = "<group>"; };
+		9DD045EA28BCFFD90095B752 /* models.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = models.txt; sourceTree = "<group>"; };
+		9DD045F328BCFFE00095B752 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		9DD045F428BCFFE00095B752 /* Symbolicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symbolicator.swift; sourceTree = "<group>"; };
+		9DD045F528BCFFE00095B752 /* Crash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crash.swift; sourceTree = "<group>"; };
+		9DD045F628BCFFE10095B752 /* ContentBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBuilder.swift; sourceTree = "<group>"; };
+		9DD045F728BCFFE10095B752 /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		9DD045F828BCFFE10095B752 /* Convertor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convertor.swift; sourceTree = "<group>"; };
+		9DD045F928BCFFE10095B752 /* KeepJsonConvertor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeepJsonConvertor.swift; sourceTree = "<group>"; };
+		9DD0460128BD00170095B752 /* CrashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD0460828BD01E20095B752 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +149,32 @@
 		9DD045E028BB69600095B752 /* Crash */ = {
 			isa = PBXGroup;
 			children = (
+				9DD045E228BCFFCB0095B752 /* Helper */,
+				9DD0460128BD00170095B752 /* CrashView.swift */,
 			);
 			path = Crash;
+			sourceTree = "<group>";
+		};
+		9DD045E228BCFFCB0095B752 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9DD045E528BCFFD90095B752 /* AppleDemo.ips */,
+				9DD045E328BCFFD90095B752 /* AppleJson.ips */,
+				9DD045E828BCFFD90095B752 /* Extensions.swift */,
+				9DD045E628BCFFD90095B752 /* HardwareModel.swift */,
+				9DD045EA28BCFFD90095B752 /* models.txt */,
+				9DD045E428BCFFD90095B752 /* Regex.swift */,
+				9DD045E728BCFFD90095B752 /* SubProcess.swift */,
+				9DD045E928BCFFD90095B752 /* symbolicatecrash */,
+				9DD045F628BCFFE10095B752 /* ContentBuilder.swift */,
+				9DD045F828BCFFE10095B752 /* Convertor.swift */,
+				9DD045F528BCFFE00095B752 /* Crash.swift */,
+				9DD045F728BCFFE10095B752 /* Doctor.swift */,
+				9DD045F928BCFFE10095B752 /* KeepJsonConvertor.swift */,
+				9DD045F328BCFFE00095B752 /* Parser.swift */,
+				9DD045F428BCFFE00095B752 /* Symbolicator.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +193,9 @@
 			dependencies = (
 			);
 			name = APMTools;
+			packageProductDependencies = (
+				9DD0460728BD01E20095B752 /* SwiftyJSON */,
+			);
 			productName = APMTools;
 			productReference = 702F26A12876C2AB003BC8AD /* APMTools.app */;
 			productType = "com.apple.product-type.application";
@@ -163,6 +224,9 @@
 				Base,
 			);
 			mainGroup = 702F26982876C2AA003BC8AD;
+			packageReferences = (
+				9DD0460628BD01E20095B752 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 702F26A22876C2AB003BC8AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -179,8 +243,12 @@
 			files = (
 				702F26AC2876C2AD003BC8AD /* Preview Assets.xcassets in Resources */,
 				70D64CE2287BFA630057398C /* Property List.plist in Resources */,
+				9DD045ED28BCFFD90095B752 /* AppleDemo.ips in Resources */,
 				70BCEDAE288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt in Resources */,
+				9DD045F228BCFFD90095B752 /* models.txt in Resources */,
+				9DD045EB28BCFFD90095B752 /* AppleJson.ips in Resources */,
 				702F26A92876C2AD003BC8AD /* Assets.xcassets in Resources */,
+				9DD045F128BCFFD90095B752 /* symbolicatecrash in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,10 +260,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				702F26B42876C2DE003BC8AD /* LinkMap.swift in Sources */,
+				9DD045FB28BCFFE10095B752 /* Symbolicator.swift in Sources */,
+				9DD0460228BD00170095B752 /* CrashView.swift in Sources */,
+				9DD045FA28BCFFE10095B752 /* Parser.swift in Sources */,
 				702F26A72876C2AB003BC8AD /* ContentView.swift in Sources */,
 				70BCA304288108D700EC9709 /* LinkMapView.swift in Sources */,
+				9DD045EC28BCFFD90095B752 /* Regex.swift in Sources */,
 				704C6B3A28B3D0900073E657 /* LinkMapViewModel.swift in Sources */,
+				9DD045F028BCFFD90095B752 /* Extensions.swift in Sources */,
+				9DD045EE28BCFFD90095B752 /* HardwareModel.swift in Sources */,
 				702F26A52876C2AB003BC8AD /* APMToolsApp.swift in Sources */,
+				9DD0460028BCFFE10095B752 /* KeepJsonConvertor.swift in Sources */,
+				9DD045FC28BCFFE10095B752 /* Crash.swift in Sources */,
+				9DD045FE28BCFFE10095B752 /* Doctor.swift in Sources */,
+				9DD045FF28BCFFE10095B752 /* Convertor.swift in Sources */,
+				9DD045FD28BCFFE10095B752 /* ContentBuilder.swift in Sources */,
+				9DD045EF28BCFFD90095B752 /* SubProcess.swift in Sources */,
 				70D65920287C0F1B0057398C /* OTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +474,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DD0460628BD01E20095B752 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DD0460728BD01E20095B752 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD0460628BD01E20095B752 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 702F26992876C2AA003BC8AD /* Project object */;
 }
