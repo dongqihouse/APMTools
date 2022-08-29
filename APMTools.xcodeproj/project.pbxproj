@@ -88,6 +88,7 @@
 		70BCA3002881089900EC9709 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				9DD045E028BB69600095B752 /* Crash */,
 				70BCA301288108A600EC9709 /* LinkMap */,
 			);
 			path = Module;
@@ -109,6 +110,13 @@
 				70BCA303288108D700EC9709 /* LinkMapView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9DD045E028BB69600095B752 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Crash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

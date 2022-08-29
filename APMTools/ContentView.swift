@@ -34,10 +34,10 @@ struct ContentView: View {
     
     let sideItems: [SideItem] = [
         .init(title: "LinkMap分析", imageName: "p1"),
-        .init(title: "OTool工具分析", imageName: "p2"),
+        .init(title: "Crash解析", imageName: "p2"),
         .init(title: "资源压缩", imageName: "p3"),
         .init(title: "启动分析", imageName: "p4"),
-        .init(title: "Crash解析", imageName: "p5"),
+        .init(title: "OTool分析", imageName: "p5"),
         .init(title: "Logan解析", imageName: "p6")
     ]
     
@@ -84,7 +84,7 @@ struct LeftListView: View {
                     Text(option.title)
                         .font(.system(size: 15, weight: .bold))
                         .foregroundColor(current == option ? .white : .gray)
-                        .frame(width: 100)
+                        .frame(width: 120, alignment: .leading)
                     
                     Spacer()
                 }
