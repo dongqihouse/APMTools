@@ -9,41 +9,17 @@ import SwiftUI
 
 struct CrashView: View {
     
+    @EnvironmentObject var viewModel: CrashViewModel
+    
     var body: some View {
-        let content = self.crashContent(fromFile: "AppleDemo", ofType: "ips")
-
-        let parser = AppleParser()
-        let crash: Crash! = parser.parse(content)
-        let crashString = crash.symbolicate(dsymPaths: nil)
-        
-        Text(crashString)
-    }
-    
-    func crashContent(fromFile file: String, ofType ftype: String) -> String {
-        let bundle = Bundle.main
-        let path = bundle.path(forResource: file, ofType: ftype)!
-        return try! String(contentsOfFile: path)
-    }
-    
-    private func infoString(fromCrash crash: Crash) -> String {
-        var info = ""
-        var divider = ""
-        if let device = crash.device {
-            info += "🏷 " + modelToName(device)
-            divider = " - "
-        }
-        if let osVersion = crash.osVersion {
-            info += "\(divider)\(osVersion)"
+        if viewModel.carshTexts.isEmpty {
+            viewModel.parse()
         }
         
-        if let appVersion = crash.appVersion {
-            info += "\(divider)\(appVersion)"
+        return List(viewModel.carshTexts, id: \.self) {
+            Text($0).foregroundColor($0.contains(viewModel.appName) ? .red : .white)
         }
-        
-        return info
     }
-    
-    let modelMap = parseModels()
 
     func modelToName(_ model: String) -> String {
         return modelMap[model] ?? model

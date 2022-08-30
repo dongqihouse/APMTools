@@ -17,6 +17,7 @@
 		70BCEDAE288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */; };
 		70D64CE2287BFA630057398C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D64CE1287BFA630057398C /* Property List.plist */; };
 		70D65920287C0F1B0057398C /* OTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D6591F287C0F1B0057398C /* OTool.swift */; };
+		9D85A6D328BE51DB0081692C /* CrashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85A6D228BE51DB0081692C /* CrashViewModel.swift */; };
 		9DD045EB28BCFFD90095B752 /* AppleJson.ips in Resources */ = {isa = PBXBuildFile; fileRef = 9DD045E328BCFFD90095B752 /* AppleJson.ips */; };
 		9DD045EC28BCFFD90095B752 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045E428BCFFD90095B752 /* Regex.swift */; };
 		9DD045ED28BCFFD90095B752 /* AppleDemo.ips in Resources */ = {isa = PBXBuildFile; fileRef = 9DD045E528BCFFD90095B752 /* AppleDemo.ips */; };
@@ -49,6 +50,7 @@
 		70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "APMTools-LinkMap-normal-x86_64.txt"; sourceTree = "<group>"; };
 		70D64CE1287BFA630057398C /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		70D6591F287C0F1B0057398C /* OTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTool.swift; sourceTree = "<group>"; };
+		9D85A6D228BE51DB0081692C /* CrashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashViewModel.swift; sourceTree = "<group>"; };
 		9DD045E328BCFFD90095B752 /* AppleJson.ips */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleJson.ips; sourceTree = "<group>"; };
 		9DD045E428BCFFD90095B752 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		9DD045E528BCFFD90095B752 /* AppleDemo.ips */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleDemo.ips; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			children = (
 				9DD045E228BCFFCB0095B752 /* Helper */,
 				9DD0460128BD00170095B752 /* CrashView.swift */,
+				9D85A6D228BE51DB0081692C /* CrashViewModel.swift */,
 			);
 			path = Crash;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				9DD045FE28BCFFE10095B752 /* Doctor.swift in Sources */,
 				9DD045FF28BCFFE10095B752 /* Convertor.swift in Sources */,
 				9DD045FD28BCFFE10095B752 /* ContentBuilder.swift in Sources */,
+				9D85A6D328BE51DB0081692C /* CrashViewModel.swift in Sources */,
 				9DD045EF28BCFFD90095B752 /* SubProcess.swift in Sources */,
 				70D65920287C0F1B0057398C /* OTool.swift in Sources */,
 			);
