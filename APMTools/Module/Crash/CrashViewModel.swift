@@ -14,6 +14,7 @@ class CrashViewModel: ObservableObject {
     
     
     func parse() {
+        
         let modelMap = parseModels()
         let content = self.crashContent(fromFile: "AppleDemo", ofType: "ips")
 
