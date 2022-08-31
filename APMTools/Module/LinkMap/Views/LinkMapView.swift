@@ -14,29 +14,15 @@ struct LinkMapView: View {
         
         ZStack {
             contentView()
-            addView().opacity(0)
-        }
-        
-    }
-    
-    @ViewBuilder
-    func addView() -> some View {
-        Rectangle()
-            .foregroundColor(.gray)
-            .frame(width: 10000, height: 10000)
-            .position(x: 0, y: 0)
-            .onDrop(of: [.fileURL], isTargeted: $isTargeted) { providers -> Bool in
-                if let provider = providers.first(where: { $0.canLoadObject(ofClass: URL.self) } ) {
-                    let _ = provider.loadObject(ofClass: URL.self) { object, error in
-                        if let url = object {
-                            viewModel.set(fileUrl: url.path)
-                        }
-                    }
-                    return true
-                }
-                return true
+            if viewModel.filePath.isEmpty {
+                AddView(callback: { path in
+                    viewModel.filePath = path
+                }).frame(width: 500, height: 500)
             }
+            
+        }
     }
+        
     
     @ViewBuilder
     func contentView() -> some View {
@@ -49,10 +35,8 @@ struct LinkMapView: View {
                     Button(action: {
                         analyze()
                     }, label: {
-                        Image("begin")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 50, height: 50)
+                        Image(systemName: "play.square.fill")
+                            .font(.system(size: 30))
                     })
                         .buttonStyle(.borderless)
                 }
@@ -75,7 +59,7 @@ struct LinkMapView: View {
                 
                 
                 Spacer()
-            }
+            }.frame(height: 50)
             if viewModel.contentSelectedIndex == 0 {
                 LinkMapList(items: $viewModel.fileObjects)
             } else {
