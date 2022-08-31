@@ -13,10 +13,8 @@ class CrashViewModel: ObservableObject {
     @Published var carshTexts: [String] = []
     
     
-    func parse() {
-        
-        let modelMap = parseModels()
-        let content = self.crashContent(fromFile: "AppleDemo", ofType: "ips")
+    func parse(path: String) {
+        let content = (try? String(contentsOfFile: path)) ?? ""
 
         let parser = AppleParser()
         let crash: Crash! = parser.parse(content)
@@ -28,12 +26,6 @@ class CrashViewModel: ObservableObject {
     
     
     //MARK: - Tools
-    
-    private func crashContent(fromFile file: String, ofType ftype: String) -> String {
-        let bundle = Bundle.main
-        let path = bundle.path(forResource: file, ofType: ftype)!
-        return try! String(contentsOfFile: path)
-    }
     
     private func infoString(fromCrash crash: Crash) -> String {
         var info = ""

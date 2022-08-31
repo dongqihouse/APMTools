@@ -18,6 +18,7 @@
 		70D64CE2287BFA630057398C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D64CE1287BFA630057398C /* Property List.plist */; };
 		70D65920287C0F1B0057398C /* OTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D6591F287C0F1B0057398C /* OTool.swift */; };
 		9D85A6D328BE51DB0081692C /* CrashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85A6D228BE51DB0081692C /* CrashViewModel.swift */; };
+		9D85A6D728BFAB670081692C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85A6D628BFAB670081692C /* AddView.swift */; };
 		9DD045EB28BCFFD90095B752 /* AppleJson.ips in Resources */ = {isa = PBXBuildFile; fileRef = 9DD045E328BCFFD90095B752 /* AppleJson.ips */; };
 		9DD045EC28BCFFD90095B752 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD045E428BCFFD90095B752 /* Regex.swift */; };
 		9DD045ED28BCFFD90095B752 /* AppleDemo.ips in Resources */ = {isa = PBXBuildFile; fileRef = 9DD045E528BCFFD90095B752 /* AppleDemo.ips */; };
@@ -51,6 +52,7 @@
 		70D64CE1287BFA630057398C /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		70D6591F287C0F1B0057398C /* OTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTool.swift; sourceTree = "<group>"; };
 		9D85A6D228BE51DB0081692C /* CrashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashViewModel.swift; sourceTree = "<group>"; };
+		9D85A6D628BFAB670081692C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		9DD045E328BCFFD90095B752 /* AppleJson.ips */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleJson.ips; sourceTree = "<group>"; };
 		9DD045E428BCFFD90095B752 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		9DD045E528BCFFD90095B752 /* AppleDemo.ips */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppleDemo.ips; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		702F26A32876C2AB003BC8AD /* APMTools */ = {
 			isa = PBXGroup;
 			children = (
+				9D85A6D528BFAB510081692C /* Views */,
 				70BCA3002881089900EC9709 /* Module */,
 				702F26A42876C2AB003BC8AD /* APMToolsApp.swift */,
 				702F26A62876C2AB003BC8AD /* ContentView.swift */,
@@ -144,6 +147,14 @@
 			isa = PBXGroup;
 			children = (
 				70BCA303288108D700EC9709 /* LinkMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D85A6D528BFAB510081692C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D85A6D628BFAB670081692C /* AddView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +285,7 @@
 				9DD045EE28BCFFD90095B752 /* HardwareModel.swift in Sources */,
 				702F26A52876C2AB003BC8AD /* APMToolsApp.swift in Sources */,
 				9DD0460028BCFFE10095B752 /* KeepJsonConvertor.swift in Sources */,
+				9D85A6D728BFAB670081692C /* AddView.swift in Sources */,
 				9DD045FC28BCFFE10095B752 /* Crash.swift in Sources */,
 				9DD045FE28BCFFE10095B752 /* Doctor.swift in Sources */,
 				9DD045FF28BCFFE10095B752 /* Convertor.swift in Sources */,
