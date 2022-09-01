@@ -13,9 +13,9 @@ struct OTool {
     static let classRefsSuffix = "__objc_classrefs"
     static let classSuperRefsSuffix = "__objc_superrefs"
     
-    func run() throws {
-        guard let filePath = Bundle.main.path(forResource: "otool_result", ofType: "txt") else { return }
-        let linkMapContent = try String(contentsOfFile: filePath, encoding: .macOSRoman)
+    func run(path: String) throws -> [String] {
+//        otool -arch arm64 -ov TestClass
+        let linkMapContent = try String(contentsOfFile: path, encoding: .macOSRoman)
         
         let lines = linkMapContent.components(separatedBy: "\n")
         
@@ -54,9 +54,9 @@ struct OTool {
 //                Contents of (__DATA,__objc_classlist) section
 //                0000000106277208 0x106c27698  查看当前class的地址
 //                    isa        0x106c27670
-                if line.contains("000000010") {
+                if line.contains("000000000") {
                     let components = line.components(separatedBy: " ")
-                    guard let address = components.last else { continue }
+                    let address = components[1]
                     
                     tempAddresses.append(address)
                 } else if line.contains("name") {
@@ -67,7 +67,7 @@ struct OTool {
                     
                 }
             } else if isReachClassRefs || isReachClassSupRefs {
-                if line.contains("000000010") {
+                if line.contains("000000000") {
 //                    Contents of (__DATA,__objc_classrefs) section
 //                    0000000106bf7cb0 0x106c46c98
 //                    0000000106bf7cb8 0x106c3ce98
@@ -85,8 +85,7 @@ struct OTool {
             classList[ref] = nil
         }
         
-        print(classList.count)
-        print(classList)
+        return Array(classList.values)
         
     }
 }

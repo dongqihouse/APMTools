@@ -13,6 +13,10 @@
 		702F26AC2876C2AD003BC8AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702F26AB2876C2AD003BC8AD /* Preview Assets.xcassets */; };
 		702F26B42876C2DE003BC8AD /* LinkMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702F26B32876C2DE003BC8AD /* LinkMap.swift */; };
 		704C6B3A28B3D0900073E657 /* LinkMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C6B3928B3D0900073E657 /* LinkMapViewModel.swift */; };
+		7080CACB28C0938A00921A60 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080CACA28C0938A00921A60 /* Shell.swift */; };
+		7080CACD28C0940700921A60 /* UnusedClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080CACC28C0940700921A60 /* UnusedClassView.swift */; };
+		7080CAD028C0946B00921A60 /* UnusedClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080CACF28C0946B00921A60 /* UnusedClassViewModel.swift */; };
+		7080CAD228C0967600921A60 /* otool in Resources */ = {isa = PBXBuildFile; fileRef = 7080CAD128C0967600921A60 /* otool */; };
 		70BCA304288108D700EC9709 /* LinkMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCA303288108D700EC9709 /* LinkMapView.swift */; };
 		70BCEDAE288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */; };
 		70D64CE2287BFA630057398C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D64CE1287BFA630057398C /* Property List.plist */; };
@@ -47,6 +51,10 @@
 		702F26AD2876C2AD003BC8AD /* APMTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APMTools.entitlements; sourceTree = "<group>"; };
 		702F26B32876C2DE003BC8AD /* LinkMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMap.swift; sourceTree = "<group>"; };
 		704C6B3928B3D0900073E657 /* LinkMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMapViewModel.swift; sourceTree = "<group>"; };
+		7080CACA28C0938A00921A60 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		7080CACC28C0940700921A60 /* UnusedClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusedClassView.swift; sourceTree = "<group>"; };
+		7080CACF28C0946B00921A60 /* UnusedClassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusedClassViewModel.swift; sourceTree = "<group>"; };
+		7080CAD128C0967600921A60 /* otool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = otool; sourceTree = "<group>"; };
 		70BCA303288108D700EC9709 /* LinkMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMapView.swift; sourceTree = "<group>"; };
 		70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "APMTools-LinkMap-normal-x86_64.txt"; sourceTree = "<group>"; };
 		70D64CE1287BFA630057398C /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
@@ -102,11 +110,11 @@
 		702F26A32876C2AB003BC8AD /* APMTools */ = {
 			isa = PBXGroup;
 			children = (
+				7080CAC928C0937A00921A60 /* Utils */,
 				9D85A6D528BFAB510081692C /* Views */,
 				70BCA3002881089900EC9709 /* Module */,
 				702F26A42876C2AB003BC8AD /* APMToolsApp.swift */,
 				702F26A62876C2AB003BC8AD /* ContentView.swift */,
-				70D6591F287C0F1B0057398C /* OTool.swift */,
 				702F26A82876C2AD003BC8AD /* Assets.xcassets */,
 				702F26AD2876C2AD003BC8AD /* APMTools.entitlements */,
 				70BCEDAD288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt */,
@@ -124,9 +132,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7080CAC928C0937A00921A60 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7080CACA28C0938A00921A60 /* Shell.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7080CACE28C0943B00921A60 /* Otool */ = {
+			isa = PBXGroup;
+			children = (
+				7080CAD128C0967600921A60 /* otool */,
+				70D6591F287C0F1B0057398C /* OTool.swift */,
+				7080CACC28C0940700921A60 /* UnusedClassView.swift */,
+				7080CACF28C0946B00921A60 /* UnusedClassViewModel.swift */,
+			);
+			path = Otool;
+			sourceTree = "<group>";
+		};
 		70BCA3002881089900EC9709 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				7080CACE28C0943B00921A60 /* Otool */,
 				9DD045E028BB69600095B752 /* Crash */,
 				70BCA301288108A600EC9709 /* LinkMap */,
 			);
@@ -261,6 +289,7 @@
 				70BCEDAE288115E700EC9709 /* APMTools-LinkMap-normal-x86_64.txt in Resources */,
 				9DD045F228BCFFD90095B752 /* models.txt in Resources */,
 				9DD045EB28BCFFD90095B752 /* AppleJson.ips in Resources */,
+				7080CAD228C0967600921A60 /* otool in Resources */,
 				702F26A92876C2AD003BC8AD /* Assets.xcassets in Resources */,
 				9DD045F128BCFFD90095B752 /* symbolicatecrash in Resources */,
 			);
@@ -274,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				702F26B42876C2DE003BC8AD /* LinkMap.swift in Sources */,
+				7080CACD28C0940700921A60 /* UnusedClassView.swift in Sources */,
 				9DD045FB28BCFFE10095B752 /* Symbolicator.swift in Sources */,
 				9DD0460228BD00170095B752 /* CrashView.swift in Sources */,
 				9DD045FA28BCFFE10095B752 /* Parser.swift in Sources */,
@@ -287,7 +317,9 @@
 				9DD0460028BCFFE10095B752 /* KeepJsonConvertor.swift in Sources */,
 				9D85A6D728BFAB670081692C /* AddView.swift in Sources */,
 				9DD045FC28BCFFE10095B752 /* Crash.swift in Sources */,
+				7080CAD028C0946B00921A60 /* UnusedClassViewModel.swift in Sources */,
 				9DD045FE28BCFFE10095B752 /* Doctor.swift in Sources */,
+				7080CACB28C0938A00921A60 /* Shell.swift in Sources */,
 				9DD045FF28BCFFE10095B752 /* Convertor.swift in Sources */,
 				9DD045FD28BCFFE10095B752 /* ContentBuilder.swift in Sources */,
 				9D85A6D328BE51DB0081692C /* CrashViewModel.swift in Sources */,

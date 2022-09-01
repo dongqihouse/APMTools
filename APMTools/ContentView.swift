@@ -32,6 +32,7 @@ struct ContentView: View {
     
     @StateObject var linkMapViewModel = LinkMapViewModel()
     @StateObject var crashViewModel = CrashViewModel()
+    @StateObject var otoolViewModel = UnusedClassViewModel()
     
     let sideItems: [SideItem] = [
         .init(title: "LinkMap分析", imageName: "p1"),
@@ -62,7 +63,7 @@ struct ContentView: View {
         case 1:
             CrashView().environmentObject(crashViewModel)
         default:
-            Text("Other")
+            UnusedClassView().environmentObject(otoolViewModel)
         }
         Text("")
     }
