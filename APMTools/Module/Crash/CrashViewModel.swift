@@ -6,19 +6,37 @@
 //
 
 import Foundation
+import Combine
 
 @MainActor
 class CrashViewModel: ObservableObject {
     var appName = ""
     @Published var carshTexts: [String] = []
     
+    var filePath = CurrentValueSubject<String, Never>("")
+    var dsymPaths = CurrentValueSubject<String, Never>("")
     
-    func parse(path: String) {
+    private var cancellable: AnyCancellable?
+    
+    init() {
+        cancellable = Publishers.Zip(filePath, dsymPaths).sink(
+            receiveValue: { [weak self] filePath, dsymPaths in
+            
+                if !filePath.isEmpty && !dsymPaths.isEmpty {
+                    self?.parse(path: filePath, dsymPath: dsymPaths)
+                }
+                
+            }
+        )
+    }
+    
+    
+    func parse(path: String, dsymPath: String) {
         let content = (try? String(contentsOfFile: path)) ?? ""
 
         let parser = AppleParser()
         let crash: Crash! = parser.parse(content)
-        let crashString = crash.symbolicate(dsymPaths: nil)
+        let crashString = crash.symbolicate(dsymPaths: [dsymPath])
         carshTexts = crashString.components(separatedBy: "\n")
         appName = crash.appName ?? ""
     }

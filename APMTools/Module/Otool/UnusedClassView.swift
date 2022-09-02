@@ -16,7 +16,7 @@ struct UnusedClassView: View {
                 Text($0)
             }
             if (viewModel.values.isEmpty) {
-                AddView { path in
+                AddView(text: "请拖入Otool文件") { path in
                     viewModel.parse(path: path)
                 }
                 .frame(width: 500, height: 500)

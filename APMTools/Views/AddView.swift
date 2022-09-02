@@ -10,6 +10,7 @@ import SwiftUI
 struct AddView: View {
     @State private var isTargeted = false
     
+    var text: String
     var callback: ((String) -> Void)?
     
     var body: some View {
@@ -30,7 +31,7 @@ struct AddView: View {
             VStack {
                 Image(systemName: "plus.rectangle.on.folder.fill")
                 Spacer().frame(height: 10)
-                Text("请将文件到这里")
+                Text(text)
             }
      
         }.foregroundColor(.gray)
@@ -39,7 +40,7 @@ struct AddView: View {
 
 struct AddView_Previews: PreviewProvider {
     static var previews: some View {
-        AddView()
+        AddView(text: "请拖入文件")
             .frame(width: 300, height: 300)
             .background(.white)
     }

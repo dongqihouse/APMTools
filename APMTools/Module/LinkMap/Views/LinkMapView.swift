@@ -15,7 +15,7 @@ struct LinkMapView: View {
         ZStack {
             contentView()
             if viewModel.filePath.isEmpty {
-                AddView(callback: { path in
+                AddView(text: "请拖入Linkmap文件", callback: { path in
                     viewModel.filePath = path
                 }).frame(width: 500, height: 500)
             }

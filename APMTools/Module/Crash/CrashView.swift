@@ -20,12 +20,22 @@ struct CrashView: View {
             List(viewModel.carshTexts, id: \.self) {
                 Text($0).foregroundColor($0.contains(viewModel.appName) ? .red : .white)
             }
-            if (viewModel.carshTexts.isEmpty) {
-                AddView { path in
-                    viewModel.parse(path: path)
+            
+            HStack {
+                if (viewModel.carshTexts.isEmpty) {
+                    AddView(text: "请拖入Crash文件") { path in
+                        viewModel.filePath.send(path)
+                    }
+                    .frame(width: 400, height: 600)
                 }
-                .frame(width: 500, height: 500)
+                if (viewModel.carshTexts.isEmpty) {
+                    AddView(text: "请拖入Dsym文件") { path in
+                        viewModel.dsymPaths.send(path)
+                    }
+                    .frame(width: 400, height: 600)
+                }
             }
+            
             
         }
     }
